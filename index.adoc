@@ -1,0 +1,18 @@
+---
+layout: astra 
+sidebar: sidebar 
+permalink: index.html 
+lead: These release notes describe recent enhancements to the cloud services that are part of the Cloud Manager platform. Links are available to the full set of release notes for each individual service. 
+summary: 本发行说明介绍了 Cloud Manager 平台中的云服务的最新增强功能。可以通过链接访问每个服务的完整发行说明。 
+---
+= Cloud Manager 发行说明
+:toc: macro
+:hardbreaks:
+:toc: 
+:nofooter: 
+:icons: font
+:linkattrs: 
+:imagesdir: ./media/
+:toc-position: content
+
+

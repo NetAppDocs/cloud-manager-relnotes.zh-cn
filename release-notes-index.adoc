@@ -1,0 +1,53 @@
+---
+sidebar: sidebar 
+permalink: release-notes-index.html 
+---
+= 发行说明索引
+:toc: macro
+:hardbreaks:
+:toc: 
+:nofooter: 
+:icons: font
+:linkattrs: 
+:imagesdir: ./media/
+:toc-position: content
+
+
+[role="lead"]
+查看每个服务的完整发行说明。
+
+
+
+== 存储
+
+* https://docs.netapp.com/us-en/cloud-manager-azure-netapp-files/whats-new.html["Azure NetApp Files"^]
+* https://docs.netapp.com/us-en/cloud-manager-fsx-ontap/whats-new.html["适用于 ONTAP 的 Amazon FSX"^]
+* https://docs.netapp.com/us-en/cloud-manager-cloud-volumes-ontap/whats-new.html["Cloud Volumes ONTAP"^]
+* https://docs.netapp.com/us-en/cloud-manager-cloud-volumes-service-gcp/whats-new.html["适用于 Google Cloud 的 Cloud Volumes Service"^]
+* https://docs.netapp.com/us-en/cloud-manager-kubernetes/whats-new.html["Kubernetes 集群"^]
+* https://docs.netapp.com/us-en/cloud-manager-ontap-onprem/whats-new.html["内部 ONTAP 集群"^]
+
+
+
+
+== 数据服务
+
+* https://docs.netapp.com/us-en/cloud-manager-app-template/whats-new.html["应用程序模板"^]
+* https://docs.netapp.com/us-en/cloud-manager-backup-restore/whats-new.html["云备份"^]
+* https://docs.netapp.com/us-en/cloud-manager-data-sense/whats-new.html["云数据感知"^]
+* https://docs.netapp.com/us-en/cloud-manager-sync/whats-new.html["Cloud Sync"^]
+* https://docs.netapp.com/us-en/cloud-manager-tiering/whats-new.html["云分层"^]
+* https://docs.netapp.com/us-en/cloud-manager-compute/whats-new.html["计算"^]
+* https://docs.netapp.com/us-en/cloud-manager-file-cache/whats-new.html["全局文件缓存"^]
+* https://docs.netapp.com/us-en/cloud-manager-monitoring/whats-new.html["监控"^]
+* https://docs.netapp.com/us-en/cloud-manager-ransomware/whats-new.html["勒索软件"^]
+* https://docs.netapp.com/us-en/cloud-manager-replication/whats-new.html["Replication"^]
+* https://docs.netapp.com/us-en/cloud-manager-snapcenter/whats-new.html["SnapCenter 服务"^]
+
+
+
+
+== 管理
+
+* https://docs.netapp.com/us-en/cloud-manager-setup-admin/whats-new.html["设置和管理"^]
+

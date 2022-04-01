@@ -1,0 +1,86 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<blocks>
+  <block id="ad49677f8bac8ede065e8839632b6f38" category="doc">发行说明索引</block>
+  <block id="58c23c6ea3bae0f0d75bd2cd80d15108" category="paragraph">查看每个服务的完整发行说明。</block>
+  <block id="8c4aa541ee911e8d80451ef8cc304806" category="section-title">存储</block>
+  <block id="7450cfde7058dc5e1f7909d0280fd7ae" category="inline-link">Azure NetApp Files</block>
+  <block id="e7f55b2009e8bacf8e0791b4b18200c5" category="list-text"><block ref="e7f55b2009e8bacf8e0791b4b18200c5" category="inline-link-rx"></block></block>
+  <block id="18cf072964a583150dd247485ba75b92" category="inline-link">适用于 ONTAP 的 Amazon FSX</block>
+  <block id="70ac5f28b8976363f0e487a59a194ede" category="list-text"><block ref="70ac5f28b8976363f0e487a59a194ede" category="inline-link-rx"></block></block>
+  <block id="117bdbda976fe8b3212bc3b6327a0a1b" category="inline-link">Cloud Volumes ONTAP</block>
+  <block id="cb20136bcc67cbf2920dede49b74f723" category="list-text"><block ref="cb20136bcc67cbf2920dede49b74f723" category="inline-link-rx"></block></block>
+  <block id="b0cee72642f5457a71ddd0b49efb6d93" category="inline-link">适用于 Google Cloud 的 Cloud Volumes Service</block>
+  <block id="cf1e43e88c5409a94312fe0defe1f9bc" category="list-text"><block ref="cf1e43e88c5409a94312fe0defe1f9bc" category="inline-link-rx"></block></block>
+  <block id="85eb427901278daf26f132cb3e076914" category="inline-link">Kubernetes 集群</block>
+  <block id="6f544cc8f09241268b475a179e21f13e" category="list-text"><block ref="6f544cc8f09241268b475a179e21f13e" category="inline-link-rx"></block></block>
+  <block id="d0f1687c68ee0f0d9bac765716d18923" category="inline-link">内部 ONTAP 集群</block>
+  <block id="bddbfeb493313acbf52efc332e076d27" category="list-text"><block ref="bddbfeb493313acbf52efc332e076d27" category="inline-link-rx"></block></block>
+  <block id="43bc868f42929fd56604f4d757ff55ae" category="section-title">数据服务</block>
+  <block id="ca9106b8b82ff55b6fdce530ccb952a7" category="inline-link">应用程序模板</block>
+  <block id="6767af423ac427ab1a0c9ffa79eb0675" category="list-text"><block ref="6767af423ac427ab1a0c9ffa79eb0675" category="inline-link-rx"></block></block>
+  <block id="dad57e95fc9a5390302ad830888cbdb9" category="inline-link">云备份</block>
+  <block id="a1f88731c3527b23e9f17fe833b921b0" category="list-text"><block ref="a1f88731c3527b23e9f17fe833b921b0" category="inline-link-rx"></block></block>
+  <block id="d882bf73cd5caf1e5aa39edbf893ad74" category="inline-link">云数据感知</block>
+  <block id="593967bff9541e7c8347f6912e81ccf9" category="list-text"><block ref="593967bff9541e7c8347f6912e81ccf9" category="inline-link-rx"></block></block>
+  <block id="e367efbc26bd12c0d6ae37dd6a55ef9b" category="inline-link">Cloud Sync</block>
+  <block id="5c31fd7a89a891594fbca8b99b65fd3f" category="list-text"><block ref="5c31fd7a89a891594fbca8b99b65fd3f" category="inline-link-rx"></block></block>
+  <block id="92d2b6aba6afa3f690540cf3dba9b633" category="inline-link">云分层</block>
+  <block id="5834a4cf351e513e7bec7b42c17cb246" category="list-text"><block ref="5834a4cf351e513e7bec7b42c17cb246" category="inline-link-rx"></block></block>
+  <block id="a623a8d0366bf079411aa30be45b2d10" category="inline-link">计算</block>
+  <block id="818bcbc7a642cb031afa7b414815a76c" category="list-text"><block ref="818bcbc7a642cb031afa7b414815a76c" category="inline-link-rx"></block></block>
+  <block id="24e6e2f6171b43a847fe194a9a9b5cd0" category="inline-link">全局文件缓存</block>
+  <block id="24bb270dd8a21f04115481dc5a9e23f9" category="list-text"><block ref="24bb270dd8a21f04115481dc5a9e23f9" category="inline-link-rx"></block></block>
+  <block id="423e555c5ec3885f2bb5d9d2d6627f63" category="inline-link">监控</block>
+  <block id="83ddfdaa5c539f89dd87fac1636bee43" category="list-text"><block ref="83ddfdaa5c539f89dd87fac1636bee43" category="inline-link-rx"></block></block>
+  <block id="232a2b16a1710c0ed1d16548ba8bb8f1" category="inline-link">勒索软件</block>
+  <block id="723c4c67941a96b49b471e8a0ef4b07d" category="list-text"><block ref="723c4c67941a96b49b471e8a0ef4b07d" category="inline-link-rx"></block></block>
+  <block id="8c340dc334134096f68b880b42a8692c" category="inline-link">Replication</block>
+  <block id="c49bb8aa9fd443e227ec7dd83d980f9b" category="list-text"><block ref="c49bb8aa9fd443e227ec7dd83d980f9b" category="inline-link-rx"></block></block>
+  <block id="fed6fa1f1b675c268f8b78258e2545a7" category="inline-link">SnapCenter 服务</block>
+  <block id="95e16c764bc656c2e4b455b9bcd6da50" category="list-text"><block ref="95e16c764bc656c2e4b455b9bcd6da50" category="inline-link-rx"></block></block>
+  <block id="7258e7251413465e0a3eb58094430bde" category="section-title">管理</block>
+  <block id="d893d88e474198a90014055294a06b8e" category="inline-link">设置和管理</block>
+  <block id="590f11c1f36b0580f4830d64a703af77" category="list-text"><block ref="590f11c1f36b0580f4830d64a703af77" category="inline-link-rx"></block></block>
+  <block id="5443bce5372c23a628767c281d20e64d" category="doc">Cloud Manager 中的最新更改</block>
+  <block id="06ec635aca479394e3f10f59b57ce807" category="inline-link-macro">完整的发行说明</block>
+  <block id="7e2a23a7215e26914d4490ec8dbd56c8" category="paragraph">了解 Cloud Manager 平台中的云服务的最新变更。有关详细信息，请转到 <block ref="1e9f4589e5d2713376df79f13fc9ba0a" category="inline-link-macro-rx"></block> 针对每个服务。</block>
+  <block id="f3aae44c0ba1e9d5c7a46f4e224ea31e" category="section-title">管理功能</block>
+  <block id="8f351a0ea0c00d874e3538dc3c565ffe" category="paragraph">本节介绍与 Cloud Manager 管理功能相关的新功能：帐户，连接器，云提供商凭据等。</block>
+  <block id="08b95587200b71e6c6eee7208ef3eb3b" category="inline-link-macro">tag = whats-new ， leveloffset=+1</block>
+  <block id="09b8e5d80227b29a977ca9d3d59aae8e" category="paragraph"><block ref="09b8e5d80227b29a977ca9d3d59aae8e" category="inline-link-macro-rx"></block></block>
+  <block id="1adf5b139353353fc0fe8fb616edcd95" category="paragraph"><block ref="1adf5b139353353fc0fe8fb616edcd95" category="inline-link-macro-rx"></block></block>
+  <block id="b2f5a5eb4b76d6b6443edd4ec91dc181" category="paragraph"><block ref="b2f5a5eb4b76d6b6443edd4ec91dc181" category="inline-link-macro-rx"></block></block>
+  <block id="36a9eb77fcf21a931c3ba4a85dff781b" category="section-title">应用程序模板</block>
+  <block id="0497111488ccd8b7b881f1722daf472b" category="paragraph"><block ref="0497111488ccd8b7b881f1722daf472b" category="inline-link-macro-rx"></block></block>
+  <block id="2f7a6097d4b8a6c3594e312ff8c1bf45" category="paragraph"><block ref="2f7a6097d4b8a6c3594e312ff8c1bf45" category="inline-link-macro-rx"></block></block>
+  <block id="2927d657f234c0f0ebd66a05e76afd22" category="paragraph"><block ref="2927d657f234c0f0ebd66a05e76afd22" category="inline-link-macro-rx"></block></block>
+  <block id="89e9a414307faec42287948512390dc6" category="paragraph"><block ref="89e9a414307faec42287948512390dc6" category="inline-link-macro-rx"></block></block>
+  <block id="a575d4e41574f4a402f45f78bb66c843" category="paragraph"><block ref="a575d4e41574f4a402f45f78bb66c843" category="inline-link-macro-rx"></block></block>
+  <block id="a351310eb0041087f557b3ed540193b7" category="paragraph"><block ref="a351310eb0041087f557b3ed540193b7" category="inline-link-macro-rx"></block></block>
+  <block id="a3c559e0541e9bb860178ce6fe414224" category="section-title">适用于 GCP 的 Cloud Volumes Service</block>
+  <block id="65c1eb693244cf31f8176a7cf51932ff" category="paragraph"><block ref="65c1eb693244cf31f8176a7cf51932ff" category="inline-link-macro-rx"></block></block>
+  <block id="065b3f56a2e2044c2e2a94ffd6744cb2" category="paragraph"><block ref="065b3f56a2e2044c2e2a94ffd6744cb2" category="inline-link-macro-rx"></block></block>
+  <block id="edf21d7ecb364e8210ddd3dfaeca6fbf" category="section-title">连接器</block>
+  <block id="d608955ba0a578bfa79f2044929bac09" category="paragraph"><block ref="d608955ba0a578bfa79f2044929bac09" category="inline-link-macro-rx"></block></block>
+  <block id="c61f7923c47fed0b16fb23024cd2d004" category="paragraph"><block ref="c61f7923c47fed0b16fb23024cd2d004" category="inline-link-macro-rx"></block></block>
+  <block id="30136395f01879792198317c11831ea4" category="section-title">Kubernetes</block>
+  <block id="6cd08d24bb4cdaa7afa136ad04e457e5" category="paragraph"><block ref="6cd08d24bb4cdaa7afa136ad04e457e5" category="inline-link-macro-rx"></block></block>
+  <block id="7dfdcdbad9335238e2312a01f93b10c7" category="paragraph"><block ref="7dfdcdbad9335238e2312a01f93b10c7" category="inline-link-macro-rx"></block></block>
+  <block id="031368c5cb02c2094066fcba2fdb92d5" category="section-title">NetApp 帐户</block>
+  <block id="d205da0595819087c8a761b3c41c11af" category="paragraph"><block ref="d205da0595819087c8a761b3c41c11af" category="inline-link-macro-rx"></block></block>
+  <block id="38254828e0197bd045ff30d2f2e3278f" category="paragraph"><block ref="38254828e0197bd045ff30d2f2e3278f" category="inline-link-macro-rx"></block></block>
+  <block id="950604af87c30e09716e6d097eb491db" category="section-title">勒索软件保护</block>
+  <block id="85a79c541d4dfd9572fa2e884786b3d2" category="paragraph"><block ref="85a79c541d4dfd9572fa2e884786b3d2" category="inline-link-macro-rx"></block></block>
+  <block id="68375f8b78d5a5456699acb123d53dc3" category="paragraph"><block ref="68375f8b78d5a5456699acb123d53dc3" category="inline-link-macro-rx"></block></block>
+  <block id="527c9e58221a3e974ae65586af5c2d20" category="paragraph"><block ref="527c9e58221a3e974ae65586af5c2d20" category="inline-link-macro-rx"></block></block>
+  <block id="46255a0651109e3be491691e312b0332" category="summary">本发行说明介绍了 Cloud Manager 平台中的云服务的最新增强功能。可以通过链接访问每个服务的完整发行说明。</block>
+  <block id="ab0f38be07f9dea06b0c032857af2e24" category="doc">Cloud Manager 发行说明</block>
+  <block id="7ff191df90fac0fa94ab5c2b5101a5e9" category="sidebar">所有 Cloud Manager 文档</block>
+  <block id="dcf4ee5c8f297d1f5e0da7b22e359023" category="sidebar">最近更改</block>
+  <block id="33871b6190a8d5adbe8b15282054766c" category="sidebar">新增功能</block>
+  <block id="f5f7a4d1535be1d0940e398b2997dfc0" category="sidebar">发行说明（按服务）</block>
+  <block id="813011e2103649bb71f124adedcc10ea" category="sidebar">博客社区</block>
+  <block id="dd490b81914dd945601e442a41cb4222" category="sidebar">NetApp 社区</block>
+  <block id="ff6c37cbc252e306a6b4e390ec13cbc1" category="sidebar">Cloud Central 博客</block>
+  <block id="ad203e818e0c9d7f42f1c260b33875f3" category="sidebar">云网络研讨会</block>
+</blocks>
