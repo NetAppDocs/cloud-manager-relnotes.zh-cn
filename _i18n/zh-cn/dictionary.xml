@@ -83,4 +83,5 @@
   <block id="dd490b81914dd945601e442a41cb4222" category="sidebar">NetApp 社区</block>
   <block id="ff6c37cbc252e306a6b4e390ec13cbc1" category="sidebar">Cloud Central 博客</block>
   <block id="ad203e818e0c9d7f42f1c260b33875f3" category="sidebar">云网络研讨会</block>
+  <block id="4e486f7be30b2a2fc9c755f593ec7a7e" category="summary">了解 Cloud Manager 平台中的云服务的最新变更。有关详细信息，请转到每个服务的完整发行说明。</block>
 </blocks>

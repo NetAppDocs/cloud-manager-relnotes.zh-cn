@@ -1,6 +1,8 @@
 ---
 sidebar: sidebar 
 permalink: whats-new.html 
+keywords: 'what"s new, features, new, release notes, enhancements, fixes' 
+summary: 了解 Cloud Manager 平台中的云服务的最新变更。有关详细信息，请转到每个服务的完整发行说明。 
 ---
 = Cloud Manager 中的最新更改
 :toc: macro
