@@ -88,12 +88,6 @@ link:https://raw.githubusercontent.com/NetAppDocs/cloud-manager-compute/main/wha
 
 
 
-== 连接器
-
-link:https://raw.githubusercontent.com/NetAppDocs/cloud-manager-connector/main/whats-new.adoc["tag = whats-new ， leveloffset=+1"]
-
-
-
 == 全局文件缓存
 
 link:https://raw.githubusercontent.com/NetAppDocs/cloud-manager-file-cache/main/whats-new.adoc["tag = whats-new ， leveloffset=+1"]
@@ -109,12 +103,6 @@ link:https://raw.githubusercontent.com/NetAppDocs/cloud-manager-kubernetes/main/
 == 监控
 
 link:https://raw.githubusercontent.com/NetAppDocs/cloud-manager-monitoring/main/whats-new.adoc["tag = whats-new ， leveloffset=+1"]
-
-
-
-== NetApp 帐户
-
-link:https://raw.githubusercontent.com/NetAppDocs/cloud-manager-accounts/main/whats-new.adoc["tag = whats-new ， leveloffset=+1"]
 
 
 
