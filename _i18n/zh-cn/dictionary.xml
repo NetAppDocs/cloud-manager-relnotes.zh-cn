@@ -182,7 +182,6 @@
   <block id="f3b62c43bc969f6b5b30d96b8171a06d" category="inline-image-macro">一个屏幕截图，显示直接从 Cloud Data sense 启动新同步后显示的 "Data sense Integration" 页面。</block>
   <block id="b7415479c879eb3f5804ebd25ea733e7" category="paragraph"><block ref="b7415479c879eb3f5804ebd25ea733e7" category="inline-image-macro-rx" type="image"></block></block>
   <block id="6cb8333618f00b139da255e7f5a82ea0" category="section-title">Amazon S3 Glacier 即时检索存储类现已推出</block>
-  <block id="073223fc83a8b7f1f274f1af1f635f2f" category="paragraph">设置 Cloud Tiering 时，现在您可以配置生命周期规则，以便在一定天数后将非活动数据从 _Standard_ 存储类过渡到 _Glacier 即时检索 _ 。这将有助于降低 AWS 基础架构成本。</block>
   <block id="199090bb5d58df554b18a5cb68acb0b7" category="section-title">Cloud Tiering 已完全符合 ONTAP Select 系统的要求</block>
   <block id="a74220a8acc78d1041352afb305af18f" category="paragraph">除了对 AFF 和 FAS 系统中的数据进行分层之外，现在您还可以将 ONTAP Select 系统中的非活动数据分层到云存储。</block>
   <block id="d798cbf5a08fbeb9fdd3652e5b00bb4c" category="section-title">2021 年 9 月 2 日</block>
@@ -193,9 +192,6 @@
   <block id="24263383a842093a8c2b6b9b8a88989d" category="section-title">将内部 ONTAP 集群中的非活动数据分层到与 S3 兼容的对象存储</block>
   <block id="59e10c49329cd1a0a55e4a0d27f6a584" category="inline-link">请参见如何将数据分层到与 S3 兼容的对象存储</block>
   <block id="df94b79ab63138be1c03382ae20c338d" category="paragraph">现在，您可以将非活动数据分层到使用简单存储服务（ Simple Storage Service ， S3 ）协议的任何对象存储服务。<block ref="26932bf166134e05b1ade0d7ecb1b6d8" category="inline-link-rx"></block>。</block>
-  <block id="916678dfdf53de83f6afdf8fca563fb3" category="section-title">2021 年 7 月 7 日</block>
-  <block id="154176674c0672732a91f2bd7ca5d8e0" category="section-title">将数据分层到 Azure Blob 存储时， Connector 可以在内部运行</block>
-  <block id="def40345e2d3c9101a49141b1956c58d" category="paragraph">您不再需要使用 Azure vNet 中安装的 Connector 。将数据分层到 Azure Blob 存储时，您的 Connector 可以在内部的主机上运行。</block>
   <block id="0f132f66e81cbab588044405a33dc058" category="section-title">为 WORM 存储充电</block>
   <block id="d87a373c29bad4362e9f6515cb3a6927" category="paragraph">现在，首发特惠价已过期，您将需要为使用 WORM 存储付费。根据 WORM 卷的总配置容量，每小时进行一次充电。此适用场景 新的和现有的 Cloud Volumes ONTAP 系统。</block>
   <block id="10142c9d88b9419ee393574e858e86c8" category="inline-link">了解 WORM 存储的定价</block>
@@ -400,4 +396,10 @@
   <block id="06fa5bb865f711b645e1f86dd8711d63" category="paragraph">当您选择要与Cloud Volumes ONTAP 结合使用的Google云服务帐户时、Cloud Manager现在会显示与每个服务帐户关联的电子邮件地址。通过查看电子邮件地址、可以更轻松地区分同名服务帐户。</block>
   <block id="92a991ca375ee56317f82c3a30f16fff" category="paragraph"><block ref="92a991ca375ee56317f82c3a30f16fff" category="inline-image-macro-rx" type="image"></block></block>
   <block id="eb1bf021e05707d1f69722b4d550c310" category="paragraph">连接器3.9.16版引入了以下更改。</block>
+  <block id="d3e8cd2e370974f27de1b310b4aa8cb3" category="section-title">2022年5月3日</block>
+  <block id="a74300b6b08791dda4f54d473a58e17a" category="section-title">为其他集群配置提供Cloud Tiering许可证支持</block>
+  <block id="afacb33ad65bcd63eb15aeba04b4aed0" category="inline-link">请参见如何许可和配置这些类型的集群。</block>
+  <block id="4675a948ea93098e22976c0848737e1a" category="paragraph">现在、可以与分层镜像配置(不包括MetroCluster 配置)中的集群以及分层到IBM云对象存储的集群共享云分层许可证。在这些情况下、您不再需要使用已弃用的FabricPool 许可证。这样可以更轻松地在更多集群上使用"浮动"云分层许可证。<block ref="4e8c6c7f1b8cf8bbca1bc62528b46ae2" category="inline-link-rx"></block></block>
+  <block id="75ad6cd4979a906c67e27abc9ee1c14e" category="inline-link">请参见支持的S3存储类。</block>
+  <block id="d3028cb26dae3dbde1ec068c17d15383" category="paragraph">设置 Cloud Tiering 时，现在您可以配置生命周期规则，以便在一定天数后将非活动数据从 _Standard_ 存储类过渡到 _Glacier 即时检索 _ 。这将有助于降低 AWS 基础架构成本。<block ref="99f36cc81f33df65a0349e719000fada" category="inline-link-rx"></block></block>
 </blocks>
