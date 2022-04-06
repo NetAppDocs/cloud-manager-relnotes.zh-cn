@@ -27,57 +27,73 @@ summary: 了解 Cloud Manager 平台中的云服务的最新变更。有关详�
 
 
 
+=== 2022年5月2日
+
+
+
+==== 连接器3.9.18
+
+* 现在、以下Google Cloud地区支持Connector：
++
+** 新德里(亚洲-南2)
+** 墨尔本(澳大利亚南部2)
+** 米兰(欧洲-西部8)
+** 圣地亚哥(南美洲-西维1)
+
+
++
+https://cloud.netapp.com/cloud-volumes-global-regions["查看支持的区域的完整列表"^]
+
+* 当您选择要与Connector结合使用的Google Cloud服务帐户时、Cloud Manager现在会显示与每个服务帐户关联的电子邮件地址。通过查看电子邮件地址、可以更轻松地区分同名服务帐户。
++
+image:https://raw.githubusercontent.com/NetAppDocs/cloud-manager-setup-admin/main/media/screenshot-google-cloud-service-account.png["服务帐户字段的屏幕截图"]
+
+* 我们已在具有支持的操作系统的VM实例上对Google Cloud中的Connector进行了认证 https://cloud.google.com/compute/shielded-vm/docs/shielded-vm["屏蔽VM功能"^]
+* 此版本的连接器还包括Cloud Volumes ONTAP 增强功能。 https://docs.netapp.com/us-en/cloud-manager-cloud-volumes-ontap/whats-new.html#2-may-2022["了解这些增强功能"^]
+* 要使Connector能够部署Cloud Volumes ONTAP 、需要新的AWS权限。
++
+现在、在单个可用性区域(AZ)中部署HA对时、创建AWS分布放置组需要以下权限：
+
++
+[source, json]
+----
+"ec2:DescribePlacementGroups",
+"iam:GetRolePolicy",
+----
++
+现在、要优化Cloud Manager创建布局组的方式、需要这些权限。
+
++
+请务必为您添加到Cloud Manager的每组AWS凭据提供这些权限。您可以在上找到最新的权限列表 https://mysupport.netapp.com/site/info/cloud-manager-policies["Cloud Manager 策略页面"^]。
+
+
+
+
+
+=== 2022 年 4 月 3 日
+
+
+
+==== 连接器3.9.17
+
+* 现在，您可以通过让 Cloud Manager 承担您在环境中设置的 IAM 角色来创建 Connector 。此身份验证方法比共享 AWS 访问密钥和机密密钥更安全。
++
+https://docs.netapp.com/us-en/cloud-manager-setup-admin/task-creating-connectors-aws.html["了解如何使用 IAM 角色创建连接器"]。
+
+* 此版本的连接器还包括Cloud Volumes ONTAP 增强功能。 https://docs.netapp.com/us-en/cloud-manager-cloud-volumes-ontap/whats-new.html#3-april-2022["了解这些增强功能"^]
+
+
+
+
 === 2022 年 2 月 27 日
 
 
 
-==== Google Cloud 中的连接器增强功能
+==== 连接器3.9.16
 
-在 Google Cloud 中创建新的 Connector 时， Cloud Manager 现在将显示所有现有防火墙策略。以前， Cloud Manager 不会显示任何没有目标标记的策略。
+* 在 Google Cloud 中创建新的 Connector 时， Cloud Manager 现在将显示所有现有防火墙策略。以前， Cloud Manager 不会显示任何没有目标标记的策略。
+* 此版本的连接器还包括Cloud Volumes ONTAP 增强功能。 https://docs.netapp.com/us-en/cloud-manager-cloud-volumes-ontap/whats-new.html#27-february-2022["了解这些增强功能"^]
 
-
-
-=== 2022 年 1 月 30 日
-
-
-
-==== 有关 NetApp 支持站点帐户的提醒
-
-请注意， NetApp 现在使用 Microsoft Azure Active Directory 作为身份提供程序来提供特定于支持和许可的身份验证服务。执行此更新后， Cloud Manager 将提示您更新先前添加的任何现有帐户的 NetApp 支持站点（ NSS ）凭据。
-
-如果您尚未将 NSS 帐户迁移到 IDaaS ，则首先需要迁移此帐户，然后在 Cloud Manager 中更新凭据。
-
-* https://kb.netapp.com/Advice_and_Troubleshooting/Miscellaneous/FAQs_for_NetApp_adoption_of_MS_Azure_AD_B2C_for_login["了解有关 NetApp 使用 Microsoft Azure AD 进行身份管理的更多信息"^]
-* https://docs.netapp.com/us-en/cloud-manager-setup-admin/task-adding-nss-accounts.html#update-an-nss-account-for-the-new-authentication-method["了解如何将 NSS 帐户更新为新的身份验证方法"]
-
-
-
-
-=== 2022 年 1 月 2 日
-
-
-
-==== 减少了连接器的端点
-
-我们减少了 Connector 为管理公有云环境中的资源和流程而需要联系的端点数量。
-
-https://docs.netapp.com/us-en/cloud-manager-setup-admin/reference-networking-cloud-manager.html#outbound-internet-access["查看所需端点的列表"]。
-
-
-
-==== 用于 Connector 的 EBS 磁盘加密
-
-现在，当您从 Cloud Manager 在 AWS 中部署新的 Connector 时，您可以选择使用默认主密钥或托管密钥对 Connector 的 EBS 磁盘进行加密。
-
-image:https://raw.githubusercontent.com/NetAppDocs/cloud-manager-setup-admin/main/media/screenshot-connector-disk-encryption.png["在 AWS 中创建 Connector 时显示磁盘加密选项的屏幕截图。"]
-
-
-
-==== NSS 帐户的电子邮件地址
-
-Cloud Manager 现在可以显示与 NetApp 支持站点帐户关联的电子邮件地址。
-
-image:https://raw.githubusercontent.com/NetAppDocs/cloud-manager-setup-admin/main/media/screenshot-nss-display-email.png["屏幕截图显示了 NetApp 支持站点帐户的操作菜单，其中包括显示电子邮件地址的功能。"]
 
 
 
@@ -501,6 +517,108 @@ https://docs.netapp.com/us-en/cloud-manager-tiering/task-licensing-cloud-tiering
 
 
 
+=== 2022年5月2日
+
+连接器3.9.18版引入了以下变更。
+
+
+
+==== Cloud Volumes ONTAP 9.11.0
+
+Cloud Manager现在可以部署和管理Cloud Volumes ONTAP 9.11.0。
+
+https://docs.netapp.com/us-en/cloud-volumes-ontap-relnotes["了解此版本 Cloud Volumes ONTAP 中的新增功能"^]。
+
+
+
+==== 调解器升级增强功能
+
+当Cloud Manager升级HA对的调解器时、它现在会先验证新的调解器映像是否可用、然后再删除启动磁盘。此更改可确保调解器在升级过程失败时能够继续成功运行。
+
+
+
+==== 已删除K8s选项卡
+
+先前已弃用K8s选项卡、现已将其删除。如果要将Kubernetes与Cloud Volumes ONTAP 结合使用、可以将受管Kubernetes集群添加到Canvas中、作为一个用于高级数据管理的工作环境。
+
+https://docs.netapp.com/us-en/cloud-manager-kubernetes/concept-kubernetes.html["了解Cloud Manager中的Kubernetes数据管理"^]
+
+
+
+==== Azure中的年度合同
+
+Essentials和Professional软件包现在可通过一份年度合同在Azure中提供。您可以联系NetApp销售代表购买年度合同。此合同在Azure Marketplace中以私人优惠形式提供。
+
+在NetApp与您共享私人优惠后、您可以在创建工作环境期间从Azure Marketplace订阅年度计划。
+
+https://docs.netapp.com/us-en/cloud-manager-cloud-volumes-ontap/concept-licensing.html["了解有关许可的更多信息"]。
+
+
+
+==== S3 Glacier即时检索
+
+现在、您可以将分层数据存储在Amazon S3 Glacier即时检索存储类中。
+
+https://docs.netapp.com/us-en/cloud-manager-cloud-volumes-ontap/task-tiering.html#changing-the-storage-class-for-tiered-data["了解如何更改分层数据的存储类"]。
+
+
+
+==== Connector需要新的AWS权限
+
+现在、在单个可用性区域(AZ)中部署HA对时、创建AWS分布放置组需要以下权限：
+
+[source, json]
+----
+"ec2:DescribePlacementGroups",
+"iam:GetRolePolicy",
+----
+现在、要优化Cloud Manager创建布局组的方式、需要这些权限。
+
+请务必为您添加到Cloud Manager的每组AWS凭据提供这些权限。您可以在上找到最新的权限列表 https://mysupport.netapp.com/site/info/cloud-manager-policies["Cloud Manager 策略页面"^]。
+
+
+
+==== 全新Google Cloud区域支持
+
+从9.10.1版开始、以下Google Cloud地区现在支持Cloud Volumes ONTAP ：
+
+* 新德里(亚洲-南2)
+* 墨尔本(澳大利亚南部2)
+* 米兰(欧洲-西部8)—仅限单节点
+* 圣地亚哥(南美洲-西1)—仅限单节点
+
+
+https://cloud.netapp.com/cloud-volumes-global-regions["查看Cloud Volumes ONTAP 支持的区域的完整列表"^]
+
+
+
+==== 在Google Cloud中支持n2-standard-16
+
+从9.10.1版开始、Google Cloud中的Cloud Volumes ONTAP 现在支持n2-standard-16计算机类型。
+
+https://docs.netapp.com/us-en/cloud-volumes-ontap-relnotes/reference-configs-gcp.html["在Google Cloud中查看支持的Cloud Volumes ONTAP 配置"^]
+
+
+
+==== Google Cloud防火墙策略增强功能
+
+* 在Google Cloud中创建Cloud Volumes ONTAP HA对时、Cloud Manager现在将在VPC中显示所有现有防火墙策略。
++
+以前、Cloud Manager不会在VPC-1、VPC-2或VPC-3中显示任何没有目标标记的策略。
+
+* 在Google Cloud中创建Cloud Volumes ONTAP 单节点系统时、您现在可以选择是希望预定义的防火墙策略仅允许选定VPC (建议)内的流量、还是允许所有VPC内的流量。
+
+
+
+
+==== Google Cloud服务帐户增强功能
+
+当您选择要与Cloud Volumes ONTAP 结合使用的Google云服务帐户时、Cloud Manager现在会显示与每个服务帐户关联的电子邮件地址。通过查看电子邮件地址、可以更轻松地区分同名服务帐户。
+
+image:https://raw.githubusercontent.com/NetAppDocs/cloud-manager-cloud-volumes-ontap/main/media/screenshot-google-cloud-service-account.png["服务帐户字段的屏幕截图"]
+
+
+
 === 2022 年 4 月 3 日
 
 
@@ -521,7 +639,9 @@ https://cloud.netapp.com/pricing["了解 WORM 存储的定价"^]。
 
 
 
-=== 2022 年 2 月 27 日（连接器 3.9.16 ）
+=== 2022 年 2 月 27 日
+
+连接器3.9.16版引入了以下更改。
 
 
 
@@ -530,32 +650,6 @@ https://cloud.netapp.com/pricing["了解 WORM 存储的定价"^]。
 现在，在通过 * 高级分配 * 选项在特定聚合上创建卷时，可以使用我们最近推出的创建新卷向导。
 
 https://docs.netapp.com/us-en/cloud-manager-cloud-volumes-ontap/task-create-volumes.html["了解如何在特定聚合上创建卷"]。
-
-
-
-=== 2022 年 2 月 9 日
-
-
-
-==== 市场更新
-
-* 现在， AWS 和 Google Cloud MarketPlaces 中提供了 Essentials 软件包和 Professional 软件包。
-+
-通过这些按容量付费方法，您可以按小时付费，也可以直接从云提供商购买年度合同。您仍然可以选择直接从 NetApp 购买按容量许可证。
-
-+
-如果您已在云市场订阅，则也会自动订阅这些新产品。在部署新的 Cloud Volumes ONTAP 工作环境时，您可以选择按容量收费。
-
-+
-如果您是新客户， Cloud Manager 将在您创建新的工作环境时提示您订阅。
-
-* 已弃用通过 AWS 和 Google Cloud MarketPlaces 进行的节点间许可，新订阅者将无法再使用此许可。其中包括年度合同和每小时订阅（ Explore ， Standard 和 Premium ）。
-+
-现有订阅有效的客户仍可使用此收费方法。
-
-
-
-https://docs.netapp.com/us-en/cloud-manager-cloud-volumes-ontap/concept-licensing.html["详细了解 Cloud Volumes ONTAP 的许可选项"]。
 
 
 
