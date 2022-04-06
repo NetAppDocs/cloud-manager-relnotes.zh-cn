@@ -362,4 +362,8 @@
   <block id="b59fdb8f9fe5a28d08cd50bf85b70880" category="section-title">Apache Log4j 漏洞的修复</block>
   <block id="6b6f87c741f6734b4908d03d2c21e449" category="paragraph">SnapCenter 服务 1.0.1 将 Apache Log4j 从 2.9.1 版升级到 2.17 版，以解决以下漏洞： CVE-2021-44228 ， CVE-2021-4104 和 CVE-2021-45105 。</block>
   <block id="ae1f9a5afbc7e02967d7f7e643135d82" category="paragraph">SnapCenter 服务集群应自动更新到最新版本。您应确保 SnapCenter 服务 UI 中的版本显示集群为 1.0.1.1251 或更高版本。</block>
+  <block id="97106e7449f4966fc1e4b3b78d425110" category="section-title">已删除 System Manager 链接</block>
+  <block id="249f6fd27ec465f7b6af7dc12178a1ea" category="paragraph">我们已删除先前在 Cloud Volumes ONTAP 工作环境中提供的 System Manager 链接。</block>
+  <block id="1979125e36e7d7c49ca297e15301d908" category="inline-link">了解有关连接到 System Manager 的更多信息</block>
+  <block id="bbf60c789b26c6dcc40b75262425eac7" category="paragraph">您仍然可以通过在连接到 Cloud Volumes ONTAP 系统的 Web 浏览器中输入集群管理 IP 地址来连接到 System Manager 。<block ref="c343c10570bfa751089c9639f87b6a1f" category="inline-link-rx"></block>。</block>
 </blocks>

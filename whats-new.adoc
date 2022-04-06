@@ -504,6 +504,14 @@ https://docs.netapp.com/us-en/cloud-manager-tiering/task-licensing-cloud-tiering
 
 
 
+==== 已删除 System Manager 链接
+
+我们已删除先前在 Cloud Volumes ONTAP 工作环境中提供的 System Manager 链接。
+
+您仍然可以通过在连接到 Cloud Volumes ONTAP 系统的 Web 浏览器中输入集群管理 IP 地址来连接到 System Manager 。 https://docs.netapp.com/us-en/cloud-manager-cloud-volumes-ontap/task-connecting-to-otc.html["了解有关连接到 System Manager 的更多信息"]。
+
+
+
 ==== 为 WORM 存储充电
 
 现在，首发特惠价已过期，您将需要为使用 WORM 存储付费。根据 WORM 卷的总配置容量，每小时进行一次充电。此适用场景 新的和现有的 Cloud Volumes ONTAP 系统。
