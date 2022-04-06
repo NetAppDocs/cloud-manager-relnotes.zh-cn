@@ -8,7 +8,6 @@
   <block id="18cf072964a583150dd247485ba75b92" category="inline-link">适用于 ONTAP 的 Amazon FSX</block>
   <block id="70ac5f28b8976363f0e487a59a194ede" category="list-text"><block ref="70ac5f28b8976363f0e487a59a194ede" category="inline-link-rx"></block></block>
   <block id="117bdbda976fe8b3212bc3b6327a0a1b" category="inline-link">Cloud Volumes ONTAP</block>
-  <block id="cb20136bcc67cbf2920dede49b74f723" category="list-text"><block ref="cb20136bcc67cbf2920dede49b74f723" category="inline-link-rx"></block></block>
   <block id="b0cee72642f5457a71ddd0b49efb6d93" category="inline-link">适用于 Google Cloud 的 Cloud Volumes Service</block>
   <block id="cf1e43e88c5409a94312fe0defe1f9bc" category="list-text"><block ref="cf1e43e88c5409a94312fe0defe1f9bc" category="inline-link-rx"></block></block>
   <block id="85eb427901278daf26f132cb3e076914" category="inline-link">Kubernetes 集群</block>
@@ -60,14 +59,10 @@
   <block id="a3c559e0541e9bb860178ce6fe414224" category="section-title">适用于 GCP 的 Cloud Volumes Service</block>
   <block id="65c1eb693244cf31f8176a7cf51932ff" category="paragraph"><block ref="65c1eb693244cf31f8176a7cf51932ff" category="inline-link-macro-rx"></block></block>
   <block id="065b3f56a2e2044c2e2a94ffd6744cb2" category="paragraph"><block ref="065b3f56a2e2044c2e2a94ffd6744cb2" category="inline-link-macro-rx"></block></block>
-  <block id="edf21d7ecb364e8210ddd3dfaeca6fbf" category="section-title">连接器</block>
-  <block id="d608955ba0a578bfa79f2044929bac09" category="paragraph"><block ref="d608955ba0a578bfa79f2044929bac09" category="inline-link-macro-rx"></block></block>
   <block id="c61f7923c47fed0b16fb23024cd2d004" category="paragraph"><block ref="c61f7923c47fed0b16fb23024cd2d004" category="inline-link-macro-rx"></block></block>
   <block id="30136395f01879792198317c11831ea4" category="section-title">Kubernetes</block>
   <block id="6cd08d24bb4cdaa7afa136ad04e457e5" category="paragraph"><block ref="6cd08d24bb4cdaa7afa136ad04e457e5" category="inline-link-macro-rx"></block></block>
   <block id="7dfdcdbad9335238e2312a01f93b10c7" category="paragraph"><block ref="7dfdcdbad9335238e2312a01f93b10c7" category="inline-link-macro-rx"></block></block>
-  <block id="031368c5cb02c2094066fcba2fdb92d5" category="section-title">NetApp 帐户</block>
-  <block id="d205da0595819087c8a761b3c41c11af" category="paragraph"><block ref="d205da0595819087c8a761b3c41c11af" category="inline-link-macro-rx"></block></block>
   <block id="38254828e0197bd045ff30d2f2e3278f" category="paragraph"><block ref="38254828e0197bd045ff30d2f2e3278f" category="inline-link-macro-rx"></block></block>
   <block id="950604af87c30e09716e6d097eb491db" category="section-title">勒索软件保护</block>
   <block id="85a79c541d4dfd9572fa2e884786b3d2" category="paragraph"><block ref="85a79c541d4dfd9572fa2e884786b3d2" category="inline-link-macro-rx"></block></block>
@@ -84,4 +79,8 @@
   <block id="ff6c37cbc252e306a6b4e390ec13cbc1" category="sidebar">Cloud Central 博客</block>
   <block id="ad203e818e0c9d7f42f1c260b33875f3" category="sidebar">云网络研讨会</block>
   <block id="4e486f7be30b2a2fc9c755f593ec7a7e" category="summary">了解 Cloud Manager 平台中的云服务的最新变更。有关详细信息，请转到每个服务的完整发行说明。</block>
+  <block id="f7d121e2a54c62002dd74f6b9dac8069" category="inline-link">Cloud Volumes ONTAP 发行说明</block>
+  <block id="ca138f4890a80dcb981add74fa328598" category="list-text"><block ref="ca138f4890a80dcb981add74fa328598" category="inline-link-rx"></block></block>
+  <block id="92a19295ac05c2a8159ff4e129265e4f" category="inline-link">有关 Cloud Manager 中 Cloud Volumes ONTAP 管理的发行说明</block>
+  <block id="998c54a50d0a2978b705c26bab946460" category="list-text"><block ref="998c54a50d0a2978b705c26bab946460" category="inline-link-rx"></block></block>
 </blocks>

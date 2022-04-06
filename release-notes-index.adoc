@@ -22,7 +22,12 @@ permalink: release-notes-index.html
 
 * https://docs.netapp.com/us-en/cloud-manager-azure-netapp-files/whats-new.html["Azure NetApp Files"^]
 * https://docs.netapp.com/us-en/cloud-manager-fsx-ontap/whats-new.html["适用于 ONTAP 的 Amazon FSX"^]
-* https://docs.netapp.com/us-en/cloud-manager-cloud-volumes-ontap/whats-new.html["Cloud Volumes ONTAP"^]
+* Cloud Volumes ONTAP
++
+** https://docs.netapp.com/us-en/cloud-volumes-ontap-relnotes/index.html["Cloud Volumes ONTAP 发行说明"^]
+** https://docs.netapp.com/us-en/cloud-manager-cloud-volumes-ontap/whats-new.html["有关 Cloud Manager 中 Cloud Volumes ONTAP 管理的发行说明"^]
+
+
 * https://docs.netapp.com/us-en/cloud-manager-cloud-volumes-service-gcp/whats-new.html["适用于 Google Cloud 的 Cloud Volumes Service"^]
 * https://docs.netapp.com/us-en/cloud-manager-kubernetes/whats-new.html["Kubernetes 集群"^]
 * https://docs.netapp.com/us-en/cloud-manager-ontap-onprem/whats-new.html["内部 ONTAP 集群"^]
