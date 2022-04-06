@@ -213,19 +213,6 @@
   <block id="2931385a1afec19638d47ebab7744410" category="paragraph">在上一版本中，我们引入了 Cloud Sync 与 Cloud Data sense 的集成。在此更新中，我们简化了创建同步关系的过程，从而增强了集成能力。从 Cloud Data sense 启动数据同步后，所有源信息都包含在一个步骤中，只需输入几个关键详细信息即可。</block>
   <block id="f3b62c43bc969f6b5b30d96b8171a06d" category="inline-image-macro">一个屏幕截图，显示直接从 Cloud Data sense 启动新同步后显示的 "Data sense Integration" 页面。</block>
   <block id="b7415479c879eb3f5804ebd25ea733e7" category="paragraph"><block ref="b7415479c879eb3f5804ebd25ea733e7" category="inline-image-macro-rx" type="image"></block></block>
-  <block id="5c46bd67ae4b5c23f9c243b5f396c088" category="section-title">2022 年 2 月 6 日</block>
-  <block id="b173d47e232436d0170127aec6c62d25" category="section-title">数据代理组的增强功能</block>
-  <block id="2362e2192964b2a1132ee3c33127e6ec" category="paragraph">我们通过强调数据代理 _groups_来 改变您与数据代理的交互方式。</block>
-  <block id="009030a7e855d0f36e42bdac812520b4" category="paragraph">例如，在创建新的同步关系时，您可以选择要用于该关系的数据代理 _group_ ，而不是特定的数据代理。</block>
-  <block id="435847457b00dd1f91120adf3d0e24aa" category="inline-image-macro">Sync Relationship 向导的屏幕截图，其中显示了数据代理组选择。</block>
-  <block id="1010f6ebb8a63e17d664e622c2299691" category="paragraph"><block ref="1010f6ebb8a63e17d664e622c2299691" category="inline-image-macro-rx" type="image"></block></block>
-  <block id="9eb0238485945ad5d6512b69445e72c6" category="paragraph">在 * 管理数据代理 * 选项卡中，我们还会显示数据代理组正在管理的同步关系的数量。</block>
-  <block id="4f1d2e29d6b816360bccc567294cac53" category="inline-image-macro">" 管理数据代理 " 页面的屏幕截图，其中显示了数据代理组以及有关该组的详细信息，包括其管理的关系数。</block>
-  <block id="b5012dcabc22fc10384141ed3b715897" category="paragraph"><block ref="b5012dcabc22fc10384141ed3b715897" category="inline-image-macro-rx" type="image"></block></block>
-  <block id="81a424c5c67f920d35d770215956f31f" category="section-title">下载 PDF 报告</block>
-  <block id="983eab96e054cfaaef2e1cc070a5ac0d" category="paragraph">现在，您可以下载报告的 PDF 。</block>
-  <block id="b8573b8d6cb0195fa946927c3aa36397" category="inline-link">了解有关报告的更多信息</block>
-  <block id="913d3279d6ca39c6bd290fac85314961" category="paragraph"><block ref="9ba5aa88e2b271505b32ed12efb1883e" category="inline-link-rx"></block>。</block>
   <block id="6cb8333618f00b139da255e7f5a82ea0" category="section-title">Amazon S3 Glacier 即时检索存储类现已推出</block>
   <block id="073223fc83a8b7f1f274f1af1f635f2f" category="paragraph">设置 Cloud Tiering 时，现在您可以配置生命周期规则，以便在一定天数后将非活动数据从 _Standard_ 存储类过渡到 _Glacier 即时检索 _ 。这将有助于降低 AWS 基础架构成本。</block>
   <block id="199090bb5d58df554b18a5cb68acb0b7" category="section-title">Cloud Tiering 已完全符合 ONTAP Select 系统的要求</block>
@@ -366,4 +353,13 @@
   <block id="249f6fd27ec465f7b6af7dc12178a1ea" category="paragraph">我们已删除先前在 Cloud Volumes ONTAP 工作环境中提供的 System Manager 链接。</block>
   <block id="1979125e36e7d7c49ca297e15301d908" category="inline-link">了解有关连接到 System Manager 的更多信息</block>
   <block id="bbf60c789b26c6dcc40b75262425eac7" category="paragraph">您仍然可以通过在连接到 Cloud Volumes ONTAP 系统的 Web 浏览器中输入集群管理 IP 地址来连接到 System Manager 。<block ref="c343c10570bfa751089c9639f87b6a1f" category="inline-link-rx"></block>。</block>
+  <block id="81fb4d1570abd75a1e2945d1f1c9f8cc" category="section-title">2022年5月1日</block>
+  <block id="5cccebf55aa4da23124f776528630bf3" category="section-title">同步超时</block>
+  <block id="5e4a50a7111ce8bba22cd01d07f86a3b" category="paragraph">现在、可以为同步关系使用新的*同步超时*设置。通过此设置、您可以定义在指定的小时数或天数内未完成数据同步时、Cloud Sync 是否应取消数据同步。</block>
+  <block id="21a5968447686d2d79ece94fc6ab0653" category="inline-link">了解有关更改同步关系设置的更多信息</block>
+  <block id="5f03ed55634cfe3f169d94549e45f06c" category="paragraph"><block ref="050cf03a98debb532006e420507b54cf" category="inline-link-rx"></block>。</block>
+  <block id="a274f4d4670213a9045ce258c6c56b80" category="section-title">通知</block>
+  <block id="0a3f4ee017f808dc79fb4939a3eaf91b" category="paragraph">现在、可以为同步关系使用新的*通知*设置。通过此设置、您可以选择是否在Cloud Manager的通知中心接收Cloud Sync 通知。您可以为成功的数据同步、失败的数据同步和已取消的数据同步启用通知。</block>
+  <block id="9081c0430b4e4fcf1f0dd042e7c0ca60" category="inline-image-macro">显示Cloud Manager中通知中心的屏幕截图。</block>
+  <block id="914b918c172fa270f423df8135932978" category="paragraph"><block ref="914b918c172fa270f423df8135932978" category="inline-image-macro-rx" type="image"></block></block>
 </blocks>

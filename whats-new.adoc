@@ -377,6 +377,28 @@ Cloud Manager Connector 的安全组将使用端口 443 而非端口 80 来处�
 
 
 
+=== 2022年5月1日
+
+
+
+==== 同步超时
+
+现在、可以为同步关系使用新的*同步超时*设置。通过此设置、您可以定义在指定的小时数或天数内未完成数据同步时、Cloud Sync 是否应取消数据同步。
+
+https://docs.netapp.com/us-en/cloud-manager-sync/task-managing-relationships.html#changing-the-settings-for-a-sync-relationship["了解有关更改同步关系设置的更多信息"]。
+
+
+
+==== 通知
+
+现在、可以为同步关系使用新的*通知*设置。通过此设置、您可以选择是否在Cloud Manager的通知中心接收Cloud Sync 通知。您可以为成功的数据同步、失败的数据同步和已取消的数据同步启用通知。
+
+image:https://raw.githubusercontent.com/NetAppDocs/cloud-manager-sync/main/media/screenshot-notification-center.png["显示Cloud Manager中通知中心的屏幕截图。"]
+
+https://docs.netapp.com/us-en/cloud-manager-sync/task-managing-relationships.html#changing-the-settings-for-a-sync-relationship["了解有关更改同步关系设置的更多信息"]。
+
+
+
 === 2022 年 4 月 3 日
 
 
@@ -419,32 +441,6 @@ image:https://raw.githubusercontent.com/NetAppDocs/cloud-manager-sync/main/media
 在上一版本中，我们引入了 Cloud Sync 与 Cloud Data sense 的集成。在此更新中，我们简化了创建同步关系的过程，从而增强了集成能力。从 Cloud Data sense 启动数据同步后，所有源信息都包含在一个步骤中，只需输入几个关键详细信息即可。
 
 image:https://raw.githubusercontent.com/NetAppDocs/cloud-manager-sync/main/media/screenshot-sync-data-sense.png["一个屏幕截图，显示直接从 Cloud Data sense 启动新同步后显示的 \"Data sense Integration\" 页面。"]
-
-
-
-=== 2022 年 2 月 6 日
-
-
-
-==== 数据代理组的增强功能
-
-我们通过强调数据代理 _groups_来 改变您与数据代理的交互方式。
-
-例如，在创建新的同步关系时，您可以选择要用于该关系的数据代理 _group_ ，而不是特定的数据代理。
-
-image:https://raw.githubusercontent.com/NetAppDocs/cloud-manager-sync/main/media/screenshot-sync-select-data-broker-group.png["Sync Relationship 向导的屏幕截图，其中显示了数据代理组选择。"]
-
-在 * 管理数据代理 * 选项卡中，我们还会显示数据代理组正在管理的同步关系的数量。
-
-image:https://raw.githubusercontent.com/NetAppDocs/cloud-manager-sync/main/media/screenshot-sync-group-relationships.png["\" 管理数据代理 \" 页面的屏幕截图，其中显示了数据代理组以及有关该组的详细信息，包括其管理的关系数。"]
-
-
-
-==== 下载 PDF 报告
-
-现在，您可以下载报告的 PDF 。
-
-https://docs.netapp.com/us-en/cloud-manager-sync/task-managing-reports.html["了解有关报告的更多信息"]。
 
 
 
