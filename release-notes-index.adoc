@@ -5,6 +5,7 @@ permalink: release-notes-index.html
 = 发行说明索引
 :toc: macro
 :hardbreaks:
+:allow-uri-read: 
 :toc: 
 :nofooter: 
 :icons: font

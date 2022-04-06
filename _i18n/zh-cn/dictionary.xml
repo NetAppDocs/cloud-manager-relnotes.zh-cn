@@ -45,29 +45,10 @@
   <block id="7e2a23a7215e26914d4490ec8dbd56c8" category="paragraph">了解 Cloud Manager 平台中的云服务的最新变更。有关详细信息，请转到 <block ref="1e9f4589e5d2713376df79f13fc9ba0a" category="inline-link-macro-rx"></block> 针对每个服务。</block>
   <block id="f3aae44c0ba1e9d5c7a46f4e224ea31e" category="section-title">管理功能</block>
   <block id="8f351a0ea0c00d874e3538dc3c565ffe" category="paragraph">本节介绍与 Cloud Manager 管理功能相关的新功能：帐户，连接器，云提供商凭据等。</block>
-  <block id="08b95587200b71e6c6eee7208ef3eb3b" category="inline-link-macro">tag = whats-new ， leveloffset=+1</block>
-  <block id="09b8e5d80227b29a977ca9d3d59aae8e" category="paragraph"><block ref="09b8e5d80227b29a977ca9d3d59aae8e" category="inline-link-macro-rx"></block></block>
-  <block id="1adf5b139353353fc0fe8fb616edcd95" category="paragraph"><block ref="1adf5b139353353fc0fe8fb616edcd95" category="inline-link-macro-rx"></block></block>
-  <block id="b2f5a5eb4b76d6b6443edd4ec91dc181" category="paragraph"><block ref="b2f5a5eb4b76d6b6443edd4ec91dc181" category="inline-link-macro-rx"></block></block>
   <block id="36a9eb77fcf21a931c3ba4a85dff781b" category="section-title">应用程序模板</block>
-  <block id="0497111488ccd8b7b881f1722daf472b" category="paragraph"><block ref="0497111488ccd8b7b881f1722daf472b" category="inline-link-macro-rx"></block></block>
-  <block id="2f7a6097d4b8a6c3594e312ff8c1bf45" category="paragraph"><block ref="2f7a6097d4b8a6c3594e312ff8c1bf45" category="inline-link-macro-rx"></block></block>
-  <block id="2927d657f234c0f0ebd66a05e76afd22" category="paragraph"><block ref="2927d657f234c0f0ebd66a05e76afd22" category="inline-link-macro-rx"></block></block>
-  <block id="89e9a414307faec42287948512390dc6" category="paragraph"><block ref="89e9a414307faec42287948512390dc6" category="inline-link-macro-rx"></block></block>
-  <block id="a575d4e41574f4a402f45f78bb66c843" category="paragraph"><block ref="a575d4e41574f4a402f45f78bb66c843" category="inline-link-macro-rx"></block></block>
-  <block id="a351310eb0041087f557b3ed540193b7" category="paragraph"><block ref="a351310eb0041087f557b3ed540193b7" category="inline-link-macro-rx"></block></block>
   <block id="a3c559e0541e9bb860178ce6fe414224" category="section-title">适用于 GCP 的 Cloud Volumes Service</block>
-  <block id="65c1eb693244cf31f8176a7cf51932ff" category="paragraph"><block ref="65c1eb693244cf31f8176a7cf51932ff" category="inline-link-macro-rx"></block></block>
-  <block id="065b3f56a2e2044c2e2a94ffd6744cb2" category="paragraph"><block ref="065b3f56a2e2044c2e2a94ffd6744cb2" category="inline-link-macro-rx"></block></block>
-  <block id="c61f7923c47fed0b16fb23024cd2d004" category="paragraph"><block ref="c61f7923c47fed0b16fb23024cd2d004" category="inline-link-macro-rx"></block></block>
   <block id="30136395f01879792198317c11831ea4" category="section-title">Kubernetes</block>
-  <block id="6cd08d24bb4cdaa7afa136ad04e457e5" category="paragraph"><block ref="6cd08d24bb4cdaa7afa136ad04e457e5" category="inline-link-macro-rx"></block></block>
-  <block id="7dfdcdbad9335238e2312a01f93b10c7" category="paragraph"><block ref="7dfdcdbad9335238e2312a01f93b10c7" category="inline-link-macro-rx"></block></block>
-  <block id="38254828e0197bd045ff30d2f2e3278f" category="paragraph"><block ref="38254828e0197bd045ff30d2f2e3278f" category="inline-link-macro-rx"></block></block>
   <block id="950604af87c30e09716e6d097eb491db" category="section-title">勒索软件保护</block>
-  <block id="85a79c541d4dfd9572fa2e884786b3d2" category="paragraph"><block ref="85a79c541d4dfd9572fa2e884786b3d2" category="inline-link-macro-rx"></block></block>
-  <block id="68375f8b78d5a5456699acb123d53dc3" category="paragraph"><block ref="68375f8b78d5a5456699acb123d53dc3" category="inline-link-macro-rx"></block></block>
-  <block id="527c9e58221a3e974ae65586af5c2d20" category="paragraph"><block ref="527c9e58221a3e974ae65586af5c2d20" category="inline-link-macro-rx"></block></block>
   <block id="46255a0651109e3be491691e312b0332" category="summary">本发行说明介绍了 Cloud Manager 平台中的云服务的最新增强功能。可以通过链接访问每个服务的完整发行说明。</block>
   <block id="ab0f38be07f9dea06b0c032857af2e24" category="doc">Cloud Manager 发行说明</block>
   <block id="7ff191df90fac0fa94ab5c2b5101a5e9" category="sidebar">所有 Cloud Manager 文档</block>
@@ -83,4 +64,302 @@
   <block id="ca138f4890a80dcb981add74fa328598" category="list-text"><block ref="ca138f4890a80dcb981add74fa328598" category="inline-link-rx"></block></block>
   <block id="92a19295ac05c2a8159ff4e129265e4f" category="inline-link">有关 Cloud Manager 中 Cloud Volumes ONTAP 管理的发行说明</block>
   <block id="998c54a50d0a2978b705c26bab946460" category="list-text"><block ref="998c54a50d0a2978b705c26bab946460" category="inline-link-rx"></block></block>
+  <block id="ba26e4556a0f160834687982b0479336" category="section-title">2022 年 2 月 27 日</block>
+  <block id="0fc27381f6df0f20af584e656aa215b9" category="section-title">Google Cloud 中的连接器增强功能</block>
+  <block id="23ea931bf11f885e1a49e6970b0aa60a" category="paragraph">在 Google Cloud 中创建新的 Connector 时， Cloud Manager 现在将显示所有现有防火墙策略。以前， Cloud Manager 不会显示任何没有目标标记的策略。</block>
+  <block id="3ac47455b10c6fb4061a70a91fdbfde2" category="section-title">2022 年 1 月 30 日</block>
+  <block id="4c192c0d77af6017716138a0c469c687" category="section-title">有关 NetApp 支持站点帐户的提醒</block>
+  <block id="553da3d1de1480b23203668d02c692f5" category="paragraph">请注意， NetApp 现在使用 Microsoft Azure Active Directory 作为身份提供程序来提供特定于支持和许可的身份验证服务。执行此更新后， Cloud Manager 将提示您更新先前添加的任何现有帐户的 NetApp 支持站点（ NSS ）凭据。</block>
+  <block id="a47acc65b2885cddfc6096e5aa5324f7" category="paragraph">如果您尚未将 NSS 帐户迁移到 IDaaS ，则首先需要迁移此帐户，然后在 Cloud Manager 中更新凭据。</block>
+  <block id="b48762bb68eb4f8c518d5be6f1c76d16" category="inline-link">了解有关 NetApp 使用 Microsoft Azure AD 进行身份管理的更多信息</block>
+  <block id="d9031e6782c3419c7b81c9c83572daf7" category="list-text"><block ref="d9031e6782c3419c7b81c9c83572daf7" category="inline-link-rx"></block></block>
+  <block id="d843af49cdcc73f67f6a04467ff7a5b1" category="inline-link">了解如何将 NSS 帐户更新为新的身份验证方法</block>
+  <block id="56e138c1cde783765ac6d2c9d4217fad" category="list-text"><block ref="56e138c1cde783765ac6d2c9d4217fad" category="inline-link-rx"></block></block>
+  <block id="586301717819197e24001cac47efdaaa" category="section-title">2022 年 1 月 2 日</block>
+  <block id="3eb3c5317b96f11c0338c5ff2b831a15" category="section-title">减少了连接器的端点</block>
+  <block id="3ea953e33860f2fb58e83ea9f9842e28" category="paragraph">我们减少了 Connector 为管理公有云环境中的资源和流程而需要联系的端点数量。</block>
+  <block id="deb7ce1a594b9c903900b5242dc0085e" category="inline-link">查看所需端点的列表</block>
+  <block id="3f9908dd0d34e73be621e521e51cd6a8" category="paragraph"><block ref="5f52a012a929ebfb0b0a901a58e91a4c" category="inline-link-rx"></block>。</block>
+  <block id="cdacfba529ee299ab36d1cdf539f519d" category="section-title">用于 Connector 的 EBS 磁盘加密</block>
+  <block id="dcf92cfff3fdb05a27221d7e0f407165" category="paragraph">现在，当您从 Cloud Manager 在 AWS 中部署新的 Connector 时，您可以选择使用默认主密钥或托管密钥对 Connector 的 EBS 磁盘进行加密。</block>
+  <block id="e47c7d2e2b0dfe5aea5df23ca3dc5523" category="inline-image-macro">在 AWS 中创建 Connector 时显示磁盘加密选项的屏幕截图。</block>
+  <block id="1a3140f260afcdb189bbb444b89966c4" category="paragraph"><block ref="1a3140f260afcdb189bbb444b89966c4" category="inline-image-macro-rx" type="image"></block></block>
+  <block id="c9ace35ceff752453d1b0f7978e94417" category="section-title">NSS 帐户的电子邮件地址</block>
+  <block id="09a67f36e39e8933808ee04f43addc27" category="paragraph">Cloud Manager 现在可以显示与 NetApp 支持站点帐户关联的电子邮件地址。</block>
+  <block id="51f80facd7c70833cf77adf937c57d0f" category="inline-image-macro">屏幕截图显示了 NetApp 支持站点帐户的操作菜单，其中包括显示电子邮件地址的功能。</block>
+  <block id="e07973e7f57415cf8c19fe68b62a728c" category="paragraph"><block ref="e07973e7f57415cf8c19fe68b62a728c" category="inline-image-macro-rx" type="image"></block></block>
+  <block id="29c251ed5a57bbffe470654ccbbe714c" category="section-title">2021 年 4 月 11 日</block>
+  <block id="860941d67aa8a8a442ba4a65191838cf" category="section-title">支持卷模板</block>
+  <block id="28c1b76e8b0c8f418301bc750b4e9f0e" category="paragraph">通过新的应用程序模板服务，您可以为 Azure NetApp Files 设置卷模板。此模板应使您的工作更轻松，因为模板中已定义某些卷参数，例如，容量池，大小，协议，卷应驻留的 vNet 和子网等。如果已预定义某个参数，则只需跳到下一个 volume 参数即可。</block>
+  <block id="65d2e55c231c87b516e734e63f823cf5" category="inline-link">了解应用程序模板以及如何在环境中使用这些模板</block>
+  <block id="cd05e30aad2bf16b78d020365a79dcae" category="list-text"><block ref="cd05e30aad2bf16b78d020365a79dcae" category="inline-link-rx"></block></block>
+  <block id="1636ba950a663744d701c73060d64523" category="inline-link">了解如何使用模板创建 Azure NetApp Files 卷</block>
+  <block id="5651031c9f0714bccf2089b101c736e0" category="list-text"><block ref="5651031c9f0714bccf2089b101c736e0" category="inline-link-rx"></block></block>
+  <block id="dbbd746e2d2c019dcb0c3c40b74f4f75" category="section-title">2021 年 3 月 8 日</block>
+  <block id="de5b4c52cc860c2f7cacca0bb7f4265f" category="section-title">动态更改服务级别</block>
+  <block id="65ade213f17aabb636c7c98c83fa9121" category="paragraph">现在，您可以动态更改卷的服务级别，以满足工作负载需求并优化成本。此卷将移至另一个容量池，而不会对该卷产生任何影响。</block>
+  <block id="f89e84889d5fd0c46e9997ddb21ac922" category="inline-link">了解如何更改卷的服务级别</block>
+  <block id="1ae0904e8670b3e6cfc9006eb635216b" category="paragraph"><block ref="e311d6cb2bd5a49340f86a76ff0511b7" category="inline-link-rx"></block>。</block>
+  <block id="95fa237a7a6265df02b6172c4be387f7" category="section-title">2020 年 8 月 3 日</block>
+  <block id="629ca03a8a495acd7bc18927ca4da6cc" category="section-title">Azure NetApp Files 设置和管理</block>
+  <block id="51faca1c58439a1d1223104a28f554cc" category="paragraph">直接从 Cloud Manager 设置和管理 Azure NetApp Files 。创建 Azure NetApp Files 工作环境后，您可以完成以下任务：</block>
+  <block id="a42ed9034f13a0f6a3660f2c241f605f" category="list-text">创建 NFS 和 SMB 卷。</block>
+  <block id="0d293213ebed3e92e24e1624dfd19aa2" category="list-text">管理容量池和卷快照</block>
+  <block id="e54595e40dfd177a2a9e671c794a3a4d" category="paragraph">您可以使用 Cloud Manager 创建，删除和还原卷快照。您还可以创建新的容量池并指定其服务级别。</block>
+  <block id="5054d68a0b2f03dece3eb72cfaa09427" category="list-text">通过更改卷大小和管理标记来编辑卷。</block>
+  <block id="396a3c9fb559d38e68f68ea139b3539a" category="paragraph">直接从 Cloud Manager 创建和管理 Azure NetApp Files 的功能取代了以前的数据迁移功能。</block>
+  <block id="3152521594c71809f9c72383294b05b7" category="section-title">承担 IAM 角色</block>
+  <block id="1bae6acf64b673783a7e55db59c7f74e" category="paragraph">在创建适用于 ONTAP 的 FSX 工作环境时，您现在必须提供一个 IAM 角色的 ARN ， Cloud Manager 可以使用此 ARN 来创建适用于 ONTAP 的 FSX 工作环境。您以前需要提供 AWS 访问密钥。</block>
+  <block id="f63d604edef29843d35ad367e0d82814" category="inline-link-macro">了解如何为适用于 ONTAP 的 FSX 设置权限</block>
+  <block id="85f610955384d6c0dcae09552c4508e0" category="paragraph"><block ref="121317bac1802e026b9ea68cbe410489" category="inline-link-macro-rx"></block>。</block>
+  <block id="784044bd2af30d58bbb0dbcea3adbad6" category="section-title">2021 年 10 月 31 日</block>
+  <block id="5b80dcfe3dbe5a2279a764bb895220e8" category="section-title">使用 Cloud Manager API 创建 iSCSI 卷</block>
+  <block id="c9901681b19037cfe4d776eb572a7a6b" category="paragraph">您可以使用 Cloud Manager API 为适用于 ONTAP 的 FSX 创建 iSCSI 卷，并在您的工作环境中对其进行管理。</block>
+  <block id="1b06c7a9314e682b34302ac90d6d6650" category="section-title">创建卷时选择卷单元</block>
+  <block id="155385bf6757f064143eb321fbfd3bff" category="inline-link-macro">创建卷时，请选择卷单位（ GiB 或 TiB ）</block>
+  <block id="bdc6d93b4370ea76238df491d9d141c4" category="paragraph">您可以 <block ref="88fc27d29fd6019ad989d255373b75d1" category="inline-link-macro-rx"></block> 在适用于 ONTAP 的 FSX 中。</block>
+  <block id="d1c47d8bf748c203ff983262e6c108cb" category="section-title">2021 年 10 月 4 日</block>
+  <block id="2ac9dc8f932fa4bebfc31724e388e13a" category="section-title">使用 Cloud Manager 创建 CIFS 卷</block>
+  <block id="901f92bd8486511c3943b59dd9b9f6a4" category="inline-link-macro">使用 Cloud Manager 在适用于 ONTAP 的 FSX 中创建 CIFS 卷</block>
+  <block id="8cb898147f5ef32e49709138a0ee48c6" category="paragraph">现在可以了 <block ref="98c695f1949c26a2dd10f3c98347e43b" category="inline-link-macro-rx"></block>。</block>
+  <block id="1664cbd7cbe0abbcd6d133e652cd42c1" category="section-title">使用 Cloud Manager 编辑卷</block>
+  <block id="7a6930a21ad40feae487321aef61a969" category="inline-link-macro">使用 Cloud Manager 编辑 ONTAP 卷的 FSX</block>
+  <block id="b233fccd6a0e80b0628c8b760f808f80" category="paragraph">现在可以了 <block ref="4f9c429b7c1519954500e41db7985c1c" category="inline-link-macro-rx"></block>。</block>
+  <block id="983a4e7f5913304ec713a249baf7be47" category="section-title">2022 年 3 月 3 日</block>
+  <block id="400480e0d45c783abec0a0fffbb005a6" category="section-title">现在，您可以构建一个模板来查找特定的工作环境</block>
+  <block id="6aa300e24ddf3ee5a99bbb1cf5bb4a72" category="inline-link">有关详细信息，请访问此处</block>
+  <block id="d92cd2c19989d78fa305aa796b16eb3e" category="paragraph">使用 " 查找现有资源 " 操作，您可以确定工作环境，然后使用其他模板操作（例如创建卷）轻松对现有工作环境执行操作。<block ref="9d92075da3fbaa4669bd5d845665bbc5" category="inline-link-rx"></block>。</block>
+  <block id="411448f8702bbfa858b0a2ba2ee94014" category="section-title">能够在 AWS 中创建 Cloud Volumes ONTAP HA 工作环境</block>
+  <block id="6eed6fdcaa0bf2c22f0c8e78ff686d29" category="inline-link">请参见如何为 Cloud Volumes ONTAP 工作环境创建模板</block>
+  <block id="9f1c9f721b531a16a189c619276f3969" category="paragraph">现有的 Cloud Volumes ONTAP AWS 工作环境创建支持范围已得到扩展，除了创建单节点系统之外，还可以创建高可用性系统。<block ref="35471ca8d19c78b8fa96525b636e5efc" category="inline-link-rx"></block>。</block>
+  <block id="17fc50243c5a80f407e83d268bcab18e" category="section-title">2022 年 2 月 9 日</block>
+  <block id="f1f7e50301c1e57e30e795fa8928ee8f" category="section-title">现在，您可以构建一个模板来查找特定的现有卷，然后启用 Cloud Backup</block>
+  <block id="98b343467576e58f6658965bc67f83c1" category="paragraph">使用新的 " 查找资源 " 操作，您可以确定要启用 Cloud Backup 的所有卷，然后使用 Cloud Backup 操作在这些卷上启用备份。</block>
+  <block id="8b4368f9c9aad8f44dd1b5ba1d4d746a" category="paragraph">目前支持 Cloud Volumes ONTAP 和内部 ONTAP 系统上的卷。<block ref="f7210026d1a7cf546c7270b9d8e104cc" category="inline-link-rx"></block>。</block>
+  <block id="70c889b200c3ef8dbb491ca542d1d091" category="section-title">现在，您可以标记同步关系，以便对其进行分组或分类，以便于访问</block>
+  <block id="049ebb609707e4c76f578eb98777ffdc" category="inline-link">了解有关资源标记的更多信息</block>
+  <block id="00b4c4979fe8d65dc663ea7c82a1b1c2" category="paragraph"><block ref="ddc85a18edb3f9e32810e603b7ef9eb7" category="inline-link-rx"></block>。</block>
+  <block id="ad806d4b803a5aa7358400786d14dec0" category="section-title">2022 年 4 月 4 日</block>
+  <block id="223fdeee6256cb135700ded14acc7574" category="section-title">适用于应用程序的 Cloud Backup 1.1.0 （由 SnapCenter 提供支持）现已正式上市</block>
+  <block id="1d62f7c162a37407056f64380ddd240c" category="paragraph">通过适用于应用程序的 Cloud Backup 新功能，您可以将适用于 Oracle 和 Microsoft SQL 的现有应用程序一致性快照（备份）从内部主存储卸载到 AWS S3 或 Azure Blob 中的云对象存储。</block>
+  <block id="1959411b4282df2234896496da39c42f" category="paragraph">如果需要，您可以将此数据从云还原到内部环境。</block>
+  <block id="9793a7606042d0fe65c3a7569fe10e8a" category="inline-link">了解有关保护内部应用程序数据到云的更多信息</block>
+  <block id="eda2e5118f80ed23863efd871fe97b1e" category="paragraph"><block ref="4c415cce11b2e607b8fde97291a59b9c" category="inline-link-rx"></block>。</block>
+  <block id="0749ae9ea79ee87dd8c530f67a9065fe" category="section-title">新的搜索和还原功能可在所有 ONTAP 备份文件中搜索卷或文件</block>
+  <block id="abad9ff4f9967065f50634a2a3606dd0" category="inline-link">了解如何使用搜索和放大；还原</block>
+  <block id="9a4fc48ebf3077bde35f83be2ee84cc8" category="paragraph">现在，您可以按部分或完整卷名称，部分或完整文件名称，大小范围以及其他搜索筛选器在 * 所有 ONTAP 备份文件 * 中搜索卷或文件。如果您不确定哪个集群或卷是数据源，这是一种很好的新方法来查找要还原的数据。<block ref="f28ab8501300af6839923f7181e075ab" category="inline-link-rx"></block>。</block>
+  <block id="afffc0d082245313c31dfcac23d2d8e0" category="section-title">能够将永久性卷从 GKEKubernetes 集群备份到 Google Cloud 存储</block>
+  <block id="387cd7ab52bc5fa4b28d5ab54360a48f" category="paragraph">如果您的 GKE 集群安装了 NetApp Astra Trident ，并且使用适用于 GCP 的 Cloud Volumes ONTAP 作为集群的后端存储，则可以将永久性卷备份到 Google Cloud 存储或从 Google Cloud 存储还原。<block ref="39d25c9214775db10710eba772faa6a0" category="inline-link-rx"></block>。</block>
+  <block id="536f48524e36a16593703c5d8d108b79" category="section-title">此版本已停止使用 Cloud Data sense 扫描 Cloud Backup 文件的测试版功能</block>
+  <block id="f49fe4c56999dcc895c26b71ec63e34f" category="section-title">2022 年 2 月 14 日</block>
+  <block id="57ccb73ee63efac047dc0eeebb63f5a1" category="section-title">现在，您可以将备份策略分配给单个集群中的各个卷</block>
+  <block id="963d2836c97952a191ac974f0e9b5e67" category="inline-link">请参见如何为集群创建新的备份策略并将其分配给选定卷</block>
+  <block id="6daa5dbfb500796628c3b61f2dad3df6" category="paragraph">过去，您只能为集群中的所有卷分配一个备份策略。现在，您可以为一个集群创建多个备份策略，并将不同的策略应用于不同的卷。<block ref="8b5e26e66ac1e76130ecacb1139755bd" category="inline-link-rx"></block>。</block>
+  <block id="81bbbb41117b46d39dbcf4b7db2f1e38" category="section-title">通过一个新选项，您可以自动将默认备份策略应用于新创建的卷</block>
+  <block id="e239caf739c8a0f59aa2ff963f94dcd3" category="paragraph">过去，激活 Cloud Backup 后在工作环境中创建的新卷要求您手动应用备份策略。现在，无论卷是在 Cloud Manager ， System Manager ， CLI 中创建的，还是使用 API 创建的， Cloud Backup 都将发现卷并应用您选择作为默认策略的备份策略。</block>
+  <block id="b702b8a648700d54afccce0b8de7766a" category="paragraph">如果在新的工作环境中启用备份，或者从 _Manage Volumes_ 页面为现有工作环境启用备份，则可以使用此选项。</block>
+  <block id="739f8a5ac1453fdcd33ce781cd333914" category="section-title">新的作业监控器可用于查看所有备份和还原作业的正在处理状态</block>
+  <block id="7a99d9487fc9540fa7bee7c2eb717413" category="inline-link">请参见如何使用作业监控器</block>
+  <block id="3c51dbbafedd7bc1b145a88fc5e7e77e" category="paragraph">如果您对多个卷启动了操作，例如更改备份策略或删除备份，则作业监控器会非常有用，这样您可以查看操作何时在所有卷上完成。<block ref="9521382be7155a87eb6763729a99c134" category="inline-link-rx"></block>。</block>
+  <block id="c76a3316ed2cb0284c0ef1b126e8b3ff" category="section-title">2022 年 4 月 5 日</block>
+  <block id="e661d5c04d5948d390d622ba88bdcc6b" category="section-title">Data sense 可以识别四种新类型的澳大利亚个人数据</block>
+  <block id="8900e436e6a12ce71aa703bf1c8be02c" category="inline-link">查看 Data sense 可以在您的数据中识别的所有类型的个人数据</block>
+  <block id="2cce25ab977b0dbc152674f93a9dcd6e" category="paragraph">Data sense 可以识别包含澳大利亚 TFN （税务文件编号），澳大利亚驾驶执照编号，澳大利亚医疗保健服务编号和澳大利亚护照编号的文件并对其进行分类。<block ref="b4ce36808fde13e40836bb7d14af31c6" category="inline-link-rx"></block>。</block>
+  <block id="0387123627dfe002c7435c0101983f19" category="section-title">现在，全局 Active Directory 服务器可以是 LDAP 服务器</block>
+  <block id="b31480db3c4a98f4500e2a55a1aebc8b" category="paragraph">与 Data sense 集成的全局 Active Directory 服务器现在可以是 LDAP 服务器，而不是以前支持的 DNS 服务器。<block ref="f17adadb9807d1263647d20e03bc2613" category="inline-link-rx"></block>。</block>
+  <block id="f670023c78e0e3dbeb691779659d5049" category="section-title">2022 年 3 月 15 日</block>
+  <block id="6c0e8ed69caed245f57b7b8ac8246fff" category="section-title">新筛选器可显示特定用户或组具有读取或写入权限的文件</block>
+  <block id="fe920a28be2287e9ad7ef2d02458c36f" category="paragraph">添加了一个名为 " 用户 / 组权限 " 的新筛选器，您可以列出特定用户或组具有读取和 / 或写入权限的文件。您可以指定用户名或组名称，也可以指定部分名称。此功能适用于 Cloud Volumes ONTAP ，内部 ONTAP ， Azure NetApp Files ，适用于 ONTAP 的 Amazon FSx 和文件共享上的卷。</block>
+  <block id="6bcf3eec310c41993f38eea54e01a446" category="section-title">Data sense 可以确定 SharePoint 和 OneDrive 帐户中文件的权限</block>
+  <block id="c23f592529f8db7551eafe3830b6427a" category="paragraph">Data sense 现在可以读取 OneDrive 帐户和 SharePoint 帐户中正在扫描的文件的权限。此信息显示在 " 调查 " 窗格中的文件详细信息以及 " 监管信息板 " 中的 " 打开权限 " 区域中。</block>
+  <block id="6f7f4b2d525b7b8ad22c1d283e4b195e" category="section-title">Data sense 还可以识别另外两种类型的个人数据</block>
+  <block id="d431283363f0e868742391138a4ffbd0" category="list-text">法语 INSEE — INSEE 代码是法国国家统计和经济研究所（ INSEE ）用来标识各种实体的数字代码。</block>
+  <block id="7457180e95a424d146842587474ec483" category="list-text">密码—此信息通过查找字母数字字符串旁边的 "password" 一词的组合来使用接近验证来标识。找到的项目数将在合规性信息板的 " 个人结果 " 下列出。您可以使用筛选器 * 个人数据 &gt; 密码 * 在调查窗格中搜索包含密码的文件。</block>
+  <block id="7d48333086004a7939c29f033e1bfad5" category="section-title">支持在非公开站点中部署时扫描 OneDrive 和 SharePoint 数据</block>
+  <block id="5d1023de4743a538d723b0eea67b9c49" category="inline-link">您需要允许访问以下端点。</block>
+  <block id="db6cb8c8f4488e129ed6809bb11b1ac6" category="paragraph">如果您已在无法访问 Internet 的内部站点中的主机上部署 Cloud Data sense ，则现在可以从 OneDrive 帐户或 SharePoint 帐户扫描本地数据。<block ref="f6e82e062f347b1008c89c76ae485574" category="inline-link-rx"></block></block>
+  <block id="5b7066a8679e57ba1c6e16c4237fb674" category="section-title">增加了对扫描 Microsoft SharePoint 联机帐户的支持</block>
+  <block id="0d7a2e2094cbd9f065543ad864c58f56" category="inline-link">了解如何扫描 SharePoint 帐户</block>
+  <block id="592c8c1b273df763193797348c862319" category="paragraph">现在，您可以将 SharePoint 联机帐户添加到 Data sense 中，以便扫描 SharePoint 站点中的文档和文件。<block ref="fb0503eda5504503140f919428a17c9c" category="inline-link-rx"></block>。</block>
+  <block id="b8977b26a070b5eca7e5cfd90f128004" category="section-title">Data sense 可以将文件从数据源复制到目标位置，并同步这些文件</block>
+  <block id="dc188738e6cc2e9f8314e1b95f18ebfd" category="inline-link">NetApp Cloud Sync</block>
+  <block id="f72dc999895eb17e77093f9ecff4180c" category="paragraph">如果您要迁移数据，并且希望捕获最近对文件所做的任何更改，则此功能非常有用。此操作将使用<block ref="a370f691ddfd2ad7b716b2db4ad021a1" category="inline-link-rx"></block> 用于将数据从源复制并同步到目标的功能。</block>
+  <block id="48a274f4830d58bf94182b778830c862" category="inline-link">请参见如何复制和同步文件</block>
+  <block id="660cff517370f72d72102d4ff2998c40" category="paragraph"><block ref="c0e6847180e8e936303f149ed2e169b8" category="inline-link-rx"></block>。</block>
+  <block id="622db54d0a7d9c01c841d932e3988937" category="section-title">为 DAR 报告提供了新的语言支持</block>
+  <block id="b7be70b4ae08b5c8540e95fbe14dcfa6" category="paragraph">现在，在搜索数据主体名称以创建数据主体访问请求（ Data Subject Access Request ， DSAar ）报告时，支持德语和西班牙语。本报告旨在帮助贵组织满足 GDPR 或类似数据隐私法律的要求。</block>
+  <block id="8cdccfd2e3c1390208fa5892348c4108" category="section-title">Data sense 可识别另外三种类型的个人数据</block>
+  <block id="da848e916ac29d03235a007036cf77ca" category="inline-link">查看 Data sense 在扫描中标识的所有个人数据类型的列表</block>
+  <block id="0f774c5b2a7839e95c43788f441f3dd3" category="paragraph">Data sense 现在可以在文件中找到法语社会安全号码，法语 ID 和法语驱动程序许可证号码。<block ref="388ce18cfcb7cb3d159655ecca4c4330" category="inline-link-rx"></block>。</block>
+  <block id="2da79a92d5bb1f1f77ab993c07c12703" category="section-title">已更改安全组端口，以便与连接器进行数据感知通信</block>
+  <block id="2e38fe6622e02d0346ffbd31c4347739" category="paragraph">Cloud Manager Connector 的安全组将使用端口 443 而非端口 80 来处理传入和传出 Data sense 实例的入站和出站流量，以提高安全性。此时，这两个端口都保持打开状态，因此您不应看到任何问题，但您应在任何早期的 Connector 部署中更新安全组，因为端口 80 将在未来版本中弃用。</block>
+  <block id="5e16db4c47abe8cb1c5bd746df2fd94a" category="section-title">2022 年 4 月 3 日</block>
+  <block id="33c34b75ae4154295ed3cdeeccb3fd6a" category="section-title">数据代理组增强功能</block>
+  <block id="9e85c5ace2120c3600ae07824bd6d1a9" category="paragraph">我们对数据代理组进行了多项增强：</block>
+  <block id="d1dcf627a81e370076956675cf99d2b9" category="list-text">现在，您可以将数据代理移动到新的或现有的组。</block>
+  <block id="1a89df8c409f135e6e7efd8c0600dba6" category="list-text">现在，您可以更新数据代理的代理配置。</block>
+  <block id="71dba184b83141e962cb89e88563baf3" category="list-text">最后，您还可以删除数据代理组。</block>
+  <block id="fe914f8d9b65e6214843cbd5f42cddc8" category="inline-link">了解如何管理数据代理组</block>
+  <block id="ced18d468e2bb63d56f45d8b16575d02" category="paragraph"><block ref="f6641f935ea9b46efe2ca72364b0bc1e" category="inline-link-rx"></block>。</block>
+  <block id="16f353b4ac76ea7e1a66509c3863e0f9" category="section-title">信息板筛选器</block>
+  <block id="c81f80b5e3a2c8dfe8c2f908cbbfc2fa" category="paragraph">现在，您可以筛选 " 同步信息板 " 的内容，以便更轻松地查找与特定状态匹配的同步关系。例如，您可以筛选状态为失败的同步关系</block>
+  <block id="ab31e38babe6f59fc89d1a7f8d3ea2c9" category="inline-image-macro">显示信息板顶部按同步筛选状态选项的屏幕截图。</block>
+  <block id="9a086a6121a0ffa4e8986b7ce540eece" category="paragraph"><block ref="9a086a6121a0ffa4e8986b7ce540eece" category="inline-image-macro-rx" type="image"></block></block>
+  <block id="d8247e494d1e03bac9b29cc7ea4c0eca" category="section-title">在信息板中排序</block>
+  <block id="32ee2f2004d5d2f19f46a8909b1df5a6" category="paragraph">现在，您可以按同步关系名称对信息板进行排序。</block>
+  <block id="c964823b8160043978055759ce39dd87" category="inline-image-macro">显示信息板中提供的按名称排序选项的屏幕截图。</block>
+  <block id="ce7541e1d7efdf7278fdc4d1fc9736b1" category="paragraph"><block ref="ce7541e1d7efdf7278fdc4d1fc9736b1" category="inline-image-macro-rx" type="image"></block></block>
+  <block id="aabbe3d8eb6db922cc7867bbc1068867" category="section-title">增强了 Data sense 集成功能</block>
+  <block id="2931385a1afec19638d47ebab7744410" category="paragraph">在上一版本中，我们引入了 Cloud Sync 与 Cloud Data sense 的集成。在此更新中，我们简化了创建同步关系的过程，从而增强了集成能力。从 Cloud Data sense 启动数据同步后，所有源信息都包含在一个步骤中，只需输入几个关键详细信息即可。</block>
+  <block id="f3b62c43bc969f6b5b30d96b8171a06d" category="inline-image-macro">一个屏幕截图，显示直接从 Cloud Data sense 启动新同步后显示的 "Data sense Integration" 页面。</block>
+  <block id="b7415479c879eb3f5804ebd25ea733e7" category="paragraph"><block ref="b7415479c879eb3f5804ebd25ea733e7" category="inline-image-macro-rx" type="image"></block></block>
+  <block id="5c46bd67ae4b5c23f9c243b5f396c088" category="section-title">2022 年 2 月 6 日</block>
+  <block id="b173d47e232436d0170127aec6c62d25" category="section-title">数据代理组的增强功能</block>
+  <block id="2362e2192964b2a1132ee3c33127e6ec" category="paragraph">我们通过强调数据代理 _groups_来 改变您与数据代理的交互方式。</block>
+  <block id="009030a7e855d0f36e42bdac812520b4" category="paragraph">例如，在创建新的同步关系时，您可以选择要用于该关系的数据代理 _group_ ，而不是特定的数据代理。</block>
+  <block id="435847457b00dd1f91120adf3d0e24aa" category="inline-image-macro">Sync Relationship 向导的屏幕截图，其中显示了数据代理组选择。</block>
+  <block id="1010f6ebb8a63e17d664e622c2299691" category="paragraph"><block ref="1010f6ebb8a63e17d664e622c2299691" category="inline-image-macro-rx" type="image"></block></block>
+  <block id="9eb0238485945ad5d6512b69445e72c6" category="paragraph">在 * 管理数据代理 * 选项卡中，我们还会显示数据代理组正在管理的同步关系的数量。</block>
+  <block id="4f1d2e29d6b816360bccc567294cac53" category="inline-image-macro">" 管理数据代理 " 页面的屏幕截图，其中显示了数据代理组以及有关该组的详细信息，包括其管理的关系数。</block>
+  <block id="b5012dcabc22fc10384141ed3b715897" category="paragraph"><block ref="b5012dcabc22fc10384141ed3b715897" category="inline-image-macro-rx" type="image"></block></block>
+  <block id="81a424c5c67f920d35d770215956f31f" category="section-title">下载 PDF 报告</block>
+  <block id="983eab96e054cfaaef2e1cc070a5ac0d" category="paragraph">现在，您可以下载报告的 PDF 。</block>
+  <block id="b8573b8d6cb0195fa946927c3aa36397" category="inline-link">了解有关报告的更多信息</block>
+  <block id="913d3279d6ca39c6bd290fac85314961" category="paragraph"><block ref="9ba5aa88e2b271505b32ed12efb1883e" category="inline-link-rx"></block>。</block>
+  <block id="6cb8333618f00b139da255e7f5a82ea0" category="section-title">Amazon S3 Glacier 即时检索存储类现已推出</block>
+  <block id="073223fc83a8b7f1f274f1af1f635f2f" category="paragraph">设置 Cloud Tiering 时，现在您可以配置生命周期规则，以便在一定天数后将非活动数据从 _Standard_ 存储类过渡到 _Glacier 即时检索 _ 。这将有助于降低 AWS 基础架构成本。</block>
+  <block id="199090bb5d58df554b18a5cb68acb0b7" category="section-title">Cloud Tiering 已完全符合 ONTAP Select 系统的要求</block>
+  <block id="a74220a8acc78d1041352afb305af18f" category="paragraph">除了对 AFF 和 FAS 系统中的数据进行分层之外，现在您还可以将 ONTAP Select 系统中的非活动数据分层到云存储。</block>
+  <block id="d798cbf5a08fbeb9fdd3652e5b00bb4c" category="section-title">2021 年 9 月 2 日</block>
+  <block id="99c3c55ceb085b94e53d8b7984863037" category="section-title">Cloud Tiering BYOL 许可证取代了 FabricPool 许可证</block>
+  <block id="2817937e51c403b4b9929eaa298b82dd" category="paragraph">对于使用 Cloud Tiering 服务的 Cloud Manager 中支持的分层配置，现在提供了一个新的 * 云分层 * 许可证。这是一个浮动许可证，您可以跨多个内部 ONTAP 集群使用。您过去可能使用的 * FabricPool * 许可证仅适用于 不支持的配置。</block>
+  <block id="54b8200ba1ce85a7ad931e091de0ed98" category="inline-link">了解有关全新 Cloud Tiering 许可证的更多信息</block>
+  <block id="34a4923a0f84a1bc223389cfed6e2b62" category="paragraph"><block ref="3054f156a0693c67de0611c0445f676e" category="inline-link-rx"></block>。</block>
+  <block id="24263383a842093a8c2b6b9b8a88989d" category="section-title">将内部 ONTAP 集群中的非活动数据分层到与 S3 兼容的对象存储</block>
+  <block id="59e10c49329cd1a0a55e4a0d27f6a584" category="inline-link">请参见如何将数据分层到与 S3 兼容的对象存储</block>
+  <block id="df94b79ab63138be1c03382ae20c338d" category="paragraph">现在，您可以将非活动数据分层到使用简单存储服务（ Simple Storage Service ， S3 ）协议的任何对象存储服务。<block ref="26932bf166134e05b1ade0d7ecb1b6d8" category="inline-link-rx"></block>。</block>
+  <block id="916678dfdf53de83f6afdf8fca563fb3" category="section-title">2021 年 7 月 7 日</block>
+  <block id="154176674c0672732a91f2bd7ca5d8e0" category="section-title">将数据分层到 Azure Blob 存储时， Connector 可以在内部运行</block>
+  <block id="def40345e2d3c9101a49141b1956c58d" category="paragraph">您不再需要使用 Azure vNet 中安装的 Connector 。将数据分层到 Azure Blob 存储时，您的 Connector 可以在内部的主机上运行。</block>
+  <block id="0f132f66e81cbab588044405a33dc058" category="section-title">为 WORM 存储充电</block>
+  <block id="d87a373c29bad4362e9f6515cb3a6927" category="paragraph">现在，首发特惠价已过期，您将需要为使用 WORM 存储付费。根据 WORM 卷的总配置容量，每小时进行一次充电。此适用场景 新的和现有的 Cloud Volumes ONTAP 系统。</block>
+  <block id="10142c9d88b9419ee393574e858e86c8" category="inline-link">了解 WORM 存储的定价</block>
+  <block id="074dbf8cc93ccd34e86e3e2e8f2a1e3a" category="paragraph"><block ref="38aefad2ca205e663da97b7fdd932dcf" category="inline-link-rx"></block>。</block>
+  <block id="32215461c426d2e6cd125109ca715d8f" category="section-title">2022 年 2 月 27 日（连接器 3.9.16 ）</block>
+  <block id="06a685f653628719e2e70fedf9b250a9" category="section-title">重新设计的卷向导</block>
+  <block id="dd787088b52e69b3d8bf590e16c8413c" category="paragraph">现在，在通过 * 高级分配 * 选项在特定聚合上创建卷时，可以使用我们最近推出的创建新卷向导。</block>
+  <block id="c4abca012bce01614c5a65c5b0e6ecd6" category="inline-link">了解如何在特定聚合上创建卷</block>
+  <block id="1c6f86b67d4150db2b816bc084d4c069" category="paragraph"><block ref="525dd47105081fbda31ba7a2793ca879" category="inline-link-rx"></block>。</block>
+  <block id="b1894f3de88322c422613dce3ce8f4cd" category="section-title">市场更新</block>
+  <block id="376dea476fe87cb9b0aae288d191c1cc" category="list-text">现在， AWS 和 Google Cloud MarketPlaces 中提供了 Essentials 软件包和 Professional 软件包。</block>
+  <block id="8b5bbca61d06a4ab0106010904673191" category="paragraph">通过这些按容量付费方法，您可以按小时付费，也可以直接从云提供商购买年度合同。您仍然可以选择直接从 NetApp 购买按容量许可证。</block>
+  <block id="110339077b8549e028924c27d4eee889" category="paragraph">如果您已在云市场订阅，则也会自动订阅这些新产品。在部署新的 Cloud Volumes ONTAP 工作环境时，您可以选择按容量收费。</block>
+  <block id="941041b0490626a7d2a15321ebfea99b" category="paragraph">如果您是新客户， Cloud Manager 将在您创建新的工作环境时提示您订阅。</block>
+  <block id="0395ddea3013558664b640709c4005e0" category="list-text">已弃用通过 AWS 和 Google Cloud MarketPlaces 进行的节点间许可，新订阅者将无法再使用此许可。其中包括年度合同和每小时订阅（ Explore ， Standard 和 Premium ）。</block>
+  <block id="b353203eeb0af0c192ef9706121d7227" category="paragraph">现有订阅有效的客户仍可使用此收费方法。</block>
+  <block id="ad66e158a2e414eee17bb2c5185f011a" category="inline-link">详细了解 Cloud Volumes ONTAP 的许可选项</block>
+  <block id="41fe6a9591d04d2b5dc40ba59fd15df9" category="paragraph"><block ref="e22d1e33878d70a72f20edc19056d016" category="inline-link-rx"></block>。</block>
+  <block id="a633f0835832cc75f5a83248a8aa2ba8" category="section-title">2020 年 9 月 9 日</block>
+  <block id="8751230100c974b7c3ae5adae22c0f7c" category="section-title">支持适用于 Google Cloud 的 Cloud Volumes Service</block>
+  <block id="9e376b2341c224a05e31bf464f6a9a2c" category="paragraph">现在，您可以直接从 Cloud Manager 管理适用于 Google Cloud 的 Cloud Volumes Service ：</block>
+  <block id="69a622f3bb660c4a470d3d96f19e20be" category="list-text">设置和创建工作环境</block>
+  <block id="bd596d5c57d76a146d26208cd81913fb" category="list-text">为 Linux 和 UNIX 客户端创建和管理 NFSv3 和 NFSv4.1 卷</block>
+  <block id="104e3ba4c577e4723ae2db3aaab91044" category="list-text">为 Windows 客户端创建和管理 SMB 3.x 卷</block>
+  <block id="f3f6d908876888ed386cf496a0f26e7c" category="list-text">创建，删除和还原卷快照</block>
+  <block id="7ee45649520b61796809750e472a8000" category="section-title">2020 年 12 月 7 日</block>
+  <block id="9dc245f64def9d62941e9ee3f4af4adb" category="section-title">在 Cloud Manager 和 Spot 之间导航</block>
+  <block id="429b7972d23af5e411304108791f1c6c" category="paragraph">现在，您可以更轻松地在 Cloud Manager 和 Spot 之间导航。</block>
+  <block id="6673d1ba63d3b88416bb57a52f24edaf" category="paragraph">通过 Spot 中的一个新的 * 存储操作 * 部分，您可以直接导航到 Cloud Manager 。完成后，您可以从 Cloud Manager 中的 * 计算 * 选项卡返回到 Spot 。</block>
+  <block id="3d54f0f13a2b982305cfb676b5efc25c" category="section-title">2020 年 10 月 18 日</block>
+  <block id="776903deac41433ca593263c8812b21c" category="section-title">计算服务简介</block>
+  <block id="8ecc68a9339de03fc0f6e65490a53645" category="inline-link">Spot 的 Cloud Analyzer</block>
+  <block id="94bdad82453d71da22fcd69f47559c1c" category="paragraph">利用<block ref="f6403c1f0596662bb11f11c4ddde243f" category="inline-link-rx"></block>， Cloud Manager 现在可以对您的云计算支出进行高级别的成本分析，并确定潜在的节省量。此信息可从 Cloud Manager 中的 * 计算 * 服务获得。</block>
+  <block id="0947726e3c301f45f25d6d4b3295fcec" category="inline-link">了解有关计算服务的更多信息</block>
+  <block id="b70ff2217d4c493d72369bc7013d42a1" category="paragraph"><block ref="0d930208c139fddb05408afa8bb5cf71" category="inline-link-rx"></block>。</block>
+  <block id="6ae18045fc1ab0bf7898b13f3ef31c9a" category="inline-image-macro">显示 Cloud Manager 中 " 成本分析 " 页面的屏幕截图。</block>
+  <block id="dfe5d33062cb5ad4c4036bb7e93ff63e" category="paragraph"><block ref="dfe5d33062cb5ad4c4036bb7e93ff63e" category="inline-image-macro-rx" type="image"></block></block>
+  <block id="df62d5ca9c29346bfeb41f9581ecdf5b" category="section-title">2021 年 12 月 17 日（版本 1.2.0 ）</block>
+  <block id="cd25d0dea9ddd72c58145908f9602867" category="section-title">OpenSSL 模块已升级到 1.1.1l 版。</block>
+  <block id="9d15f44f2f441c9fbcdc28d40b323389" category="paragraph">这是最新版本，更安全。此模块用于在 GFC Edge 和 GFC 核心之间进行安全通信。</block>
+  <block id="c49811e0cecf194341b2ae059236dc2a" category="section-title">日志记录基础架构已得到增强。</block>
+  <block id="4d18c7d8762e789debac221e79dece82" category="section-title">2021 年 6 月 9 日（版本 1.1.0 ）</block>
+  <block id="77e6f4e52a856772d2e09ae19855212a" category="section-title">已添加 " 边缘同步 " 功能。</block>
+  <block id="15b783a23e5291e1ffb9f638317d4bcb" category="inline-link">《 NetApp 全局文件缓存用户指南》</block>
+  <block id="850383dab52cb38649682d2f7d66f04f" category="paragraph">此功能可使远程办公室的多个边缘保持同步，并且数据始终处于缓存 / 预热状态。在一个 Edge 上刷新 / 提取文件时，将更新和缓存参与 Edge Sync 的所有边缘上的同一文件。请参见中的第 8.4 节<block ref="0f1e08336ba0ac25d056248c22c33aaf" category="inline-link-rx"></block> 了解详细信息。</block>
+  <block id="8703dd42c4c647846ef556f4d8459d59" category="section-title">OpenSSL 模块已升级到 1.1.1k 版。</block>
+  <block id="513502857f15915e7acef1b7916eda1b" category="section-title">已更新许可证注册页面。</block>
+  <block id="9993afe041a131f763bfa71520f8d27d" category="paragraph">现在， GFC 许可证注册页面将显示通过 NetApp 订阅激活的许可证数量。</block>
+  <block id="5be3d95052c37ddc7c5e08fede5b7beb" category="section-title">2021 年 3 月 21 日（ 1.0.3 版）</block>
+  <block id="d701539c3bff162de55bec2ac786dea9" category="section-title">软件安装程序会更新，以自动从 Windows Defender 中排除 GFC 进程。</block>
+  <block id="2c7e576e2b46004ee7c7f2138e6b71e2" category="paragraph">现在，全局文件缓存软件安装程序会将所有 GFC 进程排除在 Windows Defender 软件按需扫描之外。</block>
+  <block id="718c867d7cc0d5ae654df61aed5134dd" category="section-title">已向配置控制台添加一个新的策略配置选项卡。</block>
+  <block id="85630a0f5573b7e43d043882435503c0" category="paragraph">通过此配置选项卡，您可以从 GFC 核心添加预填充作业。</block>
+  <block id="23f584e2a92da05ee5a990cefc20a926" category="section-title">增强了软件功能，可减少内存使用量，同时提高性能和稳定性。</block>
+  <block id="ecee73066145d2e6f1b75b79d2af7514" category="section-title">使用 Cloud Manager 资源页面管理 Kubernetes 集群</block>
+  <block id="06ad314b340900d226b1196e1fe289e9" category="inline-link-macro">快速入门</block>
+  <block id="a84f0102d02caeeb1c0e554f032c6e35" category="paragraph">现在， Kubernetes 集群管理已增强了直接与集群工作环境的集成。新的 <block ref="a7ce12c998c9439767584776d325ea5b" category="inline-link-macro-rx"></block> 让您快速启动和运行。</block>
+  <block id="4e9fabf2f81510967e324cfc9c54b640" category="paragraph">现在，您可以从集群资源页面执行以下操作。</block>
+  <block id="f1fe71442cd08e74d342114df7ee1551" category="inline-link-macro">安装 Astra Trident</block>
+  <block id="b4940c8b54941154dff3675bb279c96f" category="list-text"><block ref="b4940c8b54941154dff3675bb279c96f" category="inline-link-macro-rx"></block></block>
+  <block id="fd0987c679e587c89c7d5551c641f09e" category="inline-link-macro">添加存储类</block>
+  <block id="be2f7669a1d3d4dec877a85297de18ec" category="list-text"><block ref="be2f7669a1d3d4dec877a85297de18ec" category="inline-link-macro-rx"></block></block>
+  <block id="260adbf21b473e18ea0788235c9512b8" category="inline-link-macro">查看永久性卷</block>
+  <block id="6a38c17b4adfb6fade3691d6bab9976a" category="list-text"><block ref="6a38c17b4adfb6fade3691d6bab9976a" category="inline-link-macro-rx"></block></block>
+  <block id="f253fdd547a6f5e0e05bbdb671ae8b24" category="inline-link-macro">删除集群</block>
+  <block id="aa7542e939f8e623254af69a1fcd8e2b" category="list-text"><block ref="aa7542e939f8e623254af69a1fcd8e2b" category="inline-link-macro-rx"></block></block>
+  <block id="41e3782291be693bb1f948094d98229d" category="inline-link-macro">启用数据服务</block>
+  <block id="6d6f9b61b474cb16598eda49f24d6452" category="list-text"><block ref="6d6f9b61b474cb16598eda49f24d6452" category="inline-link-macro-rx"></block></block>
+  <block id="572154af04ccf23551e78649302c6f7b" category="section-title">支持 Google Cloud 中的 Kubernetes 集群</block>
+  <block id="45cbe8fd766702dd0ad0022cbde336ce" category="paragraph">现在，您可以使用 Cloud Manager 在 Google Cloud 中添加和管理受管 Google Kubernetes Engine （ GKEE ）集群和自管 Kubernetes 集群。</block>
+  <block id="f1b377c7d4b75112665bc3e7ee7c340b" category="inline-link-macro">了解如何在 Google Cloud 中开始使用 Kubernetes 集群</block>
+  <block id="6fcf7676e8aae6ddc7b3f104efce8aab" category="paragraph"><block ref="5416dc5374fce9a230fcbd66732d82fb" category="inline-link-macro-rx"></block>。</block>
+  <block id="ef1bf4095b622ba80ac24b48b8e45eac" category="section-title">2022 年 1 月 11 日</block>
+  <block id="a654243ef958097102b375693f5579bb" category="section-title">支持 Azure 中的 Kubernetes 集群</block>
+  <block id="8856f1df28666fb615f0de120179dd80" category="paragraph">现在，您可以使用 Cloud Manager 在 Azure 中添加和管理受管 Azure Kubernetes 集群（ AKS ）和自管 Kubernetes 集群。</block>
+  <block id="8e2d16714747b48d3d5d0993c14ca91c" category="inline-link-macro">开始在 Azure 中使用 Kubernetes 集群</block>
+  <block id="7f3fba83864e800e754c057187c91c9a" category="paragraph"><block ref="7f3fba83864e800e754c057187c91c9a" category="inline-link-macro-rx"></block></block>
+  <block id="9e27c4a53794e4f6cfc9949de58e5091" category="section-title">2021 年 8 月 1 日</block>
+  <block id="f9564bccd9f6164dfb5486c5fe5ff233" category="section-title">更改为采集单元名称</block>
+  <block id="6894648546fd35a9ed4c63e020255bbb" category="paragraph">我们将采集单元实例的默认名称更改为 CloudInsights AU-_UUID_ ，以便此名称更具描述性（ UUID 是生成的哈希）。</block>
+  <block id="3ee7977b62b54344390843236b7b7fbe" category="paragraph">当您在 Cloud Volumes ONTAP 工作环境中启用监控服务时， Cloud Manager 会部署此实例。</block>
+  <block id="5057fdb214d9f3773bc386ba2aa1fcb0" category="section-title">2021 年 5 月 5 日</block>
+  <block id="e192d178d731a26f369fc9ded8b836ed" category="section-title">支持现有租户</block>
+  <block id="10df6526a8d972614ac33d019e498209" category="paragraph">现在，您可以在 Cloud Volumes ONTAP 工作环境中启用监控服务，即使您已有 Cloud Insights 租户也是如此。</block>
+  <block id="261bb9c11863cc45e7b0056b34cabf2c" category="section-title">免费试用过渡</block>
+  <block id="4f407ad617aec7f56138e7f5dcb581be" category="inline-link">基本版本</block>
+  <block id="1cb2499c8013bb0ab523a856eeaa4c6f" category="paragraph">启用监控服务后， Cloud Manager 将免费试用 Cloud Insights 。在第 29 天，您的计划将自动从试用版过渡到<block ref="34a93ad61035abe9ad6e17d10c04ea84" category="inline-link-rx"></block>。</block>
+  <block id="d42fa6c698bffd937b50724aa035c2cb" category="section-title">2021 年 2 月 9 日</block>
+  <block id="049a56718afb4bc754cebf8a5567c3c8" category="section-title">支持 Azure</block>
+  <block id="0627ad1b1205310c0a00e6213dc9ee59" category="paragraph">现在，适用于 Azure 的 Cloud Volumes ONTAP 支持监控服务。</block>
+  <block id="308527077ec474b731b7715b5cd1deb2" category="section-title">在政府区域提供支持</block>
+  <block id="d90533b31d8a70a6866bd47c12676ca9" category="paragraph">AWS 和 Azure 的政府区域也支持监控服务。</block>
+  <block id="f25694bb9bc00e8fcfcc1a3c65dd482b" category="section-title">数字电子邮件中提供了一个 " 内部部署 ONTAP " 选项卡。</block>
+  <block id="d3f07c4c7baf0c60bc64c1cdc48732af" category="paragraph">现在，您可以查看内部 ONTAP 集群的清单及其硬件和服务合同到期日期。此外，我们还提供了有关这些集群的其他详细信息。</block>
+  <block id="184ca21b83c54a7ba12f9b1077ccb494" category="inline-link">请参见如何查看此重要的内部集群信息</block>
+  <block id="a70e816a0245e4c041fe696bc068fde8" category="paragraph"><block ref="cdf49294fa22fe97f3cd9774fbb3d925" category="inline-link-rx"></block>。您需要为集群创建一个 NetApp 支持站点帐户（ NSS ），并且需要将 NSS 凭据附加到您的 Cloud Manager 帐户。</block>
+  <block id="d69df284f21ccdf93082c4aaf0953b6d" category="section-title">您添加到内部 ONTAP 集群上的卷的标记可以与标记服务结合使用。</block>
+  <block id="3686b84bef4027bfe5a11fcf472d8662" category="paragraph">添加到卷的标记现在与应用程序模板服务的标记功能相关联，该功能有助于您组织和简化资源管理。</block>
+  <block id="f61163b681442ac500a8018c87241770" category="section-title">2021 年 11 月 28 日</block>
+  <block id="feea05ef76a2f6f2d444dfab436c31c4" category="section-title">已简化内部 ONTAP 集群的创建卷向导</block>
+  <block id="decff6be18712c90db61aad628609885" category="paragraph">我们重新设计了创建卷向导，以便于使用，现在您可以选择自定义导出策略。</block>
+  <block id="70ca849e4710f5c98451b61f2b47e5a8" category="section-title">用于跟踪业务关键型数据的权限状态的新面板</block>
+  <block id="5816bf17c72947dceb173c559c3f6009" category="paragraph">新的 " 业务关键型数据权限分析 " 面板显示了对您的业务至关重要的数据的权限状态。这样，您就可以快速评估业务关键型数据的保护情况。<block ref="20409d23480e4ebcd1abe3eb7cf44ef8" category="inline-link-rx"></block>。</block>
+  <block id="1029db4aa82b2fd39d624a6eda513d6c" category="section-title">现在， " 打开权限 " 区域包括 OneDrive 和 SharePoint 帐户</block>
+  <block id="52a3db95e0c303b6251e8f60de3b3f3d" category="paragraph">现在，勒索软件保护信息板中的 " 打开权限 " 区域包含对 OneDrive 帐户和 SharePoint 帐户中正在扫描的文件的现有权限。</block>
+  <block id="67ecb98d51fb7fee47f7f4c979becfa6" category="section-title">全新的勒索软件保护服务</block>
+  <block id="c05006d715a916b10a4f130817c81c90" category="paragraph">通过全新的勒索软件保护服务，您可以查看有关网络安全的相关信息，并评估数据对网络攻击的弹性。此外，它还会为您提供一系列警报和修复措施，帮助您提高数据的安全性。</block>
+  <block id="7e0c2cf881384db7bfcfb883b67871a5" category="inline-link">了解有关此新服务的更多信息</block>
+  <block id="f8f0d5b489ad504a83a9a25f8afd6159" category="paragraph"><block ref="64dfcbf1401a338253308f53837a8af7" category="inline-link-rx"></block>。</block>
+  <block id="6c88f9e17d9019e00177d64f9db55d2e" category="section-title">支持适用于 ONTAP 的 Amazon FSX</block>
+  <block id="59dfc17500b1e0b8d1824eb8b1413080" category="paragraph">现在，您可以将数据从 Cloud Volumes ONTAP 系统或内部 ONTAP 集群复制到适用于 ONTAP 的 Amazon FSX 文件系统。</block>
+  <block id="40f78d193b858589ad7df4dd4ce61ad6" category="inline-link">了解如何设置数据复制</block>
+  <block id="1e56755e05ec049b30c49b9d53744ca1" category="paragraph"><block ref="0337e364432fca0f343e5f2660661b77" category="inline-link-rx"></block>。</block>
+  <block id="1473f0729c8bea54a5077a19ab764c47" category="section-title">界面经过重新设计</block>
+  <block id="5a0a1bceb9fa4494f5bd231c6eb87a5b" category="paragraph">我们重新设计了 " 复制 " 选项卡，以便于使用，并与 Cloud Manager 用户界面的当前外观相匹配。</block>
+  <block id="0f9405518138d20fd96d78fe19dabf84" category="inline-image-macro">Cloud Manager 中重新设计的复制选项卡的屏幕截图，其中显示了卷关系列表。</block>
+  <block id="afd129f297b503a0e765f8dcc6f0d4d4" category="paragraph"><block ref="afd129f297b503a0e765f8dcc6f0d4d4" category="inline-image-macro-rx" type="image"></block></block>
+  <block id="5e057a1bffc9bad13fd5567d9b86dd0b" category="section-title">2021 年 12 月 21 日</block>
+  <block id="b59fdb8f9fe5a28d08cd50bf85b70880" category="section-title">Apache Log4j 漏洞的修复</block>
+  <block id="6b6f87c741f6734b4908d03d2c21e449" category="paragraph">SnapCenter 服务 1.0.1 将 Apache Log4j 从 2.9.1 版升级到 2.17 版，以解决以下漏洞： CVE-2021-44228 ， CVE-2021-4104 和 CVE-2021-45105 。</block>
+  <block id="ae1f9a5afbc7e02967d7f7e643135d82" category="paragraph">SnapCenter 服务集群应自动更新到最新版本。您应确保 SnapCenter 服务 UI 中的版本显示集群为 1.0.1.1251 或更高版本。</block>
 </blocks>

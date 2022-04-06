@@ -8,6 +8,7 @@ summary: 本发行说明介绍了 Cloud Manager 平台中的云服务的最新�
 = Cloud Manager 发行说明
 :toc: macro
 :hardbreaks:
+:allow-uri-read: 
 :toc: 
 :nofooter: 
 :icons: font
