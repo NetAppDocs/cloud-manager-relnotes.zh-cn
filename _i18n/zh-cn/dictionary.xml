@@ -255,10 +255,6 @@
   <block id="f1b377c7d4b75112665bc3e7ee7c340b" category="inline-link-macro">了解如何在 Google Cloud 中开始使用 Kubernetes 集群</block>
   <block id="6fcf7676e8aae6ddc7b3f104efce8aab" category="paragraph"><block ref="5416dc5374fce9a230fcbd66732d82fb" category="inline-link-macro-rx"></block>。</block>
   <block id="ef1bf4095b622ba80ac24b48b8e45eac" category="section-title">2022 年 1 月 11 日</block>
-  <block id="a654243ef958097102b375693f5579bb" category="section-title">支持 Azure 中的 Kubernetes 集群</block>
-  <block id="8856f1df28666fb615f0de120179dd80" category="paragraph">现在，您可以使用 Cloud Manager 在 Azure 中添加和管理受管 Azure Kubernetes 集群（ AKS ）和自管 Kubernetes 集群。</block>
-  <block id="8e2d16714747b48d3d5d0993c14ca91c" category="inline-link-macro">开始在 Azure 中使用 Kubernetes 集群</block>
-  <block id="7f3fba83864e800e754c057187c91c9a" category="paragraph"><block ref="7f3fba83864e800e754c057187c91c9a" category="inline-link-macro-rx"></block></block>
   <block id="9e27c4a53794e4f6cfc9949de58e5091" category="section-title">2021 年 8 月 1 日</block>
   <block id="f9564bccd9f6164dfb5486c5fe5ff233" category="section-title">更改为采集单元名称</block>
   <block id="6894648546fd35a9ed4c63e020255bbb" category="paragraph">我们将采集单元实例的默认名称更改为 CloudInsights AU-_UUID_ ，以便此名称更具描述性（ UUID 是生成的哈希）。</block>
@@ -402,4 +398,9 @@
   <block id="4675a948ea93098e22976c0848737e1a" category="paragraph">现在、可以与分层镜像配置(不包括MetroCluster 配置)中的集群以及分层到IBM云对象存储的集群共享云分层许可证。在这些情况下、您不再需要使用已弃用的FabricPool 许可证。这样可以更轻松地在更多集群上使用"浮动"云分层许可证。<block ref="4e8c6c7f1b8cf8bbca1bc62528b46ae2" category="inline-link-rx"></block></block>
   <block id="75ad6cd4979a906c67e27abc9ee1c14e" category="inline-link">请参见支持的S3存储类。</block>
   <block id="d3028cb26dae3dbde1ec068c17d15383" category="paragraph">设置 Cloud Tiering 时，现在您可以配置生命周期规则，以便在一定天数后将非活动数据从 _Standard_ 存储类过渡到 _Glacier 即时检索 _ 。这将有助于降低 AWS 基础架构成本。<block ref="99f36cc81f33df65a0349e719000fada" category="inline-link-rx"></block></block>
+  <block id="f03623a9e2b73dcb7ae9b7b837190c39" category="section-title">2022年5月8日</block>
+  <block id="6401d12bcac1f01899ab494a0a6d8edb" category="section-title">拖放以添加存储类</block>
+  <block id="0f808082ee99c2acfbcb1661162034f6" category="paragraph">现在、您可以将Kubernetes集群拖放到Cloud Volumes ONTAP 工作环境中、以便直接从Canvas添加存储类。</block>
+  <block id="d23895cd28f2e8e5d3074279cea7aacf" category="inline-link-macro">添加存储类</block>
+  <block id="2556925e0b340fdd647987c6af7fbee9" category="paragraph"><block ref="2556925e0b340fdd647987c6af7fbee9" category="inline-link-macro-rx"></block></block>
 </blocks>

@@ -767,6 +767,18 @@ image:https://raw.githubusercontent.com/NetAppDocs/cloud-manager-compute/main/me
 
 
 
+=== 2022年5月8日
+
+
+
+==== 拖放以添加存储类
+
+现在、您可以将Kubernetes集群拖放到Cloud Volumes ONTAP 工作环境中、以便直接从Canvas添加存储类。
+
+link:https://docs.netapp.com/us-en/cloud-manager-kubernetes/task/task-k8s-manage-storage-classes.html#add-storage-classes["添加存储类"]
+
+
+
 === 2022 年 4 月 4 日
 
 
@@ -795,18 +807,6 @@ image:https://raw.githubusercontent.com/NetAppDocs/cloud-manager-compute/main/me
 现在，您可以使用 Cloud Manager 在 Google Cloud 中添加和管理受管 Google Kubernetes Engine （ GKEE ）集群和自管 Kubernetes 集群。
 
 link:https://docs.netapp.com/us-en/cloud-manager-kubernetes/requirements/kubernetes-reqs-gke.html["了解如何在 Google Cloud 中开始使用 Kubernetes 集群"]。
-
-
-
-=== 2022 年 1 月 11 日
-
-
-
-==== 支持 Azure 中的 Kubernetes 集群
-
-现在，您可以使用 Cloud Manager 在 Azure 中添加和管理受管 Azure Kubernetes 集群（ AKS ）和自管 Kubernetes 集群。
-
-link:https://docs.netapp.com/us-en/cloud-manager-kubernetes/requirements/kubernetes-reqs-aks.html["开始在 Azure 中使用 Kubernetes 集群"]
 
 
 
