@@ -18,6 +18,9 @@ sidebar:
     url: "/whats-new.html"
   - title: 发行说明索引
     url: "/release-notes-index.html"
+product-family:
+  name: Cloud Manager
+  repo: cloud-manager-family
 homepage:
   tiles:
   - title: 新增功能
@@ -36,4 +39,3 @@ homepage:
       url: https://cloud.netapp.com/blog
     - title: 云网络研讨会
       url: https://cloud.netapp.com/events
-product-family: {}
