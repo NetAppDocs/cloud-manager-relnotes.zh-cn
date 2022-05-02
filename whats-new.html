@@ -485,7 +485,7 @@
 <p class="page-details">
   
     
-    <time datetime="2022-05-02 13:25:14 +0000">05/02/2022</time>
+    <time datetime="2022-05-02 15:02:33 +0000">05/02/2022</time>
     
   
 
@@ -525,9 +525,9 @@
 </li>
 <li><a href="#云备份">云备份</a>
 <ul class="sectlevel2">
+<li><a href="#2022年5月2日">2022年5月2日</a></li>
 <li><a href="#2022-年-4-月-4-日">2022 年 4 月 4 日</a></li>
 <li><a href="#2022-年-3-月-3-日-2">2022 年 3 月 3 日</a></li>
-<li><a href="#2022-年-2-月-14-日">2022 年 2 月 14 日</a></li>
 </ul>
 </li>
 <li><a href="#云数据感知">云数据感知</a>
@@ -848,6 +848,43 @@
 <h2 id="云备份">云备份</h2>
 <div class="sectionbody">
 <div class="sect2">
+<h3 id="2022年5月2日">2022年5月2日</h3>
+<div class="sect3">
+<h4 id="现在google-cloud-storage中的备份文件支持搜索和还原">现在、Google Cloud Storage中的备份文件支持搜索和还原</h4>
+<div class="paragraph">
+<p>4月份、在AWS中存储备份文件的用户开始使用"搜索和还原"方法来还原卷和文件。现在、将备份文件存储在Google Cloud Storage中的用户可以使用此功能。 <a href="https://docs.netapp.com/us-en/cloud-manager-backup-restore/task-restore-backups-ontap.html#prerequisites-2">"请参见如何使用搜索和放大器还原卷和文件"</a>。</p>
+</div>
+</div>
+<div class="sect3">
+<h4 id="配置要自动应用于kubernetes集群中新创建的卷的备份策略">配置要自动应用于Kubernetes集群中新创建的卷的备份策略</h4>
+<div class="paragraph">
+<p>如果您在激活Cloud Backup后向Kubernetes集群添加了新的永久性卷、则在过去、您需要记住为这些卷配置备份。现在、您可以选择将自动应用于新创建的卷的策略。在为新Kubernetes集群或激活Cloud Backup时、此选项在设置向导中可用 <a href="https://docs.netapp.com/us-en/cloud-manager-backup-restore/task-manage-backups-kubernetes.html#setting-a-backup-policy-to-be-assigned-to-new-volumes">"从_Backup Settings_页面"</a> 适用于已激活Cloud Backup的集群。</p>
+</div>
+</div>
+<div class="sect3">
+<h4 id="cloud-backup现在需要获得许可证才能在工作环境中激活">Cloud Backup现在需要获得许可证、才能在工作环境中激活</h4>
+<div class="paragraph">
+<p>在Cloud Backup中实施许可的方式方面、有一些变化：</p>
+</div>
+<div class="ulist">
+<ul>
+<li>
+<p>您必须先从云提供商处注册PAYGO Marketplace订阅、或者从NetApp购买BYOL许可证、然后才能激活Cloud Backup。</p>
+</li>
+<li>
+<p>30天免费试用版仅在使用云提供商提供的PAYGO订阅时可用、而在使用BYOL许可证时不可用。</p>
+</li>
+<li>
+<p>免费试用从Marketplace订阅开始的那一天开始。例如、如果在对Cloud Volumes ONTAP 系统使用Marketplace订阅30天之后激活免费试用、则Cloud Backup试用将不可用。</p>
+</li>
+</ul>
+</div>
+<div class="paragraph">
+<p><a href="https://docs.netapp.com/us-en/cloud-manager-backup-restore/task-licensing-cloud-backup.html">"详细了解可用的许可模式"</a>。</p>
+</div>
+</div>
+</div>
+<div class="sect2">
 <h3 id="2022-年-4-月-4-日">2022 年 4 月 4 日</h3>
 <div class="sect3">
 <h4 id="适用于应用程序的-cloud-backup-1-1-0-由-snapcenter-提供支持现已正式上市">适用于应用程序的 Cloud Backup 1.1.0 （由 SnapCenter 提供支持）现已正式上市</h4>
@@ -879,30 +916,6 @@
 <div class="sect3">
 <h4 id="此版本已停止使用-cloud-data-sense-扫描-cloud-backup-文件的测试版功能">此版本已停止使用 Cloud Data sense 扫描 Cloud Backup 文件的测试版功能</h4>
 
-</div>
-</div>
-<div class="sect2">
-<h3 id="2022-年-2-月-14-日">2022 年 2 月 14 日</h3>
-<div class="sect3">
-<h4 id="现在您可以将备份策略分配给单个集群中的各个卷">现在，您可以将备份策略分配给单个集群中的各个卷</h4>
-<div class="paragraph">
-<p>过去，您只能为集群中的所有卷分配一个备份策略。现在，您可以为一个集群创建多个备份策略，并将不同的策略应用于不同的卷。 <a href="https://docs.netapp.com/us-en/cloud-manager-backup-restore/task-manage-backups-ontap#changing-the-policy-assigned-to-existing-volumes">"请参见如何为集群创建新的备份策略并将其分配给选定卷"</a>。</p>
-</div>
-</div>
-<div class="sect3">
-<h4 id="通过一个新选项您可以自动将默认备份策略应用于新创建的卷">通过一个新选项，您可以自动将默认备份策略应用于新创建的卷</h4>
-<div class="paragraph">
-<p>过去，激活 Cloud Backup 后在工作环境中创建的新卷要求您手动应用备份策略。现在，无论卷是在 Cloud Manager ， System Manager ， CLI 中创建的，还是使用 API 创建的， Cloud Backup 都将发现卷并应用您选择作为默认策略的备份策略。</p>
-</div>
-<div class="paragraph">
-<p>如果在新的工作环境中启用备份，或者从 <em>Manage Volumes</em> 页面为现有工作环境启用备份，则可以使用此选项。</p>
-</div>
-</div>
-<div class="sect3">
-<h4 id="新的作业监控器可用于查看所有备份和还原作业的正在处理状态">新的作业监控器可用于查看所有备份和还原作业的正在处理状态</h4>
-<div class="paragraph">
-<p>如果您对多个卷启动了操作，例如更改备份策略或删除备份，则作业监控器会非常有用，这样您可以查看操作何时在所有卷上完成。 <a href="https://docs.netapp.com/us-en/cloud-manager-backup-restore/task-monitor-backup-jobs.html">"请参见如何使用作业监控器"</a>。</p>
-</div>
 </div>
 </div>
 </div>
