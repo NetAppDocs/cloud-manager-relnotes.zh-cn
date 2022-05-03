@@ -137,7 +137,6 @@
   <block id="b31480db3c4a98f4500e2a55a1aebc8b" category="paragraph">与 Data sense 集成的全局 Active Directory 服务器现在可以是 LDAP 服务器，而不是以前支持的 DNS 服务器。<block ref="f17adadb9807d1263647d20e03bc2613" category="inline-link-rx"></block>。</block>
   <block id="f670023c78e0e3dbeb691779659d5049" category="section-title">2022 年 3 月 15 日</block>
   <block id="6c0e8ed69caed245f57b7b8ac8246fff" category="section-title">新筛选器可显示特定用户或组具有读取或写入权限的文件</block>
-  <block id="fe920a28be2287e9ad7ef2d02458c36f" category="paragraph">添加了一个名为 " 用户 / 组权限 " 的新筛选器，您可以列出特定用户或组具有读取和 / 或写入权限的文件。您可以指定用户名或组名称，也可以指定部分名称。此功能适用于 Cloud Volumes ONTAP ，内部 ONTAP ， Azure NetApp Files ，适用于 ONTAP 的 Amazon FSx 和文件共享上的卷。</block>
   <block id="6bcf3eec310c41993f38eea54e01a446" category="section-title">Data sense 可以确定 SharePoint 和 OneDrive 帐户中文件的权限</block>
   <block id="c23f592529f8db7551eafe3830b6427a" category="paragraph">Data sense 现在可以读取 OneDrive 帐户和 SharePoint 帐户中正在扫描的文件的权限。此信息显示在 " 调查 " 窗格中的文件详细信息以及 " 监管信息板 " 中的 " 打开权限 " 区域中。</block>
   <block id="6f7f4b2d525b7b8ad22c1d283e4b195e" category="section-title">Data sense 还可以识别另外两种类型的个人数据</block>
@@ -146,21 +145,6 @@
   <block id="7d48333086004a7939c29f033e1bfad5" category="section-title">支持在非公开站点中部署时扫描 OneDrive 和 SharePoint 数据</block>
   <block id="5d1023de4743a538d723b0eea67b9c49" category="inline-link">您需要允许访问以下端点。</block>
   <block id="db6cb8c8f4488e129ed6809bb11b1ac6" category="paragraph">如果您已在无法访问 Internet 的内部站点中的主机上部署 Cloud Data sense ，则现在可以从 OneDrive 帐户或 SharePoint 帐户扫描本地数据。<block ref="f6e82e062f347b1008c89c76ae485574" category="inline-link-rx"></block></block>
-  <block id="5b7066a8679e57ba1c6e16c4237fb674" category="section-title">增加了对扫描 Microsoft SharePoint 联机帐户的支持</block>
-  <block id="0d7a2e2094cbd9f065543ad864c58f56" category="inline-link">了解如何扫描 SharePoint 帐户</block>
-  <block id="592c8c1b273df763193797348c862319" category="paragraph">现在，您可以将 SharePoint 联机帐户添加到 Data sense 中，以便扫描 SharePoint 站点中的文档和文件。<block ref="fb0503eda5504503140f919428a17c9c" category="inline-link-rx"></block>。</block>
-  <block id="b8977b26a070b5eca7e5cfd90f128004" category="section-title">Data sense 可以将文件从数据源复制到目标位置，并同步这些文件</block>
-  <block id="dc188738e6cc2e9f8314e1b95f18ebfd" category="inline-link">NetApp Cloud Sync</block>
-  <block id="f72dc999895eb17e77093f9ecff4180c" category="paragraph">如果您要迁移数据，并且希望捕获最近对文件所做的任何更改，则此功能非常有用。此操作将使用<block ref="a370f691ddfd2ad7b716b2db4ad021a1" category="inline-link-rx"></block> 用于将数据从源复制并同步到目标的功能。</block>
-  <block id="48a274f4830d58bf94182b778830c862" category="inline-link">请参见如何复制和同步文件</block>
-  <block id="660cff517370f72d72102d4ff2998c40" category="paragraph"><block ref="c0e6847180e8e936303f149ed2e169b8" category="inline-link-rx"></block>。</block>
-  <block id="622db54d0a7d9c01c841d932e3988937" category="section-title">为 DAR 报告提供了新的语言支持</block>
-  <block id="b7be70b4ae08b5c8540e95fbe14dcfa6" category="paragraph">现在，在搜索数据主体名称以创建数据主体访问请求（ Data Subject Access Request ， DSAar ）报告时，支持德语和西班牙语。本报告旨在帮助贵组织满足 GDPR 或类似数据隐私法律的要求。</block>
-  <block id="8cdccfd2e3c1390208fa5892348c4108" category="section-title">Data sense 可识别另外三种类型的个人数据</block>
-  <block id="da848e916ac29d03235a007036cf77ca" category="inline-link">查看 Data sense 在扫描中标识的所有个人数据类型的列表</block>
-  <block id="0f774c5b2a7839e95c43788f441f3dd3" category="paragraph">Data sense 现在可以在文件中找到法语社会安全号码，法语 ID 和法语驱动程序许可证号码。<block ref="388ce18cfcb7cb3d159655ecca4c4330" category="inline-link-rx"></block>。</block>
-  <block id="2da79a92d5bb1f1f77ab993c07c12703" category="section-title">已更改安全组端口，以便与连接器进行数据感知通信</block>
-  <block id="2e38fe6622e02d0346ffbd31c4347739" category="paragraph">Cloud Manager Connector 的安全组将使用端口 443 而非端口 80 来处理传入和传出 Data sense 实例的入站和出站流量，以提高安全性。此时，这两个端口都保持打开状态，因此您不应看到任何问题，但您应在任何早期的 Connector 部署中更新安全组，因为端口 80 将在未来版本中弃用。</block>
   <block id="5e16db4c47abe8cb1c5bd746df2fd94a" category="section-title">2022 年 4 月 3 日</block>
   <block id="33c34b75ae4154295ed3cdeeccb3fd6a" category="section-title">数据代理组增强功能</block>
   <block id="9e85c5ace2120c3600ae07824bd6d1a9" category="paragraph">我们对数据代理组进行了多项增强：</block>
@@ -364,33 +348,6 @@
   <block id="6eb7d1343cce33ec7d31b57edd9f3aef" category="paragraph">先前已弃用K8s选项卡、现已将其删除。如果要将Kubernetes与Cloud Volumes ONTAP 结合使用、可以将受管Kubernetes集群添加到Canvas中、作为一个用于高级数据管理的工作环境。</block>
   <block id="75b200b4f9a63bca2792f985693a22c8" category="inline-link">了解Cloud Manager中的Kubernetes数据管理</block>
   <block id="97bbe1f6bede29b64e2101d03c2362cb" category="paragraph"><block ref="97bbe1f6bede29b64e2101d03c2362cb" category="inline-link-rx"></block></block>
-  <block id="7475abfb4039c00bb03fd05d6d792b3d" category="section-title">Azure中的年度合同</block>
-  <block id="52b398f13b1acf3e73584a9cb106e989" category="paragraph">Essentials和Professional软件包现在可通过一份年度合同在Azure中提供。您可以联系NetApp销售代表购买年度合同。此合同在Azure Marketplace中以私人优惠形式提供。</block>
-  <block id="51606c7b614cdc7ab9e0489981838dfa" category="paragraph">在NetApp与您共享私人优惠后、您可以在创建工作环境期间从Azure Marketplace订阅年度计划。</block>
-  <block id="ba089edca33f314482ad946ae680f1eb" category="inline-link">了解有关许可的更多信息</block>
-  <block id="bd2a7f63a398b5af0c64c2d07409b38c" category="paragraph"><block ref="fa67dcc1253d6ef7da36dd244bfe620f" category="inline-link-rx"></block>。</block>
-  <block id="57ae56f77d278076fb394799067eb3ef" category="section-title">S3 Glacier即时检索</block>
-  <block id="465771d8890531f2527e09ef3f1b4f68" category="paragraph">现在、您可以将分层数据存储在Amazon S3 Glacier即时检索存储类中。</block>
-  <block id="6d4822148bad6fb79e6d92864dde8771" category="inline-link">了解如何更改分层数据的存储类</block>
-  <block id="e6eb181abe02ab22f2df966da6c0669d" category="paragraph"><block ref="5ae2503a0985d77718c9fe3da8dbc989" category="inline-link-rx"></block>。</block>
-  <block id="ef8e1d8f242a7ee4d109deb44db1b252" category="section-title">Connector需要新的AWS权限</block>
-  <block id="81ad4f0de90ee8a7305d0fd7751df796" category="section-title">全新Google Cloud区域支持</block>
-  <block id="6b071f4257d8badb0aeb96e6b0547800" category="paragraph">从9.10.1版开始、以下Google Cloud地区现在支持Cloud Volumes ONTAP ：</block>
-  <block id="986ef6cfb21ad2831a7ae053e3f0506e" category="list-text">米兰(欧洲-西部8)—仅限单节点</block>
-  <block id="00f803da9ac7d98ccbfd2178a95625ee" category="list-text">圣地亚哥(南美洲-西1)—仅限单节点</block>
-  <block id="d1ce20099e22fd96c2217da218a20a9e" category="inline-link">查看Cloud Volumes ONTAP 支持的区域的完整列表</block>
-  <block id="efb1786cdf88244f9480e15cb039f942" category="paragraph"><block ref="efb1786cdf88244f9480e15cb039f942" category="inline-link-rx"></block></block>
-  <block id="8184a89f6d67aafd228ddc002e159ce5" category="section-title">在Google Cloud中支持n2-standard-16</block>
-  <block id="86a3a073b385c5ae85e4523282be3124" category="paragraph">从9.10.1版开始、Google Cloud中的Cloud Volumes ONTAP 现在支持n2-standard-16计算机类型。</block>
-  <block id="4994b2bf1bd5c0153c9dc0077a84b5a7" category="inline-link">在Google Cloud中查看支持的Cloud Volumes ONTAP 配置</block>
-  <block id="528aaaafbacf255285f844e94403a43f" category="paragraph"><block ref="528aaaafbacf255285f844e94403a43f" category="inline-link-rx"></block></block>
-  <block id="291a5c22c8cb78fe8ec363d61830f63e" category="section-title">Google Cloud防火墙策略增强功能</block>
-  <block id="73d44bfa5f20953f5799b7072e1f9dc7" category="list-text">在Google Cloud中创建Cloud Volumes ONTAP HA对时、Cloud Manager现在将在VPC中显示所有现有防火墙策略。</block>
-  <block id="5e1082179426bea32e466fe447cc5f2e" category="paragraph">以前、Cloud Manager不会在VPC-1、VPC-2或VPC-3中显示任何没有目标标记的策略。</block>
-  <block id="880f67f103405f29628ff848182ca330" category="list-text">在Google Cloud中创建Cloud Volumes ONTAP 单节点系统时、您现在可以选择是希望预定义的防火墙策略仅允许选定VPC (建议)内的流量、还是允许所有VPC内的流量。</block>
-  <block id="5c4a95a56d4b5bfef734aeab388618c0" category="section-title">Google Cloud服务帐户增强功能</block>
-  <block id="06fa5bb865f711b645e1f86dd8711d63" category="paragraph">当您选择要与Cloud Volumes ONTAP 结合使用的Google云服务帐户时、Cloud Manager现在会显示与每个服务帐户关联的电子邮件地址。通过查看电子邮件地址、可以更轻松地区分同名服务帐户。</block>
-  <block id="92a991ca375ee56317f82c3a30f16fff" category="paragraph"><block ref="92a991ca375ee56317f82c3a30f16fff" category="inline-image-macro-rx" type="image"></block></block>
   <block id="eb1bf021e05707d1f69722b4d550c310" category="paragraph">连接器3.9.16版引入了以下更改。</block>
   <block id="d3e8cd2e370974f27de1b310b4aa8cb3" category="section-title">2022年5月3日</block>
   <block id="a74300b6b08791dda4f54d473a58e17a" category="section-title">为其他集群配置提供Cloud Tiering许可证支持</block>
@@ -403,4 +360,29 @@
   <block id="d23895cd28f2e8e5d3074279cea7aacf" category="inline-link-macro">添加存储类</block>
   <block id="2556925e0b340fdd647987c6af7fbee9" category="paragraph"><block ref="2556925e0b340fdd647987c6af7fbee9" category="inline-link-macro-rx"></block></block>
   <block id="19f4ed17c6ec00f67063b70e40bfc661" category="section-title">2022年5月4日</block>
+  <block id="7d6adafb3c8bb3861e1f6a4ca4b68455" category="section-title">2022年5月11日</block>
+  <block id="6c5c8bcc3e6c86825162a1ff2603c1f3" category="section-title">增加了对扫描Google Drive帐户中数据的支持</block>
+  <block id="686f6248c08053e57c0ee91c18b2d097" category="inline-link">了解如何扫描Google Drive帐户</block>
+  <block id="b3393b07bc5334485489796939a3c1ac" category="paragraph">现在、您可以将Google Drive帐户添加到Data sense中、以便扫描这些Google Drive帐户中的文档和文件。<block ref="a42326c5e8654fdf4afea98988689f56" category="inline-link-rx"></block>。</block>
+  <block id="1c569820a2d89c87007e78d8b99f545d" category="inline-link">现有文件类型</block>
+  <block id="d166e1f4f240d3915c676102b853aab5" category="paragraph">除了文档、工作表和幻灯片之外、Data sense还可以识别以下Google文件类型中的个人身份信息(Personal Identifiable Information、PiII)<block ref="c10736ee2c8542c954ba18655a2447a7" category="inline-link-rx"></block>。</block>
+  <block id="2f8d7f7b2a9f475f94e961eea0214b6f" category="section-title">已将目录级别视图添加到数据调查页面</block>
+  <block id="a1e4ba958a7013f98fdbb1a883102e86" category="inline-link">了解如何为扫描的数据选择目录视图</block>
+  <block id="a5d473c55c66a556abf96b71579ff1bf" category="paragraph">除了查看和筛选所有文件和数据库中的数据之外、现在您还可以在"数据调查"页面中根据文件夹和共享中的所有数据查看和筛选数据。现在、您可以在目录级别管理数据。<block ref="9e53e59afd29cea3c43eb27dc0a3476a" category="inline-link-rx"></block>。</block>
+  <block id="fc923fa1acb929379421a26667fff392" category="section-title">展开组以显示有权访问文件的用户/成员</block>
+  <block id="87dc185d970f7684d5d731eebbf8d195" category="inline-link">了解如何查看对文件具有读取和/或写入权限的用户和组</block>
+  <block id="3fedcf7612eed43efc90d19f42d43f9a" category="paragraph">现在、您可以在Data sense权限功能中查看有权访问文件的用户和组列表。可以展开每个组以显示组中的用户列表。<block ref="978ddb309e10f2b48cc0f4a959fbca42" category="inline-link-rx"></block>。</block>
+  <block id="96ab93ed4512cdb4dd07828ed738b502" category="section-title">数据调查页面添加了两个新的筛选器</block>
+  <block id="9e4e3d73f23809aabccd30c3abe0f99f" category="list-text">通过"目录类型"筛选器、您可以细化数据以仅查看文件夹或共享。结果将显示在新的*目录*选项卡中。</block>
+  <block id="7613f02556e4a651db53f06b87b1b460" category="list-text">通过"用户/组权限"筛选器、您可以列出特定用户或组具有读取和/或写入权限的文件、文件夹和共享。您可以选择多个用户和/或组名称-或输入部分名称。电话</block>
+  <block id="a3065e926a55339df72c1343ee9b3fae" category="inline-link">查看可用于调查数据的所有筛选器的列表</block>
+  <block id="2d7dcb96cb20cbaa2b94280f3b67d862" category="paragraph"><block ref="e3dd455551e82145f7b0bbdda5ed35ae" category="inline-link-rx"></block>。</block>
+  <block id="fca7f51b54fee8b38e01607def214d88" category="paragraph">添加了一个名为 " 用户 / 组权限 " 的新筛选器，您可以列出特定用户或组具有读取和 / 或写入权限的文件。您可以选择一个或多个用户和/或组名称-或输入部分名称。此功能适用于 Cloud Volumes ONTAP ，内部 ONTAP ， Azure NetApp Files ，适用于 ONTAP 的 Amazon FSx 和文件共享上的卷。</block>
+  <block id="55a52ff3da54b1be61be4ffbf282e94a" category="section-title">用于跟踪 ONTAP 环境安全性强化情况的新面板。</block>
+  <block id="9c7ce6244ca9eb3215d61dd69afa3325" category="inline-link">《适用于 ONTAP 系统的 NetApp 安全加固指南》</block>
+  <block id="3380ed6ae32f99410860532de07b57a7" category="inline-link">ONTAP 防勒索软件功能</block>
+  <block id="c0920e0c17ca7e741f375b33ea0a761b" category="paragraph">一个新面板 " 强化 ONTAP 环境 " 可提供 ONTAP 系统中某些设置的状态，用于根据跟踪部署的安全性<block ref="060f8a2b53a60ac49c67caafaf5b129f" category="inline-link-rx"></block> 和<block ref="0be7bd5b5f280e211653a4c6e05c11a6" category="inline-link-rx"></block> 主动检测异常活动并发出警告。</block>
+  <block id="914a5a27ea412edf84bb416054ec6d75" category="paragraph">您可以查看这些建议，然后确定希望如何解决潜在问题。您可以按照以下步骤更改集群上的设置，将更改推迟到其他时间或忽略此建议。<block ref="87553c653b94d5529a2080374ec70030" category="inline-link-rx"></block>。</block>
+  <block id="76553642514a4b204c12afe14df42e92" category="section-title">新面板可显示如何使用 Cloud Backup 保护不同类别的数据。</block>
+  <block id="c55588bedd5ed04bd522d770a0c3de70" category="paragraph">这一全新的 " 备份状态 " 面板显示了在因勒索软件攻击而需要恢复时，您最重要的数据类别的备份程度如何全面。此数据直观地展示了 Cloud Backup 在环境中备份的特定类别项目数量。<block ref="eddc9c9a841fbf81e5d5b5a19c7e11a3" category="inline-link-rx"></block>。</block>
 </blocks>
