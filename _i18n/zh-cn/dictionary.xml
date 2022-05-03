@@ -176,14 +176,6 @@
   <block id="24263383a842093a8c2b6b9b8a88989d" category="section-title">将内部 ONTAP 集群中的非活动数据分层到与 S3 兼容的对象存储</block>
   <block id="59e10c49329cd1a0a55e4a0d27f6a584" category="inline-link">请参见如何将数据分层到与 S3 兼容的对象存储</block>
   <block id="df94b79ab63138be1c03382ae20c338d" category="paragraph">现在，您可以将非活动数据分层到使用简单存储服务（ Simple Storage Service ， S3 ）协议的任何对象存储服务。<block ref="26932bf166134e05b1ade0d7ecb1b6d8" category="inline-link-rx"></block>。</block>
-  <block id="0f132f66e81cbab588044405a33dc058" category="section-title">为 WORM 存储充电</block>
-  <block id="d87a373c29bad4362e9f6515cb3a6927" category="paragraph">现在，首发特惠价已过期，您将需要为使用 WORM 存储付费。根据 WORM 卷的总配置容量，每小时进行一次充电。此适用场景 新的和现有的 Cloud Volumes ONTAP 系统。</block>
-  <block id="10142c9d88b9419ee393574e858e86c8" category="inline-link">了解 WORM 存储的定价</block>
-  <block id="074dbf8cc93ccd34e86e3e2e8f2a1e3a" category="paragraph"><block ref="38aefad2ca205e663da97b7fdd932dcf" category="inline-link-rx"></block>。</block>
-  <block id="06a685f653628719e2e70fedf9b250a9" category="section-title">重新设计的卷向导</block>
-  <block id="dd787088b52e69b3d8bf590e16c8413c" category="paragraph">现在，在通过 * 高级分配 * 选项在特定聚合上创建卷时，可以使用我们最近推出的创建新卷向导。</block>
-  <block id="c4abca012bce01614c5a65c5b0e6ecd6" category="inline-link">了解如何在特定聚合上创建卷</block>
-  <block id="1c6f86b67d4150db2b816bc084d4c069" category="paragraph"><block ref="525dd47105081fbda31ba7a2793ca879" category="inline-link-rx"></block>。</block>
   <block id="a633f0835832cc75f5a83248a8aa2ba8" category="section-title">2020 年 9 月 9 日</block>
   <block id="8751230100c974b7c3ae5adae22c0f7c" category="section-title">支持适用于 Google Cloud 的 Cloud Volumes Service</block>
   <block id="9e376b2341c224a05e31bf464f6a9a2c" category="paragraph">现在，您可以直接从 Cloud Manager 管理适用于 Google Cloud 的 Cloud Volumes Service ：</block>
@@ -283,10 +275,6 @@
   <block id="b59fdb8f9fe5a28d08cd50bf85b70880" category="section-title">Apache Log4j 漏洞的修复</block>
   <block id="6b6f87c741f6734b4908d03d2c21e449" category="paragraph">SnapCenter 服务 1.0.1 将 Apache Log4j 从 2.9.1 版升级到 2.17 版，以解决以下漏洞： CVE-2021-44228 ， CVE-2021-4104 和 CVE-2021-45105 。</block>
   <block id="ae1f9a5afbc7e02967d7f7e643135d82" category="paragraph">SnapCenter 服务集群应自动更新到最新版本。您应确保 SnapCenter 服务 UI 中的版本显示集群为 1.0.1.1251 或更高版本。</block>
-  <block id="97106e7449f4966fc1e4b3b78d425110" category="section-title">已删除 System Manager 链接</block>
-  <block id="249f6fd27ec465f7b6af7dc12178a1ea" category="paragraph">我们已删除先前在 Cloud Volumes ONTAP 工作环境中提供的 System Manager 链接。</block>
-  <block id="1979125e36e7d7c49ca297e15301d908" category="inline-link">了解有关连接到 System Manager 的更多信息</block>
-  <block id="bbf60c789b26c6dcc40b75262425eac7" category="paragraph">您仍然可以通过在连接到 Cloud Volumes ONTAP 系统的 Web 浏览器中输入集群管理 IP 地址来连接到 System Manager 。<block ref="c343c10570bfa751089c9639f87b6a1f" category="inline-link-rx"></block>。</block>
   <block id="81fb4d1570abd75a1e2945d1f1c9f8cc" category="section-title">2022年5月1日</block>
   <block id="5cccebf55aa4da23124f776528630bf3" category="section-title">同步超时</block>
   <block id="5e4a50a7111ce8bba22cd01d07f86a3b" category="paragraph">现在、可以为同步关系使用新的*同步超时*设置。通过此设置、您可以定义在指定的小时数或天数内未完成数据同步时、Cloud Sync 是否应取消数据同步。</block>
@@ -347,8 +335,6 @@
   <block id="e6e5b99786bfefd88e32c940b7547ab3" category="section-title">已删除K8s选项卡</block>
   <block id="6eb7d1343cce33ec7d31b57edd9f3aef" category="paragraph">先前已弃用K8s选项卡、现已将其删除。如果要将Kubernetes与Cloud Volumes ONTAP 结合使用、可以将受管Kubernetes集群添加到Canvas中、作为一个用于高级数据管理的工作环境。</block>
   <block id="75b200b4f9a63bca2792f985693a22c8" category="inline-link">了解Cloud Manager中的Kubernetes数据管理</block>
-  <block id="97bbe1f6bede29b64e2101d03c2362cb" category="paragraph"><block ref="97bbe1f6bede29b64e2101d03c2362cb" category="inline-link-rx"></block></block>
-  <block id="eb1bf021e05707d1f69722b4d550c310" category="paragraph">连接器3.9.16版引入了以下更改。</block>
   <block id="d3e8cd2e370974f27de1b310b4aa8cb3" category="section-title">2022年5月3日</block>
   <block id="a74300b6b08791dda4f54d473a58e17a" category="section-title">为其他集群配置提供Cloud Tiering许可证支持</block>
   <block id="afacb33ad65bcd63eb15aeba04b4aed0" category="inline-link">请参见如何许可和配置这些类型的集群。</block>
@@ -385,4 +371,9 @@
   <block id="914a5a27ea412edf84bb416054ec6d75" category="paragraph">您可以查看这些建议，然后确定希望如何解决潜在问题。您可以按照以下步骤更改集群上的设置，将更改推迟到其他时间或忽略此建议。<block ref="87553c653b94d5529a2080374ec70030" category="inline-link-rx"></block>。</block>
   <block id="76553642514a4b204c12afe14df42e92" category="section-title">新面板可显示如何使用 Cloud Backup 保护不同类别的数据。</block>
   <block id="c55588bedd5ed04bd522d770a0c3de70" category="paragraph">这一全新的 " 备份状态 " 面板显示了在因勒索软件攻击而需要恢复时，您最重要的数据类别的备份程度如何全面。此数据直观地展示了 Cloud Backup 在环境中备份的特定类别项目数量。<block ref="eddc9c9a841fbf81e5d5b5a19c7e11a3" category="inline-link-rx"></block>。</block>
+  <block id="26d5bbfbcc4977b2a70100d0969dd28c" category="paragraph"><block ref="97bbe1f6bede29b64e2101d03c2362cb" category="inline-link-rx"></block>== Azure中的年度合同</block>
+  <block id="52b398f13b1acf3e73584a9cb106e989" category="paragraph">Essentials和Professional软件包现在可通过一份年度合同在Azure中提供。您可以联系NetApp销售代表购买年度合同。此合同在Azure Marketplace中以私人优惠形式提供。</block>
+  <block id="51606c7b614cdc7ab9e0489981838dfa" category="paragraph">在NetApp与您共享私人优惠后、您可以在创建工作环境期间从Azure Marketplace订阅年度计划。</block>
+  <block id="ba089edca33f314482ad946ae680f1eb" category="inline-link">了解有关许可的更多信息</block>
+  <block id="bd2a7f63a398b5af0c64c2d07409b38c" category="paragraph"><block ref="fa67dcc1253d6ef7da36dd244bfe620f" category="inline-link-rx"></block>。</block>
 </blocks>
