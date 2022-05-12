@@ -487,7 +487,7 @@
 <p class="page-details">
   
     
-    <time datetime="2022-05-04 20:30:02 +0000">05/04/2022</time>
+    <time datetime="2022-05-12 13:21:20 +0000">05/12/2022</time>
     
   
 
@@ -534,9 +534,9 @@
 </li>
 <li><a href="#云数据感知">云数据感知</a>
 <ul class="sectlevel2">
+<li><a href="#2022年5月11日">2022年5月11日</a></li>
 <li><a href="#2022-年-4-月-5-日">2022 年 4 月 5 日</a></li>
 <li><a href="#2022-年-3-月-15-日">2022 年 3 月 15 日</a></li>
-<li><a href="#2022-年-2-月-9-日-2">2022 年 2 月 9 日</a></li>
 </ul>
 </li>
 <li><a href="#cloud-sync">Cloud Sync</a>
@@ -601,8 +601,9 @@
 </li>
 <li><a href="#勒索软件保护">勒索软件保护</a>
 <ul class="sectlevel2">
+<li><a href="#2022年5月11日-2">2022年5月11日</a></li>
 <li><a href="#2022-年-3-月-15-日-2">2022 年 3 月 15 日</a></li>
-<li><a href="#2022-年-2-月-9-日-3">2022 年 2 月 9 日</a></li>
+<li><a href="#2022-年-2-月-9-日-2">2022 年 2 月 9 日</a></li>
 </ul>
 </li>
 <li><a href="#replication">Replication</a>
@@ -962,6 +963,46 @@
 <h2 id="云数据感知">云数据感知</h2>
 <div class="sectionbody">
 <div class="sect2">
+<h3 id="2022年5月11日">2022年5月11日</h3>
+<div class="sect3">
+<h4 id="增加了对扫描google-drive帐户中数据的支持">增加了对扫描Google Drive帐户中数据的支持</h4>
+<div class="paragraph">
+<p>现在、您可以将Google Drive帐户添加到Data sense中、以便扫描这些Google Drive帐户中的文档和文件。 <a href="https://docs.netapp.com/us-en/cloud-manager-data-sense/task-scanning-google-drive.html">"了解如何扫描Google Drive帐户"</a>。</p>
+</div>
+<div class="paragraph">
+<p>除了文档、工作表和幻灯片之外、Data sense还可以识别以下Google文件类型中的个人身份信息(Personal Identifiable Information、PiII) <a href="https://docs.netapp.com/us-en/cloud-manager-data-sense/reference-private-data-categories.html#types-of-files">"现有文件类型"</a>。</p>
+</div>
+</div>
+<div class="sect3">
+<h4 id="已将目录级别视图添加到数据调查页面">已将目录级别视图添加到数据调查页面</h4>
+<div class="paragraph">
+<p>除了查看和筛选所有文件和数据库中的数据之外、现在您还可以在"数据调查"页面中根据文件夹和共享中的所有数据查看和筛选数据。现在、您可以在目录级别管理数据。 <a href="https://docs.netapp.com/us-en/cloud-manager-data-sense/task-controlling-private-data.html#filtering-data-in-the-data-investigation-page">"了解如何为扫描的数据选择目录视图"</a>。</p>
+</div>
+</div>
+<div class="sect3">
+<h4 id="展开组以显示有权访问文件的用户成员">展开组以显示有权访问文件的用户/成员</h4>
+<div class="paragraph">
+<p>现在、您可以在Data sense权限功能中查看有权访问文件的用户和组列表。可以展开每个组以显示组中的用户列表。 <a href="https://docs.netapp.com/us-en/cloud-manager-data-sense/task-controlling-private-data.html#viewing-permissions-for-files">"了解如何查看对文件具有读取和/或写入权限的用户和组"</a>。</p>
+</div>
+</div>
+<div class="sect3">
+<h4 id="数据调查页面添加了两个新的筛选器">数据调查页面添加了两个新的筛选器</h4>
+<div class="ulist">
+<ul>
+<li>
+<p>通过"目录类型"筛选器、您可以细化数据以仅查看文件夹或共享。结果将显示在新的*目录*选项卡中。</p>
+</li>
+<li>
+<p>通过"用户/组权限"筛选器、您可以列出特定用户或组具有读取和/或写入权限的文件、文件夹和共享。您可以选择多个用户和/或组名称-或输入部分名称。电话</p>
+</li>
+</ul>
+</div>
+<div class="paragraph">
+<p><a href="https://docs.netapp.com/us-en/cloud-manager-data-sense/task-controlling-private-data.html#filtering-data-in-the-data-investigation-page">"查看可用于调查数据的所有筛选器的列表"</a>。</p>
+</div>
+</div>
+</div>
+<div class="sect2">
 <h3 id="2022-年-4-月-5-日">2022 年 4 月 5 日</h3>
 <div class="sect3">
 <h4 id="data-sense-可以识别四种新类型的澳大利亚个人数据">Data sense 可以识别四种新类型的澳大利亚个人数据</h4>
@@ -981,7 +1022,7 @@
 <div class="sect3">
 <h4 id="新筛选器可显示特定用户或组具有读取或写入权限的文件">新筛选器可显示特定用户或组具有读取或写入权限的文件</h4>
 <div class="paragraph">
-<p>添加了一个名为 " 用户 / 组权限 " 的新筛选器，您可以列出特定用户或组具有读取和 / 或写入权限的文件。您可以指定用户名或组名称，也可以指定部分名称。此功能适用于 Cloud Volumes ONTAP ，内部 ONTAP ， Azure NetApp Files ，适用于 ONTAP 的 Amazon FSx 和文件共享上的卷。</p>
+<p>添加了一个名为 " 用户 / 组权限 " 的新筛选器，您可以列出特定用户或组具有读取和 / 或写入权限的文件。您可以选择一个或多个用户和/或组名称-或输入部分名称。此功能适用于 Cloud Volumes ONTAP ，内部 ONTAP ， Azure NetApp Files ，适用于 ONTAP 的 Amazon FSx 和文件共享上的卷。</p>
 </div>
 </div>
 <div class="sect3">
@@ -1012,42 +1053,6 @@
 <div class="sect3">
 <h4 id="此版本已停止使用-cloud-data-sense-扫描-cloud-backup-文件的测试版功能-2">此版本已停止使用 Cloud Data sense 扫描 Cloud Backup 文件的测试版功能</h4>
 
-</div>
-</div>
-<div class="sect2">
-<h3 id="2022-年-2-月-9-日-2">2022 年 2 月 9 日</h3>
-<div class="sect3">
-<h4 id="增加了对扫描-microsoft-sharepoint-联机帐户的支持">增加了对扫描 Microsoft SharePoint 联机帐户的支持</h4>
-<div class="paragraph">
-<p>现在，您可以将 SharePoint 联机帐户添加到 Data sense 中，以便扫描 SharePoint 站点中的文档和文件。 <a href="https://docs.netapp.com/us-en/cloud-manager-data-sense/task-scanning-sharepoint.html">"了解如何扫描 SharePoint 帐户"</a>。</p>
-</div>
-</div>
-<div class="sect3">
-<h4 id="data-sense-可以将文件从数据源复制到目标位置并同步这些文件">Data sense 可以将文件从数据源复制到目标位置，并同步这些文件</h4>
-<div class="paragraph">
-<p>如果您要迁移数据，并且希望捕获最近对文件所做的任何更改，则此功能非常有用。此操作将使用 <a href="https://docs.netapp.com/us-en/cloud-manager-sync/concept-cloud-sync.html" target="_blank" rel="noopener">"NetApp Cloud Sync"</a> 用于将数据从源复制并同步到目标的功能。</p>
-</div>
-<div class="paragraph">
-<p><a href="https://docs.netapp.com/us-en/cloud-manager-data-sense/task-managing-highlights.html#copying-and-synchronizing-source-files-to-a-target-system">"请参见如何复制和同步文件"</a>。</p>
-</div>
-</div>
-<div class="sect3">
-<h4 id="为-dar-报告提供了新的语言支持">为 DAR 报告提供了新的语言支持</h4>
-<div class="paragraph">
-<p>现在，在搜索数据主体名称以创建数据主体访问请求（ Data Subject Access Request ， DSAar ）报告时，支持德语和西班牙语。本报告旨在帮助贵组织满足 GDPR 或类似数据隐私法律的要求。</p>
-</div>
-</div>
-<div class="sect3">
-<h4 id="data-sense-可识别另外三种类型的个人数据">Data sense 可识别另外三种类型的个人数据</h4>
-<div class="paragraph">
-<p>Data sense 现在可以在文件中找到法语社会安全号码，法语 ID 和法语驱动程序许可证号码。 <a href="https://docs.netapp.com/us-en/cloud-manager-data-sense/reference-private-data-categories.html#types-of-personal-data">"查看 Data sense 在扫描中标识的所有个人数据类型的列表"</a>。</p>
-</div>
-</div>
-<div class="sect3">
-<h4 id="已更改安全组端口以便与连接器进行数据感知通信">已更改安全组端口，以便与连接器进行数据感知通信</h4>
-<div class="paragraph">
-<p>Cloud Manager Connector 的安全组将使用端口 443 而非端口 80 来处理传入和传出 Data sense 实例的入站和出站流量，以提高安全性。此时，这两个端口都保持打开状态，因此您不应看到任何问题，但您应在任何早期的 Connector 部署中更新安全组，因为端口 80 将在未来版本中弃用。</p>
-</div>
 </div>
 </div>
 </div>
@@ -1213,104 +1218,6 @@
 </div>
 <div class="paragraph">
 <p><a href="https://docs.netapp.com/us-en/cloud-manager-kubernetes/concept-kubernetes.html" target="_blank" rel="noopener">"了解Cloud Manager中的Kubernetes数据管理"</a></p>
-</div>
-</div>
-<div class="sect3">
-<h4 id="azure中的年度合同">Azure中的年度合同</h4>
-<div class="paragraph">
-<p>Essentials和Professional软件包现在可通过一份年度合同在Azure中提供。您可以联系NetApp销售代表购买年度合同。此合同在Azure Marketplace中以私人优惠形式提供。</p>
-</div>
-<div class="paragraph">
-<p>在NetApp与您共享私人优惠后、您可以在创建工作环境期间从Azure Marketplace订阅年度计划。</p>
-</div>
-<div class="paragraph">
-<p><a href="https://docs.netapp.com/us-en/cloud-manager-cloud-volumes-ontap/concept-licensing.html">"了解有关许可的更多信息"</a>。</p>
-</div>
-</div>
-<div class="sect3">
-<h4 id="s3-glacier即时检索">S3 Glacier即时检索</h4>
-<div class="paragraph">
-<p>现在、您可以将分层数据存储在Amazon S3 Glacier即时检索存储类中。</p>
-</div>
-<div class="paragraph">
-<p><a href="https://docs.netapp.com/us-en/cloud-manager-cloud-volumes-ontap/task-tiering.html#changing-the-storage-class-for-tiered-data">"了解如何更改分层数据的存储类"</a>。</p>
-</div>
-</div>
-<div class="sect3">
-<h4 id="connector需要新的aws权限">Connector需要新的AWS权限</h4>
-<div class="paragraph">
-<p>现在、在单个可用性区域(AZ)中部署HA对时、创建AWS分布放置组需要以下权限：</p>
-</div>
-<div class="listingblock">
-<div class="content">
-<pre class="highlight"><code class="language-json" data-lang="json">"ec2:DescribePlacementGroups",
-"iam:GetRolePolicy",</code></pre>
-</div>
-</div>
-<div class="paragraph">
-<p>现在、要优化Cloud Manager创建布局组的方式、需要这些权限。</p>
-</div>
-<div class="paragraph">
-<p>请务必为您添加到Cloud Manager的每组AWS凭据提供这些权限。您可以在上找到最新的权限列表 <a href="https://mysupport.netapp.com/site/info/cloud-manager-policies" target="_blank" rel="noopener">"Cloud Manager 策略页面"</a>。</p>
-</div>
-</div>
-<div class="sect3">
-<h4 id="全新google-cloud区域支持">全新Google Cloud区域支持</h4>
-<div class="paragraph">
-<p>从9.10.1版开始、以下Google Cloud地区现在支持Cloud Volumes ONTAP ：</p>
-</div>
-<div class="ulist">
-<ul>
-<li>
-<p>新德里(亚洲-南2)</p>
-</li>
-<li>
-<p>墨尔本(澳大利亚南部2)</p>
-</li>
-<li>
-<p>米兰(欧洲-西部8)—仅限单节点</p>
-</li>
-<li>
-<p>圣地亚哥(南美洲-西1)—仅限单节点</p>
-</li>
-</ul>
-</div>
-<div class="paragraph">
-<p><a href="https://cloud.netapp.com/cloud-volumes-global-regions" target="_blank" rel="noopener">"查看Cloud Volumes ONTAP 支持的区域的完整列表"</a></p>
-</div>
-</div>
-<div class="sect3">
-<h4 id="在google-cloud中支持n2-standard-16">在Google Cloud中支持n2-standard-16</h4>
-<div class="paragraph">
-<p>从9.10.1版开始、Google Cloud中的Cloud Volumes ONTAP 现在支持n2-standard-16计算机类型。</p>
-</div>
-<div class="paragraph">
-<p><a href="https://docs.netapp.com/us-en/cloud-volumes-ontap-relnotes/reference-configs-gcp.html" target="_blank" rel="noopener">"在Google Cloud中查看支持的Cloud Volumes ONTAP 配置"</a></p>
-</div>
-</div>
-<div class="sect3">
-<h4 id="google-cloud防火墙策略增强功能">Google Cloud防火墙策略增强功能</h4>
-<div class="ulist">
-<ul>
-<li>
-<p>在Google Cloud中创建Cloud Volumes ONTAP HA对时、Cloud Manager现在将在VPC中显示所有现有防火墙策略。</p>
-<div class="paragraph">
-<p>以前、Cloud Manager不会在VPC-1、VPC-2或VPC-3中显示任何没有目标标记的策略。</p>
-</div>
-</li>
-<li>
-<p>在Google Cloud中创建Cloud Volumes ONTAP 单节点系统时、您现在可以选择是希望预定义的防火墙策略仅允许选定VPC (建议)内的流量、还是允许所有VPC内的流量。</p>
-</li>
-</ul>
-</div>
-</div>
-<div class="sect3">
-<h4 id="google-cloud服务帐户增强功能">Google Cloud服务帐户增强功能</h4>
-<div class="paragraph">
-<p>当您选择要与Cloud Volumes ONTAP 结合使用的Google云服务帐户时、Cloud Manager现在会显示与每个服务帐户关联的电子邮件地址。通过查看电子邮件地址、可以更轻松地区分同名服务帐户。</p>
-</div>
-<div class="paragraph">
-<p><span class="image"><img src="https://raw.githubusercontent.com/NetAppDocs/cloud-manager-cloud-volumes-ontap/main/media/screenshot-google-cloud-service-account.png" alt="服务帐户字段的屏幕截图"></span></p>
 </div>
 </div>
 </div>
@@ -1618,6 +1525,24 @@
 <h2 id="勒索软件保护">勒索软件保护</h2>
 <div class="sectionbody">
 <div class="sect2">
+<h3 id="2022年5月11日-2">2022年5月11日</h3>
+<div class="sect3">
+<h4 id="用于跟踪-ontap-环境安全性强化情况的新面板">用于跟踪 ONTAP 环境安全性强化情况的新面板。</h4>
+<div class="paragraph">
+<p>一个新面板 " 强化 ONTAP 环境 " 可提供 ONTAP 系统中某些设置的状态，用于根据跟踪部署的安全性 <a href="https://www.netapp.com/pdf.html?item=/media/10674-tr4569.pdf" target="_blank" rel="noopener">"《适用于 ONTAP 系统的 NetApp 安全加固指南》"</a> 和 <a href="https://docs.netapp.com/us-en/ontap/anti-ransomware/index.html" target="_blank" rel="noopener">"ONTAP 防勒索软件功能"</a> 主动检测异常活动并发出警告。</p>
+</div>
+<div class="paragraph">
+<p>您可以查看这些建议，然后确定希望如何解决潜在问题。您可以按照以下步骤更改集群上的设置，将更改推迟到其他时间或忽略此建议。 <a href="https://docs.netapp.com/us-en/cloud-manager-ransomware/task-analyze-ransomware-data.html#status-of-ontap-systems-hardening">"有关详细信息，请访问此处"</a>。</p>
+</div>
+</div>
+<div class="sect3">
+<h4 id="新面板可显示如何使用-cloud-backup-保护不同类别的数据">新面板可显示如何使用 Cloud Backup 保护不同类别的数据。</h4>
+<div class="paragraph">
+<p>这一全新的 " 备份状态 " 面板显示了在因勒索软件攻击而需要恢复时，您最重要的数据类别的备份程度如何全面。此数据直观地展示了 Cloud Backup 在环境中备份的特定类别项目数量。 <a href="https://docs.netapp.com/us-en/cloud-manager-ransomware/task-analyze-ransomware-data.html#backup-status-of-your-critical-business-data">"有关详细信息，请访问此处"</a>。</p>
+</div>
+</div>
+</div>
+<div class="sect2">
 <h3 id="2022-年-3-月-15-日-2">2022 年 3 月 15 日</h3>
 <div class="sect3">
 <h4 id="用于跟踪业务关键型数据的权限状态的新面板">用于跟踪业务关键型数据的权限状态的新面板</h4>
@@ -1633,7 +1558,7 @@
 </div>
 </div>
 <div class="sect2">
-<h3 id="2022-年-2-月-9-日-3">2022 年 2 月 9 日</h3>
+<h3 id="2022-年-2-月-9-日-2">2022 年 2 月 9 日</h3>
 <div class="sect3">
 <h4 id="全新的勒索软件保护服务">全新的勒索软件保护服务</h4>
 <div class="paragraph">
