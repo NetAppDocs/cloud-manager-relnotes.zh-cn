@@ -205,12 +205,6 @@
   <block id="8703dd42c4c647846ef556f4d8459d59" category="section-title">OpenSSL 模块已升级到 1.1.1k 版。</block>
   <block id="513502857f15915e7acef1b7916eda1b" category="section-title">已更新许可证注册页面。</block>
   <block id="9993afe041a131f763bfa71520f8d27d" category="paragraph">现在， GFC 许可证注册页面将显示通过 NetApp 订阅激活的许可证数量。</block>
-  <block id="5be3d95052c37ddc7c5e08fede5b7beb" category="section-title">2021 年 3 月 21 日（ 1.0.3 版）</block>
-  <block id="d701539c3bff162de55bec2ac786dea9" category="section-title">软件安装程序会更新，以自动从 Windows Defender 中排除 GFC 进程。</block>
-  <block id="2c7e576e2b46004ee7c7f2138e6b71e2" category="paragraph">现在，全局文件缓存软件安装程序会将所有 GFC 进程排除在 Windows Defender 软件按需扫描之外。</block>
-  <block id="718c867d7cc0d5ae654df61aed5134dd" category="section-title">已向配置控制台添加一个新的策略配置选项卡。</block>
-  <block id="85630a0f5573b7e43d043882435503c0" category="paragraph">通过此配置选项卡，您可以从 GFC 核心添加预填充作业。</block>
-  <block id="23f584e2a92da05ee5a990cefc20a926" category="section-title">增强了软件功能，可减少内存使用量，同时提高性能和稳定性。</block>
   <block id="ecee73066145d2e6f1b75b79d2af7514" category="section-title">使用 Cloud Manager 资源页面管理 Kubernetes 集群</block>
   <block id="06ad314b340900d226b1196e1fe289e9" category="inline-link-macro">快速入门</block>
   <block id="a84f0102d02caeeb1c0e554f032c6e35" category="paragraph">现在， Kubernetes 集群管理已增强了直接与集群工作环境的集成。新的 <block ref="a7ce12c998c9439767584776d325ea5b" category="inline-link-macro-rx"></block> 让您快速启动和运行。</block>
@@ -412,4 +406,11 @@
   <block id="390e66de0b25a9d9b226d4ede6fa20b5" category="section-title">2022年5月12日</block>
   <block id="e2632c3a4c1aff50543e98b03420fd3c" category="section-title">连接器3.9.18修补程序</block>
   <block id="8156333613ef46e2aeaf70650af07b00" category="paragraph">我们更新了Connector以引入错误修复。最值得注意的修复方法是、当问题描述 位于共享VPC中时、它会影响Google Cloud中的Cloud Volumes ONTAP 部署。</block>
+  <block id="25cd9b4ac7b3c20c21ee2a72afe32aa0" category="section-title">2022年5月19日(版本1.3.0)</block>
+  <block id="8334797b9b3383d4f48d98178b8845ea" category="inline-link">此页面</block>
+  <block id="538b3d7be12bcc1f18433981df773bc1" category="paragraph">可从获取1.3.0版的全局文件缓存边缘软件<block ref="2c81bb98c990e9738e500d000082628f" category="inline-link-rx"></block>。</block>
+  <block id="9463b6d7b9d38e544c6a7eb98988bb3b" category="section-title">新的元数据边缘同步功能</block>
+  <block id="2e0922ffb3ae1ae6ac16997e734d5154" category="paragraph">此"元数据边缘同步"功能使用边缘同步功能作为其核心框架。仅更新所有已订阅边缘上的元数据信息、并在边缘计算机上创建文件/文件夹。</block>
+  <block id="2273c570a2dcacbb1c4bb77abccca54b" category="section-title">License Manager Service增强功能</block>
+  <block id="03036f549995f5d3240d1c89c4f2f496" category="paragraph">全局文件缓存许可证管理服务器(LMS)服务已进行增强、可自动检测代理设置。这样可以实现无缝配置。</block>
 </blocks>
