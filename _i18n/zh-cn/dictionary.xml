@@ -65,7 +65,6 @@
   <block id="92a19295ac05c2a8159ff4e129265e4f" category="inline-link">有关 Cloud Manager 中 Cloud Volumes ONTAP 管理的发行说明</block>
   <block id="998c54a50d0a2978b705c26bab946460" category="list-text"><block ref="998c54a50d0a2978b705c26bab946460" category="inline-link-rx"></block></block>
   <block id="ba26e4556a0f160834687982b0479336" category="section-title">2022 年 2 月 27 日</block>
-  <block id="23ea931bf11f885e1a49e6970b0aa60a" category="paragraph">在 Google Cloud 中创建新的 Connector 时， Cloud Manager 现在将显示所有现有防火墙策略。以前， Cloud Manager 不会显示任何没有目标标记的策略。</block>
   <block id="29c251ed5a57bbffe470654ccbbe714c" category="section-title">2021 年 4 月 11 日</block>
   <block id="860941d67aa8a8a442ba4a65191838cf" category="section-title">支持卷模板</block>
   <block id="28c1b76e8b0c8f418301bc750b4e9f0e" category="paragraph">通过新的应用程序模板服务，您可以为 Azure NetApp Files 设置卷模板。此模板应使您的工作更轻松，因为模板中已定义某些卷参数，例如，容量池，大小，协议，卷应驻留的 vNet 和子网等。如果已预定义某个参数，则只需跳到下一个 volume 参数即可。</block>
@@ -323,8 +322,6 @@
   <block id="c1ef500163b033b0cacf87c830339c6e" category="inline-link">了解如何使用 IAM 角色创建连接器</block>
   <block id="1d74a995b1a421dcb50976efb8094b21" category="paragraph"><block ref="f92b2fbbcca658498705715523d67bd6" category="inline-link-rx"></block>。</block>
   <block id="1d99a1c8fadd3f9a537fec830e9791e0" category="list-text">此版本的连接器还包括Cloud Volumes ONTAP 增强功能。<block ref="66c4cd7232189d67ede2231e4ccd26ce" category="inline-link-rx"></block></block>
-  <block id="8c4a1103eeca70528bc946c2246ec6f1" category="section-title">连接器3.9.16</block>
-  <block id="8452efafcd305c048b35a9ac1eaa0a58" category="list-text">此版本的连接器还包括Cloud Volumes ONTAP 增强功能。<block ref="f53661746a388d6e170677167c0cb4ac" category="inline-link-rx"></block></block>
   <block id="d3e8cd2e370974f27de1b310b4aa8cb3" category="section-title">2022年5月3日</block>
   <block id="a74300b6b08791dda4f54d473a58e17a" category="section-title">为其他集群配置提供Cloud Tiering许可证支持</block>
   <block id="afacb33ad65bcd63eb15aeba04b4aed0" category="inline-link">请参见如何许可和配置这些类型的集群。</block>
@@ -412,4 +409,7 @@
   <block id="5c4a95a56d4b5bfef734aeab388618c0" category="section-title">Google Cloud服务帐户增强功能</block>
   <block id="06fa5bb865f711b645e1f86dd8711d63" category="paragraph">当您选择要与Cloud Volumes ONTAP 结合使用的Google云服务帐户时、Cloud Manager现在会显示与每个服务帐户关联的电子邮件地址。通过查看电子邮件地址、可以更轻松地区分同名服务帐户。</block>
   <block id="92a991ca375ee56317f82c3a30f16fff" category="paragraph"><block ref="92a991ca375ee56317f82c3a30f16fff" category="inline-image-macro-rx" type="image"></block></block>
+  <block id="390e66de0b25a9d9b226d4ede6fa20b5" category="section-title">2022年5月12日</block>
+  <block id="e2632c3a4c1aff50543e98b03420fd3c" category="section-title">连接器3.9.18修补程序</block>
+  <block id="8156333613ef46e2aeaf70650af07b00" category="paragraph">我们更新了Connector以引入错误修复。最值得注意的修复方法是、当问题描述 位于共享VPC中时、它会影响Google Cloud中的Cloud Volumes ONTAP 部署。</block>
 </blocks>
