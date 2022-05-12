@@ -374,4 +374,42 @@
   <block id="c4abca012bce01614c5a65c5b0e6ecd6" category="inline-link">了解如何在特定聚合上创建卷</block>
   <block id="1c6f86b67d4150db2b816bc084d4c069" category="paragraph"><block ref="525dd47105081fbda31ba7a2793ca879" category="inline-link-rx"></block>。</block>
   <block id="c7fd320d60c5b92b36ff4a806aef9121" category="paragraph">除了查看和筛选所有文件和数据库中的数据之外、现在您还可以在"数据调查"页面中根据文件夹和共享中的所有数据查看和筛选数据。将为扫描的CIFS和NFS共享以及OneDrive、SharePoint和Google Drive文件夹的目录编制索引。现在、您可以在目录级别查看权限并管理数据。<block ref="9e53e59afd29cea3c43eb27dc0a3476a" category="inline-link-rx"></block>。</block>
+  <block id="e76164b285bb635d604e86db0ddefffb" category="paragraph">连接器3.9.18版引入了以下变更。</block>
+  <block id="44521137c9499dbef6a006058d0d9127" category="section-title">Cloud Volumes ONTAP 9.11.0</block>
+  <block id="f5820273186d8dafc3fd2a4b4a00f3ab" category="paragraph">Cloud Manager现在可以部署和管理Cloud Volumes ONTAP 9.11.0。</block>
+  <block id="9f97c3125a701942b4e6e648146819fc" category="inline-link">了解此版本 Cloud Volumes ONTAP 中的新增功能</block>
+  <block id="066405d152aeaf5c017e93048679ce43" category="paragraph"><block ref="0d69949c9de36f8752d49be7f0ec9aed" category="inline-link-rx"></block>。</block>
+  <block id="a0834297e8b28b9a51d59500441c7351" category="section-title">调解器升级增强功能</block>
+  <block id="b1001d52fd68a717e647b035c7ba64fe" category="paragraph">当Cloud Manager升级HA对的调解器时、它现在会先验证新的调解器映像是否可用、然后再删除启动磁盘。此更改可确保调解器在升级过程失败时能够继续成功运行。</block>
+  <block id="e6e5b99786bfefd88e32c940b7547ab3" category="section-title">已删除K8s选项卡</block>
+  <block id="6eb7d1343cce33ec7d31b57edd9f3aef" category="paragraph">先前已弃用K8s选项卡、现已将其删除。如果要将Kubernetes与Cloud Volumes ONTAP 结合使用、可以将受管Kubernetes集群添加到Canvas中、作为一个用于高级数据管理的工作环境。</block>
+  <block id="75b200b4f9a63bca2792f985693a22c8" category="inline-link">了解Cloud Manager中的Kubernetes数据管理</block>
+  <block id="97bbe1f6bede29b64e2101d03c2362cb" category="paragraph"><block ref="97bbe1f6bede29b64e2101d03c2362cb" category="inline-link-rx"></block></block>
+  <block id="7475abfb4039c00bb03fd05d6d792b3d" category="section-title">Azure中的年度合同</block>
+  <block id="52b398f13b1acf3e73584a9cb106e989" category="paragraph">Essentials和Professional软件包现在可通过一份年度合同在Azure中提供。您可以联系NetApp销售代表购买年度合同。此合同在Azure Marketplace中以私人优惠形式提供。</block>
+  <block id="51606c7b614cdc7ab9e0489981838dfa" category="paragraph">在NetApp与您共享私人优惠后、您可以在创建工作环境期间从Azure Marketplace订阅年度计划。</block>
+  <block id="ba089edca33f314482ad946ae680f1eb" category="inline-link">了解有关许可的更多信息</block>
+  <block id="bd2a7f63a398b5af0c64c2d07409b38c" category="paragraph"><block ref="fa67dcc1253d6ef7da36dd244bfe620f" category="inline-link-rx"></block>。</block>
+  <block id="57ae56f77d278076fb394799067eb3ef" category="section-title">S3 Glacier即时检索</block>
+  <block id="465771d8890531f2527e09ef3f1b4f68" category="paragraph">现在、您可以将分层数据存储在Amazon S3 Glacier即时检索存储类中。</block>
+  <block id="6d4822148bad6fb79e6d92864dde8771" category="inline-link">了解如何更改分层数据的存储类</block>
+  <block id="e6eb181abe02ab22f2df966da6c0669d" category="paragraph"><block ref="5ae2503a0985d77718c9fe3da8dbc989" category="inline-link-rx"></block>。</block>
+  <block id="ef8e1d8f242a7ee4d109deb44db1b252" category="section-title">Connector需要新的AWS权限</block>
+  <block id="81ad4f0de90ee8a7305d0fd7751df796" category="section-title">全新Google Cloud区域支持</block>
+  <block id="6b071f4257d8badb0aeb96e6b0547800" category="paragraph">从9.10.1版开始、以下Google Cloud地区现在支持Cloud Volumes ONTAP ：</block>
+  <block id="986ef6cfb21ad2831a7ae053e3f0506e" category="list-text">米兰(欧洲-西部8)—仅限单节点</block>
+  <block id="00f803da9ac7d98ccbfd2178a95625ee" category="list-text">圣地亚哥(南美洲-西1)—仅限单节点</block>
+  <block id="d1ce20099e22fd96c2217da218a20a9e" category="inline-link">查看Cloud Volumes ONTAP 支持的区域的完整列表</block>
+  <block id="efb1786cdf88244f9480e15cb039f942" category="paragraph"><block ref="efb1786cdf88244f9480e15cb039f942" category="inline-link-rx"></block></block>
+  <block id="8184a89f6d67aafd228ddc002e159ce5" category="section-title">在Google Cloud中支持n2-standard-16</block>
+  <block id="86a3a073b385c5ae85e4523282be3124" category="paragraph">从9.10.1版开始、Google Cloud中的Cloud Volumes ONTAP 现在支持n2-standard-16计算机类型。</block>
+  <block id="4994b2bf1bd5c0153c9dc0077a84b5a7" category="inline-link">在Google Cloud中查看支持的Cloud Volumes ONTAP 配置</block>
+  <block id="528aaaafbacf255285f844e94403a43f" category="paragraph"><block ref="528aaaafbacf255285f844e94403a43f" category="inline-link-rx"></block></block>
+  <block id="291a5c22c8cb78fe8ec363d61830f63e" category="section-title">Google Cloud防火墙策略增强功能</block>
+  <block id="73d44bfa5f20953f5799b7072e1f9dc7" category="list-text">在Google Cloud中创建Cloud Volumes ONTAP HA对时、Cloud Manager现在将在VPC中显示所有现有防火墙策略。</block>
+  <block id="5e1082179426bea32e466fe447cc5f2e" category="paragraph">以前、Cloud Manager不会在VPC-1、VPC-2或VPC-3中显示任何没有目标标记的策略。</block>
+  <block id="880f67f103405f29628ff848182ca330" category="list-text">在Google Cloud中创建Cloud Volumes ONTAP 单节点系统时、您现在可以选择是希望预定义的防火墙策略仅允许选定VPC (建议)内的流量、还是允许所有VPC内的流量。</block>
+  <block id="5c4a95a56d4b5bfef734aeab388618c0" category="section-title">Google Cloud服务帐户增强功能</block>
+  <block id="06fa5bb865f711b645e1f86dd8711d63" category="paragraph">当您选择要与Cloud Volumes ONTAP 结合使用的Google云服务帐户时、Cloud Manager现在会显示与每个服务帐户关联的电子邮件地址。通过查看电子邮件地址、可以更轻松地区分同名服务帐户。</block>
+  <block id="92a991ca375ee56317f82c3a30f16fff" category="paragraph"><block ref="92a991ca375ee56317f82c3a30f16fff" category="inline-image-macro-rx" type="image"></block></block>
 </blocks>
