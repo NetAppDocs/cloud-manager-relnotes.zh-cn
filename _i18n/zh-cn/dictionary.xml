@@ -51,7 +51,6 @@
   <block id="950604af87c30e09716e6d097eb491db" category="section-title">勒索软件保护</block>
   <block id="46255a0651109e3be491691e312b0332" category="summary">本发行说明介绍了 Cloud Manager 平台中的云服务的最新增强功能。可以通过链接访问每个服务的完整发行说明。</block>
   <block id="ab0f38be07f9dea06b0c032857af2e24" category="doc">Cloud Manager 发行说明</block>
-  <block id="7ff191df90fac0fa94ab5c2b5101a5e9" category="sidebar">所有 Cloud Manager 文档</block>
   <block id="dcf4ee5c8f297d1f5e0da7b22e359023" category="sidebar">最近更改</block>
   <block id="33871b6190a8d5adbe8b15282054766c" category="sidebar">新增功能</block>
   <block id="f5f7a4d1535be1d0940e398b2997dfc0" category="sidebar">发行说明（按服务）</block>
@@ -156,14 +155,6 @@
   <block id="c81f80b5e3a2c8dfe8c2f908cbbfc2fa" category="paragraph">现在，您可以筛选 " 同步信息板 " 的内容，以便更轻松地查找与特定状态匹配的同步关系。例如，您可以筛选状态为失败的同步关系</block>
   <block id="ab31e38babe6f59fc89d1a7f8d3ea2c9" category="inline-image-macro">显示信息板顶部按同步筛选状态选项的屏幕截图。</block>
   <block id="9a086a6121a0ffa4e8986b7ce540eece" category="paragraph"><block ref="9a086a6121a0ffa4e8986b7ce540eece" category="inline-image-macro-rx" type="image"></block></block>
-  <block id="d8247e494d1e03bac9b29cc7ea4c0eca" category="section-title">在信息板中排序</block>
-  <block id="32ee2f2004d5d2f19f46a8909b1df5a6" category="paragraph">现在，您可以按同步关系名称对信息板进行排序。</block>
-  <block id="c964823b8160043978055759ce39dd87" category="inline-image-macro">显示信息板中提供的按名称排序选项的屏幕截图。</block>
-  <block id="ce7541e1d7efdf7278fdc4d1fc9736b1" category="paragraph"><block ref="ce7541e1d7efdf7278fdc4d1fc9736b1" category="inline-image-macro-rx" type="image"></block></block>
-  <block id="aabbe3d8eb6db922cc7867bbc1068867" category="section-title">增强了 Data sense 集成功能</block>
-  <block id="2931385a1afec19638d47ebab7744410" category="paragraph">在上一版本中，我们引入了 Cloud Sync 与 Cloud Data sense 的集成。在此更新中，我们简化了创建同步关系的过程，从而增强了集成能力。从 Cloud Data sense 启动数据同步后，所有源信息都包含在一个步骤中，只需输入几个关键详细信息即可。</block>
-  <block id="f3b62c43bc969f6b5b30d96b8171a06d" category="inline-image-macro">一个屏幕截图，显示直接从 Cloud Data sense 启动新同步后显示的 "Data sense Integration" 页面。</block>
-  <block id="b7415479c879eb3f5804ebd25ea733e7" category="paragraph"><block ref="b7415479c879eb3f5804ebd25ea733e7" category="inline-image-macro-rx" type="image"></block></block>
   <block id="6cb8333618f00b139da255e7f5a82ea0" category="section-title">Amazon S3 Glacier 即时检索存储类现已推出</block>
   <block id="199090bb5d58df554b18a5cb68acb0b7" category="section-title">Cloud Tiering 已完全符合 ONTAP Select 系统的要求</block>
   <block id="a74220a8acc78d1041352afb305af18f" category="paragraph">除了对 AFF 和 FAS 系统中的数据进行分层之外，现在您还可以将 ONTAP Select 系统中的非活动数据分层到云存储。</block>
@@ -219,10 +210,6 @@
   <block id="aa7542e939f8e623254af69a1fcd8e2b" category="list-text"><block ref="aa7542e939f8e623254af69a1fcd8e2b" category="inline-link-macro-rx"></block></block>
   <block id="41e3782291be693bb1f948094d98229d" category="inline-link-macro">启用数据服务</block>
   <block id="6d6f9b61b474cb16598eda49f24d6452" category="list-text"><block ref="6d6f9b61b474cb16598eda49f24d6452" category="inline-link-macro-rx"></block></block>
-  <block id="572154af04ccf23551e78649302c6f7b" category="section-title">支持 Google Cloud 中的 Kubernetes 集群</block>
-  <block id="45cbe8fd766702dd0ad0022cbde336ce" category="paragraph">现在，您可以使用 Cloud Manager 在 Google Cloud 中添加和管理受管 Google Kubernetes Engine （ GKEE ）集群和自管 Kubernetes 集群。</block>
-  <block id="f1b377c7d4b75112665bc3e7ee7c340b" category="inline-link-macro">了解如何在 Google Cloud 中开始使用 Kubernetes 集群</block>
-  <block id="6fcf7676e8aae6ddc7b3f104efce8aab" category="paragraph"><block ref="5416dc5374fce9a230fcbd66732d82fb" category="inline-link-macro-rx"></block>。</block>
   <block id="ef1bf4095b622ba80ac24b48b8e45eac" category="section-title">2022 年 1 月 11 日</block>
   <block id="9e27c4a53794e4f6cfc9949de58e5091" category="section-title">2021 年 8 月 1 日</block>
   <block id="f9564bccd9f6164dfb5486c5fe5ff233" category="section-title">更改为采集单元名称</block>
@@ -245,9 +232,6 @@
   <block id="a70e816a0245e4c041fe696bc068fde8" category="paragraph"><block ref="cdf49294fa22fe97f3cd9774fbb3d925" category="inline-link-rx"></block>。您需要为集群创建一个 NetApp 支持站点帐户（ NSS ），并且需要将 NSS 凭据附加到您的 Cloud Manager 帐户。</block>
   <block id="d69df284f21ccdf93082c4aaf0953b6d" category="section-title">您添加到内部 ONTAP 集群上的卷的标记可以与标记服务结合使用。</block>
   <block id="3686b84bef4027bfe5a11fcf472d8662" category="paragraph">添加到卷的标记现在与应用程序模板服务的标记功能相关联，该功能有助于您组织和简化资源管理。</block>
-  <block id="f61163b681442ac500a8018c87241770" category="section-title">2021 年 11 月 28 日</block>
-  <block id="feea05ef76a2f6f2d444dfab436c31c4" category="section-title">已简化内部 ONTAP 集群的创建卷向导</block>
-  <block id="decff6be18712c90db61aad628609885" category="paragraph">我们重新设计了创建卷向导，以便于使用，现在您可以选择自定义导出策略。</block>
   <block id="70ca849e4710f5c98451b61f2b47e5a8" category="section-title">用于跟踪业务关键型数据的权限状态的新面板</block>
   <block id="5816bf17c72947dceb173c559c3f6009" category="paragraph">新的 " 业务关键型数据权限分析 " 面板显示了对您的业务至关重要的数据的权限状态。这样，您就可以快速评估业务关键型数据的保护情况。<block ref="20409d23480e4ebcd1abe3eb7cf44ef8" category="inline-link-rx"></block>。</block>
   <block id="1029db4aa82b2fd39d624a6eda513d6c" category="section-title">现在， " 打开权限 " 区域包括 OneDrive 和 SharePoint 帐户</block>
@@ -282,8 +266,6 @@
   <block id="a2824b49f1c7526bf0e925b86c7b293c" category="inline-link">请参见如何使用搜索和放大器还原卷和文件</block>
   <block id="c84eb78e4a1957b6b0aa50908d89949f" category="paragraph">4月份、在AWS中存储备份文件的用户开始使用"搜索和还原"方法来还原卷和文件。现在、将备份文件存储在Google Cloud Storage中的用户可以使用此功能。<block ref="c9d4c1d19223377e15b82823d41fa44a" category="inline-link-rx"></block>。</block>
   <block id="1dc3a9d2d46d5247757ad692a1dda8d4" category="section-title">配置要自动应用于Kubernetes集群中新创建的卷的备份策略</block>
-  <block id="31d9f5df125d9014e9c296eed143904c" category="inline-link">从_Backup Settings_页面</block>
-  <block id="0e5eab8eb6782ba4533b5141d39e4a9a" category="paragraph">如果您在激活Cloud Backup后向Kubernetes集群添加了新的永久性卷、则在过去、您需要记住为这些卷配置备份。现在、您可以选择将自动应用于新创建的卷的策略。在为新Kubernetes集群或激活Cloud Backup时、此选项在设置向导中可用<block ref="11a3efd6b42c9f2e763586db69ebed23" category="inline-link-rx"></block> 适用于已激活Cloud Backup的集群。</block>
   <block id="fd875d3cd25e36f42ac27fb4f3449a8e" category="section-title">Cloud Backup现在需要获得许可证、才能在工作环境中激活</block>
   <block id="75c0e3b9776c1472c507114bf7a7a1cf" category="paragraph">在Cloud Backup中实施许可的方式方面、有一些变化：</block>
   <block id="e84f7761b10b99ddca7152e4bb801dd6" category="list-text">您必须先从云提供商处注册PAYGO Marketplace订阅、或者从NetApp购买BYOL许可证、然后才能激活Cloud Backup。</block>
@@ -413,4 +395,37 @@
   <block id="2e0922ffb3ae1ae6ac16997e734d5154" category="paragraph">此"元数据边缘同步"功能使用边缘同步功能作为其核心框架。仅更新所有已订阅边缘上的元数据信息、并在边缘计算机上创建文件/文件夹。</block>
   <block id="2273c570a2dcacbb1c4bb77abccca54b" category="section-title">License Manager Service增强功能</block>
   <block id="03036f549995f5d3240d1c89c4f2f496" category="paragraph">全局文件缓存许可证管理服务器(LMS)服务已进行增强、可自动检测代理设置。这样可以实现无缝配置。</block>
+  <block id="f8b475a3fefebada77a30229238d0a1a" category="section-title">2022年6月7日</block>
+  <block id="40beea3ec23a7affa39b1a1cbd52f21d" category="section-title">连接器3.9.19</block>
+  <block id="fb9fefdc512037af8c4c1f84c436bd8e" category="list-text">现在、AWS雅加达地区(亚太地区东南部3)支持Connector。</block>
+  <block id="49ed7ab586a5135eae3ee7b3aea2ae20" category="list-text">现在、Azure巴西东南部地区支持Connector。</block>
+  <block id="1765dff10197df4bf080f41e5537f2a5" category="list-text">此版本的Connector还包括Cloud Volumes ONTAP 增强功能和内部ONTAP 集群增强功能。</block>
+  <block id="03e6ae21f561049c3e8010740c63aab3" category="inline-link">了解Cloud Volumes ONTAP 增强功能</block>
+  <block id="2027473f3ca71543274163d3bb9dd8e1" category="list-text"><block ref="2027473f3ca71543274163d3bb9dd8e1" category="inline-link-rx"></block></block>
+  <block id="6ff2a7981cc8a7efd758e8ffec4cc69e" category="inline-link">了解ONTAP 内部集群增强功能</block>
+  <block id="f0aff813a70ef2591adfbb6a1a06b553" category="list-text"><block ref="f0aff813a70ef2591adfbb6a1a06b553" category="inline-link-rx"></block></block>
+  <block id="35902f649443d8dd6c5f04595fff3035" category="paragraph">如果您在激活Cloud Backup后向Kubernetes集群添加了新的永久性卷、则在过去、您需要记住为这些卷配置备份。现在、您可以选择将自动应用于新创建的卷的策略。在为新Kubernetes集群激活Cloud Backup时、此选项可在设置向导中使用。</block>
+  <block id="62ee9336109ed1c4538423613b856682" category="section-title">2022年6月6日</block>
+  <block id="c20246791a0594003975011a29aae438" category="section-title">持续同步</block>
+  <block id="ade9a1db23f7d605ed4e98f520c46b00" category="paragraph">通过新设置、您可以持续将源S3存储分段中的更改同步到目标。</block>
+  <block id="2aaa6a5839225ec7e874d5c5c1af43df" category="paragraph">初始数据同步后、Cloud Sync 将侦听源S3存储分段上的更改、并在发生更改时持续同步目标。无需按计划间隔重新扫描源。只有在从S3存储分段同步到S3、Google Cloud Storage、Azure Blob Storage、StorageGRID 或IBM存储时、此设置才可用。</block>
+  <block id="969431a3ee7466b53b917ad1bc5d032a" category="paragraph">请注意、与数据代理关联的IAM角色需要以下权限才能使用此设置：</block>
+  <block id="8817adc7e5de41abc6dded623fbb60a9" category="paragraph">这些权限会自动添加到您创建的任何新数据代理中。</block>
+  <block id="f23841b65ba519d2dd6a63a2a3e4de83" category="inline-link-macro">了解有关持续同步设置的更多信息</block>
+  <block id="9bc62ddcbad4365043432f4afd539ab9" category="paragraph"><block ref="b78c060d9cafb1faa0c3c10254143905" category="inline-link-macro-rx"></block>。</block>
+  <block id="3d7f78f24cbebe2c601558e90c9fe15f" category="section-title">显示所有ONTAP 卷</block>
+  <block id="517d881d38e3ddd50495a5763ac986b4" category="paragraph">现在、在创建同步关系时、Cloud Sync 将显示源Cloud Volumes ONTAP 系统、内部ONTAP 集群或ONTAP 文件系统上的所有卷。</block>
+  <block id="9de2181e94c0cd08ea8823917ee87c3f" category="paragraph">以前、Cloud Sync 只会显示与选定协议匹配的卷。此时将显示所有卷、但与选定协议不匹配或没有共享或导出的任何卷都将灰显且不可选。</block>
+  <block id="7f5581e89068d302a142aecf7d19a771" category="section-title">正在将标记复制到Azure Blob</block>
+  <block id="32aae8f84d3fb43aff2913dafe7d72e0" category="paragraph">在创建Azure Blob作为目标的同步关系时、现在可以使用Cloud Sync 将标记复制到Azure Blob容器：</block>
+  <block id="718cef647cf171d07e94f6c003056c56" category="list-text">在*设置*页面上、您可以使用*为对象复制*设置将标记从源复制到Azure Blob容器。除了复制元数据之外、还需要执行此操作。</block>
+  <block id="37e1492974d1c0a4febae33433a14d3f" category="list-text">在*标记/元数据*页面上、您可以指定要在复制到Azure Blob容器的对象上设置的Blob索引标记。以前、您只能指定关系元数据。</block>
+  <block id="bb775e1249cce6f8004e5212d3f37d10" category="paragraph">如果Azure Blob是目标、而源是Azure Blob或与S3兼容的端点(S3、StorageGRID 或IBM云对象存储)、则支持这些选项。</block>
+  <block id="cd6d587cb36421715f3cc24a2c91aef6" category="paragraph">Cloud Manager现在支持将Amazon FSX for ONTAP 用作后端存储。</block>
+  <block id="4f03a5c652641013d1e43811930f5769" category="paragraph">连接器3.9.19版引入了以下更改。</block>
+  <block id="ffe3ec3b5faef58a758d9449470882a0" category="section-title">新建高级视图</block>
+  <block id="5549a52d6578bcb66138c7319ef4ea11" category="paragraph">如果您需要对ONTAP 内部集群执行高级管理、可以使用ONTAP 系统管理器执行此操作、该管理接口随ONTAP 系统提供。我们直接在Cloud Manager中提供了System Manager界面、因此您无需离开Cloud Manager进行高级管理。</block>
+  <block id="99721ad2e6d601b2966a9d9e1c7de770" category="paragraph">对于运行9.10.0或更高版本的内部ONTAP 集群、此高级视图为预览视图。我们计划改进此体验、并在即将发布的版本中添加增强功能。请通过产品内聊天向我们发送反馈。</block>
+  <block id="f303a87fe6efba259b752f5a9e11064b" category="inline-link-macro">了解有关高级视图的更多信息</block>
+  <block id="0c6e9220b6dd38f763ce6082c0125be9" category="paragraph"><block ref="cf41d716430563f350a841f38af568db" category="inline-link-macro-rx"></block>。</block>
 </blocks>

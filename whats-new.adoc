@@ -27,6 +27,27 @@ summary: 了解 Cloud Manager 平台中的云服务的最新变更。有关详�
 
 
 
+=== 2022年6月7日
+
+
+
+==== 连接器3.9.19
+
+* 现在、AWS雅加达地区(亚太地区东南部3)支持Connector。
+* 现在、Azure巴西东南部地区支持Connector。
++
+https://cloud.netapp.com/cloud-volumes-global-regions["查看支持的区域的完整列表"^]
+
+* 此版本的Connector还包括Cloud Volumes ONTAP 增强功能和内部ONTAP 集群增强功能。
++
+** https://docs.netapp.com/us-en/cloud-manager-cloud-volumes-ontap/whats-new.html#7-june-2022["了解Cloud Volumes ONTAP 增强功能"^]
+** https://docs.netapp.com/us-en/cloud-manager-ontap-onprem/whats-new.html#7-june-2022["了解ONTAP 内部集群增强功能"^]
+
+
+
+
+
+
 === 2022年5月12日
 
 
@@ -251,7 +272,7 @@ https://docs.netapp.com/us-en/cloud-manager-app-template/concept-tagging.html["�
 
 ==== 配置要自动应用于Kubernetes集群中新创建的卷的备份策略
 
-如果您在激活Cloud Backup后向Kubernetes集群添加了新的永久性卷、则在过去、您需要记住为这些卷配置备份。现在、您可以选择将自动应用于新创建的卷的策略。在为新Kubernetes集群或激活Cloud Backup时、此选项在设置向导中可用 https://docs.netapp.com/us-en/cloud-manager-backup-restore/task-manage-backups-kubernetes.html#setting-a-backup-policy-to-be-assigned-to-new-volumes["从_Backup Settings_页面"] 适用于已激活Cloud Backup的集群。
+如果您在激活Cloud Backup后向Kubernetes集群添加了新的永久性卷、则在过去、您需要记住为这些卷配置备份。现在、您可以选择将自动应用于新创建的卷的策略。在为新Kubernetes集群激活Cloud Backup时、此选项可在设置向导中使用。
 
 
 
@@ -394,6 +415,49 @@ Data sense 现在可以读取 OneDrive 帐户和 SharePoint 帐户中正在扫�
 
 
 
+=== 2022年6月6日
+
+
+
+==== 持续同步
+
+通过新设置、您可以持续将源S3存储分段中的更改同步到目标。
+
+初始数据同步后、Cloud Sync 将侦听源S3存储分段上的更改、并在发生更改时持续同步目标。无需按计划间隔重新扫描源。只有在从S3存储分段同步到S3、Google Cloud Storage、Azure Blob Storage、StorageGRID 或IBM存储时、此设置才可用。
+
+请注意、与数据代理关联的IAM角色需要以下权限才能使用此设置：
+
+[source, json]
+----
+"s3:GetBucketNotification",
+"s3:PutBucketNotification"
+----
+这些权限会自动添加到您创建的任何新数据代理中。
+
+link:task-creating-relationships.html#settings["了解有关持续同步设置的更多信息"]。
+
+
+
+==== 显示所有ONTAP 卷
+
+现在、在创建同步关系时、Cloud Sync 将显示源Cloud Volumes ONTAP 系统、内部ONTAP 集群或ONTAP 文件系统上的所有卷。
+
+以前、Cloud Sync 只会显示与选定协议匹配的卷。此时将显示所有卷、但与选定协议不匹配或没有共享或导出的任何卷都将灰显且不可选。
+
+
+
+==== 正在将标记复制到Azure Blob
+
+在创建Azure Blob作为目标的同步关系时、现在可以使用Cloud Sync 将标记复制到Azure Blob容器：
+
+* 在*设置*页面上、您可以使用*为对象复制*设置将标记从源复制到Azure Blob容器。除了复制元数据之外、还需要执行此操作。
+* 在*标记/元数据*页面上、您可以指定要在复制到Azure Blob容器的对象上设置的Blob索引标记。以前、您只能指定关系元数据。
+
+
+如果Azure Blob是目标、而源是Azure Blob或与S3兼容的端点(S3、StorageGRID 或IBM云对象存储)、则支持这些选项。
+
+
+
 === 2022年5月1日
 
 
@@ -438,26 +502,6 @@ https://docs.netapp.com/us-en/cloud-manager-sync/task-managing-data-brokers.html
 现在，您可以筛选 " 同步信息板 " 的内容，以便更轻松地查找与特定状态匹配的同步关系。例如，您可以筛选状态为失败的同步关系
 
 image:https://raw.githubusercontent.com/NetAppDocs/cloud-manager-sync/main/media/screenshot-sync-filter.png["显示信息板顶部按同步筛选状态选项的屏幕截图。"]
-
-
-
-=== 2022 年 3 月 3 日
-
-
-
-==== 在信息板中排序
-
-现在，您可以按同步关系名称对信息板进行排序。
-
-image:https://raw.githubusercontent.com/NetAppDocs/cloud-manager-sync/main/media/screenshot-sync-sort.png["显示信息板中提供的按名称排序选项的屏幕截图。"]
-
-
-
-==== 增强了 Data sense 集成功能
-
-在上一版本中，我们引入了 Cloud Sync 与 Cloud Data sense 的集成。在此更新中，我们简化了创建同步关系的过程，从而增强了集成能力。从 Cloud Data sense 启动数据同步后，所有源信息都包含在一个步骤中，只需输入几个关键详细信息即可。
-
-image:https://raw.githubusercontent.com/NetAppDocs/cloud-manager-sync/main/media/screenshot-sync-data-sense.png["一个屏幕截图，显示直接从 Cloud Data sense 启动新同步后显示的 \"Data sense Integration\" 页面。"]
 
 
 
@@ -761,6 +805,12 @@ image:https://raw.githubusercontent.com/NetAppDocs/cloud-manager-compute/main/me
 
 
 
+=== 2022年6月6日
+
+Cloud Manager现在支持将Amazon FSX for ONTAP 用作后端存储。
+
+
+
 === 2022年5月4日
 
 
@@ -789,18 +839,6 @@ link:https://docs.netapp.com/us-en/cloud-manager-kubernetes/task/task-k8s-manage
 * link:https://docs.netapp.com/us-en/cloud-manager-kubernetes/task/task-k8s-manage-remove-cluster.html["删除集群"]
 * link:https://docs.netapp.com/us-en/cloud-manager-kubernetes/task/task-kubernetes-enable-services.html["启用数据服务"]
 
-
-
-
-=== 2022 年 2 月 27 日
-
-
-
-==== 支持 Google Cloud 中的 Kubernetes 集群
-
-现在，您可以使用 Cloud Manager 在 Google Cloud 中添加和管理受管 Google Kubernetes Engine （ GKEE ）集群和自管 Kubernetes 集群。
-
-link:https://docs.netapp.com/us-en/cloud-manager-kubernetes/requirements/kubernetes-reqs-gke.html["了解如何在 Google Cloud 中开始使用 Kubernetes 集群"]。
 
 
 
@@ -856,6 +894,22 @@ AWS 和 Azure 的政府区域也支持监控服务。
 
 
 
+=== 2022年6月7日
+
+连接器3.9.19版引入了以下更改。
+
+
+
+==== 新建高级视图
+
+如果您需要对ONTAP 内部集群执行高级管理、可以使用ONTAP 系统管理器执行此操作、该管理接口随ONTAP 系统提供。我们直接在Cloud Manager中提供了System Manager界面、因此您无需离开Cloud Manager进行高级管理。
+
+对于运行9.10.0或更高版本的内部ONTAP 集群、此高级视图为预览视图。我们计划改进此体验、并在即将发布的版本中添加增强功能。请通过产品内聊天向我们发送反馈。
+
+link:task-administer-advanced-view.html["了解有关高级视图的更多信息"]。
+
+
+
 === 2022 年 2 月 27 日
 
 
@@ -875,16 +929,6 @@ https://docs.netapp.com/us-en/cloud-manager-ontap-onprem/task-discovering-ontap.
 ==== 您添加到内部 ONTAP 集群上的卷的标记可以与标记服务结合使用。
 
 添加到卷的标记现在与应用程序模板服务的标记功能相关联，该功能有助于您组织和简化资源管理。
-
-
-
-=== 2021 年 11 月 28 日
-
-
-
-==== 已简化内部 ONTAP 集群的创建卷向导
-
-我们重新设计了创建卷向导，以便于使用，现在您可以选择自定义导出策略。
 
 
 
