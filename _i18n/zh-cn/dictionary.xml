@@ -121,7 +121,6 @@
   <block id="0749ae9ea79ee87dd8c530f67a9065fe" category="section-title">新的搜索和还原功能可在所有 ONTAP 备份文件中搜索卷或文件</block>
   <block id="abad9ff4f9967065f50634a2a3606dd0" category="inline-link">了解如何使用搜索和放大；还原</block>
   <block id="9a4fc48ebf3077bde35f83be2ee84cc8" category="paragraph">现在，您可以按部分或完整卷名称，部分或完整文件名称，大小范围以及其他搜索筛选器在 * 所有 ONTAP 备份文件 * 中搜索卷或文件。如果您不确定哪个集群或卷是数据源，这是一种很好的新方法来查找要还原的数据。<block ref="f28ab8501300af6839923f7181e075ab" category="inline-link-rx"></block>。</block>
-  <block id="536f48524e36a16593703c5d8d108b79" category="section-title">此版本已停止使用 Cloud Data sense 扫描 Cloud Backup 文件的测试版功能</block>
   <block id="c76a3316ed2cb0284c0ef1b126e8b3ff" category="section-title">2022 年 4 月 5 日</block>
   <block id="e661d5c04d5948d390d622ba88bdcc6b" category="section-title">Data sense 可以识别四种新类型的澳大利亚个人数据</block>
   <block id="8900e436e6a12ce71aa703bf1c8be02c" category="inline-link">查看 Data sense 可以在您的数据中识别的所有类型的个人数据</block>
@@ -129,15 +128,6 @@
   <block id="0387123627dfe002c7435c0101983f19" category="section-title">现在，全局 Active Directory 服务器可以是 LDAP 服务器</block>
   <block id="b31480db3c4a98f4500e2a55a1aebc8b" category="paragraph">与 Data sense 集成的全局 Active Directory 服务器现在可以是 LDAP 服务器，而不是以前支持的 DNS 服务器。<block ref="f17adadb9807d1263647d20e03bc2613" category="inline-link-rx"></block>。</block>
   <block id="f670023c78e0e3dbeb691779659d5049" category="section-title">2022 年 3 月 15 日</block>
-  <block id="6c0e8ed69caed245f57b7b8ac8246fff" category="section-title">新筛选器可显示特定用户或组具有读取或写入权限的文件</block>
-  <block id="6bcf3eec310c41993f38eea54e01a446" category="section-title">Data sense 可以确定 SharePoint 和 OneDrive 帐户中文件的权限</block>
-  <block id="c23f592529f8db7551eafe3830b6427a" category="paragraph">Data sense 现在可以读取 OneDrive 帐户和 SharePoint 帐户中正在扫描的文件的权限。此信息显示在 " 调查 " 窗格中的文件详细信息以及 " 监管信息板 " 中的 " 打开权限 " 区域中。</block>
-  <block id="6f7f4b2d525b7b8ad22c1d283e4b195e" category="section-title">Data sense 还可以识别另外两种类型的个人数据</block>
-  <block id="d431283363f0e868742391138a4ffbd0" category="list-text">法语 INSEE — INSEE 代码是法国国家统计和经济研究所（ INSEE ）用来标识各种实体的数字代码。</block>
-  <block id="7457180e95a424d146842587474ec483" category="list-text">密码—此信息通过查找字母数字字符串旁边的 "password" 一词的组合来使用接近验证来标识。找到的项目数将在合规性信息板的 " 个人结果 " 下列出。您可以使用筛选器 * 个人数据 &gt; 密码 * 在调查窗格中搜索包含密码的文件。</block>
-  <block id="7d48333086004a7939c29f033e1bfad5" category="section-title">支持在非公开站点中部署时扫描 OneDrive 和 SharePoint 数据</block>
-  <block id="5d1023de4743a538d723b0eea67b9c49" category="inline-link">您需要允许访问以下端点。</block>
-  <block id="db6cb8c8f4488e129ed6809bb11b1ac6" category="paragraph">如果您已在无法访问 Internet 的内部站点中的主机上部署 Cloud Data sense ，则现在可以从 OneDrive 帐户或 SharePoint 帐户扫描本地数据。<block ref="f6e82e062f347b1008c89c76ae485574" category="inline-link-rx"></block></block>
   <block id="5e16db4c47abe8cb1c5bd746df2fd94a" category="section-title">2022 年 4 月 3 日</block>
   <block id="33c34b75ae4154295ed3cdeeccb3fd6a" category="section-title">数据代理组增强功能</block>
   <block id="9e85c5ace2120c3600ae07824bd6d1a9" category="paragraph">我们对数据代理组进行了多项增强：</block>
@@ -228,13 +218,8 @@
   <block id="d69df284f21ccdf93082c4aaf0953b6d" category="section-title">您添加到内部 ONTAP 集群上的卷的标记可以与标记服务结合使用。</block>
   <block id="3686b84bef4027bfe5a11fcf472d8662" category="paragraph">添加到卷的标记现在与应用程序模板服务的标记功能相关联，该功能有助于您组织和简化资源管理。</block>
   <block id="70ca849e4710f5c98451b61f2b47e5a8" category="section-title">用于跟踪业务关键型数据的权限状态的新面板</block>
-  <block id="5816bf17c72947dceb173c559c3f6009" category="paragraph">新的 " 业务关键型数据权限分析 " 面板显示了对您的业务至关重要的数据的权限状态。这样，您就可以快速评估业务关键型数据的保护情况。<block ref="20409d23480e4ebcd1abe3eb7cf44ef8" category="inline-link-rx"></block>。</block>
   <block id="1029db4aa82b2fd39d624a6eda513d6c" category="section-title">现在， " 打开权限 " 区域包括 OneDrive 和 SharePoint 帐户</block>
   <block id="52a3db95e0c303b6251e8f60de3b3f3d" category="paragraph">现在，勒索软件保护信息板中的 " 打开权限 " 区域包含对 OneDrive 帐户和 SharePoint 帐户中正在扫描的文件的现有权限。</block>
-  <block id="67ecb98d51fb7fee47f7f4c979becfa6" category="section-title">全新的勒索软件保护服务</block>
-  <block id="c05006d715a916b10a4f130817c81c90" category="paragraph">通过全新的勒索软件保护服务，您可以查看有关网络安全的相关信息，并评估数据对网络攻击的弹性。此外，它还会为您提供一系列警报和修复措施，帮助您提高数据的安全性。</block>
-  <block id="7e0c2cf881384db7bfcfb883b67871a5" category="inline-link">了解有关此新服务的更多信息</block>
-  <block id="f8f0d5b489ad504a83a9a25f8afd6159" category="paragraph"><block ref="64dfcbf1401a338253308f53837a8af7" category="inline-link-rx"></block>。</block>
   <block id="6c88f9e17d9019e00177d64f9db55d2e" category="section-title">支持适用于 ONTAP 的 Amazon FSX</block>
   <block id="59dfc17500b1e0b8d1824eb8b1413080" category="paragraph">现在，您可以将数据从 Cloud Volumes ONTAP 系统或内部 ONTAP 集群复制到适用于 ONTAP 的 Amazon FSX 文件系统。</block>
   <block id="40f78d193b858589ad7df4dd4ce61ad6" category="inline-link">了解如何设置数据复制</block>
@@ -320,14 +305,11 @@
   <block id="7613f02556e4a651db53f06b87b1b460" category="list-text">通过"用户/组权限"筛选器、您可以列出特定用户或组具有读取和/或写入权限的文件、文件夹和共享。您可以选择多个用户和/或组名称-或输入部分名称。电话</block>
   <block id="a3065e926a55339df72c1343ee9b3fae" category="inline-link">查看可用于调查数据的所有筛选器的列表</block>
   <block id="2d7dcb96cb20cbaa2b94280f3b67d862" category="paragraph"><block ref="e3dd455551e82145f7b0bbdda5ed35ae" category="inline-link-rx"></block>。</block>
-  <block id="fca7f51b54fee8b38e01607def214d88" category="paragraph">添加了一个名为 " 用户 / 组权限 " 的新筛选器，您可以列出特定用户或组具有读取和 / 或写入权限的文件。您可以选择一个或多个用户和/或组名称-或输入部分名称。此功能适用于 Cloud Volumes ONTAP ，内部 ONTAP ， Azure NetApp Files ，适用于 ONTAP 的 Amazon FSx 和文件共享上的卷。</block>
   <block id="55a52ff3da54b1be61be4ffbf282e94a" category="section-title">用于跟踪 ONTAP 环境安全性强化情况的新面板。</block>
   <block id="9c7ce6244ca9eb3215d61dd69afa3325" category="inline-link">《适用于 ONTAP 系统的 NetApp 安全加固指南》</block>
   <block id="3380ed6ae32f99410860532de07b57a7" category="inline-link">ONTAP 防勒索软件功能</block>
-  <block id="c0920e0c17ca7e741f375b33ea0a761b" category="paragraph">一个新面板 " 强化 ONTAP 环境 " 可提供 ONTAP 系统中某些设置的状态，用于根据跟踪部署的安全性<block ref="060f8a2b53a60ac49c67caafaf5b129f" category="inline-link-rx"></block> 和<block ref="0be7bd5b5f280e211653a4c6e05c11a6" category="inline-link-rx"></block> 主动检测异常活动并发出警告。</block>
   <block id="914a5a27ea412edf84bb416054ec6d75" category="paragraph">您可以查看这些建议，然后确定希望如何解决潜在问题。您可以按照以下步骤更改集群上的设置，将更改推迟到其他时间或忽略此建议。<block ref="87553c653b94d5529a2080374ec70030" category="inline-link-rx"></block>。</block>
   <block id="76553642514a4b204c12afe14df42e92" category="section-title">新面板可显示如何使用 Cloud Backup 保护不同类别的数据。</block>
-  <block id="c55588bedd5ed04bd522d770a0c3de70" category="paragraph">这一全新的 " 备份状态 " 面板显示了在因勒索软件攻击而需要恢复时，您最重要的数据类别的备份程度如何全面。此数据直观地展示了 Cloud Backup 在环境中备份的特定类别项目数量。<block ref="eddc9c9a841fbf81e5d5b5a19c7e11a3" category="inline-link-rx"></block>。</block>
   <block id="97106e7449f4966fc1e4b3b78d425110" category="section-title">已删除 System Manager 链接</block>
   <block id="249f6fd27ec465f7b6af7dc12178a1ea" category="paragraph">我们已删除先前在 Cloud Volumes ONTAP 工作环境中提供的 System Manager 链接。</block>
   <block id="1979125e36e7d7c49ca297e15301d908" category="inline-link">了解有关连接到 System Manager 的更多信息</block>
@@ -471,4 +453,29 @@
   <block id="45ee97ced966affff074d2bc1efe2686" category="paragraph">通过全新的Cloud Backup for Applications功能、您可以将适用于Oracle和Microsoft SQL的现有应用程序一致性快照(备份)从内部主存储卸载到Amazon S3或Azure Blob中的云对象存储。</block>
   <block id="8a0841a62164343a6bb78ffd4349420f" category="inline-link">了解有关保护内部应用程序数据到云的更多信息</block>
   <block id="98d0ff36da367aa918057b6c42219851" category="paragraph"><block ref="6ddb7afc666833c3265591e4f4bdc4a7" category="inline-link-rx"></block>。</block>
+  <block id="f8c7ea9d64a54c9a1eb4c1cbc5ef066e" category="section-title">2022年6月12日</block>
+  <block id="f313b26419f4694c764a8d9a38b04ce1" category="section-title">现在、您可以从数据调查页面下载结果、并将其作为.json报告</block>
+  <block id="d214193a7fda757836199c60304f2ab0" category="inline-link">请参见如何从"数据调查"页面创建报告</block>
+  <block id="6cb5a0e32d140f3770c280b471c48cd9" category="paragraph">在"数据调查"页面中筛选数据后、除了将数据保存到本地系统上的.CSV文件之外、您还可以将数据另存为可导出到NFS共享的.JSON文件中的报告。确保Data sense具有正确的导出访问权限。<block ref="0ee382d3ff8086e5d12287af8220734f" category="inline-link-rx"></block>。</block>
+  <block id="bef8207d9128cb7b1a5dc68939fc3d45" category="section-title">可以从Data sense UI卸载Data sense</block>
+  <block id="22f62cdf0824b945602b7808b1cb329f" category="inline-link">了解如何操作</block>
+  <block id="4aa7333b6753545c6a6c04dfb41b9866" category="paragraph">您可以卸载Data sense以从主机中永久删除软件、如果部署了云、则删除部署了Data sense的虚拟机/实例。删除此实例将永久删除Data sense已扫描的所有索引信息。<block ref="3da12a48df084f38bafa988bc8e77bd7" category="inline-link-rx"></block>。</block>
+  <block id="d96d07db10c050adfb5fed7e3d885b82" category="section-title">现在、可以使用审核日志记录来跟踪Data sense已执行操作的历史记录</block>
+  <block id="1ce49760bcdac502d41fb1e9e547086b" category="paragraph">审核日志可跟踪Data sense对所有工作环境中的文件以及Data sense正在扫描的数据源执行的管理活动。活动可以是由用户生成的(删除文件、创建策略等)、也可以是由策略生成的(自动向文件添加标签、自动删除文件等)。</block>
+  <block id="f5678b0269d5a9952a36966b56ab8f2e" category="inline-link">查看有关审核日志的更多详细信息</block>
+  <block id="d96e8ae6f880fe9b4d4de06b59a2128b" category="paragraph"><block ref="a09465601260c6db487e05cfd3d2ec87" category="inline-link-rx"></block>。</block>
+  <block id="a74d72e2c5ed113941ee600287aaa999" category="section-title">新的筛选器用于在"数据调查"页面中输入敏感标识符的数量</block>
+  <block id="3c5d93e6c38bd86146cef63658df62d2" category="paragraph">通过"标识符数量"筛选器、您可以列出具有一定数量的敏感标识符的文件、包括个人数据和敏感个人数据。您可以选择1-10或501到1000等范围、以便仅查看包含该数量的敏感标识符的文件。</block>
+  <block id="a630192bda7a95f4930b54f41701fc66" category="section-title">现在、您可以编辑已创建的现有策略</block>
+  <block id="61e409921fe798c5667689af4656a112" category="inline-link">请参见如何编辑策略</block>
+  <block id="dccade93a4eb5827c9c662378d30957d" category="paragraph">如果您需要更改过去创建的自定义策略、现在可以编辑该策略、而不是创建新策略。<block ref="9b2d4d6793839e9e21c2eaa1cfc45637" category="inline-link-rx"></block>。</block>
+  <block id="ee4612ccbf2c1a0b8e01a1dc2992487f" category="section-title">现在、系统将跟踪ONTAP Storage VM的NAS文件系统审核状态</block>
+  <block id="9e0f0ecbfec67c585b4269b113f30ee3" category="paragraph">如果工作环境中启用了文件系统审核的Storage VM少于40%、则会向_Cyber Resilience Map_添加警报。您可以在_harden your ONTAP environment_面板中查看未跟踪SMB和NFS事件并将其记录到审核日志中的确切SVM数。然后、您可以决定是否对这些SVM启用审核。</block>
+  <block id="9f8d82fd59d602cd8a59ae988c97d5e6" category="section-title">现在、如果您的卷未启用机载反勒索软件、则会显示警报</block>
+  <block id="5e75c953b6169be120d3ab03b8f54b15" category="paragraph">先前在_harden your ONTAP Environments_panel中为内部ONTAP 系统报告了此信息、 但现在、当在40%以下的卷中启用了机载反勒索软件功能时、_Cyber Resilience Map_中会报告一条警报、因此您可以在信息板中查看此信息。</block>
+  <block id="cc1796d3f81dc9429436a972e383c713" category="section-title">现在、可跟踪适用于ONTAP 系统的FSX以启用卷快照</block>
+  <block id="e59924af0c76a1072bb2a4cb349960b8" category="paragraph">现在、增强ONTAP 环境_面板可提供适用于ONTAP 系统的FSx上卷的Snapshot副本状态。如果不到40%的卷受快照保护、您还会在_Cyber Resilience Map_中收到警报。</block>
+  <block id="5e5a2d8b7f4ac8723d3873b0ba14916e" category="paragraph">一个新面板_harden your ONTAP Environments_可 提供ONTAP 系统中某些设置的状态、用于根据跟踪部署的安全性<block ref="060f8a2b53a60ac49c67caafaf5b129f" category="inline-link-rx"></block> 和<block ref="0be7bd5b5f280e211653a4c6e05c11a6" category="inline-link-rx"></block> 主动检测异常活动并发出警告。</block>
+  <block id="ed35eae63358acfc6c38aefc0b7736d0" category="paragraph">此全新的_Backup Status_面板显示了在因勒索软件攻击而需要恢复时、您最重要的数据类别的备份程度如何全面。此数据直观地展示了 Cloud Backup 在环境中备份的特定类别项目数量。<block ref="eddc9c9a841fbf81e5d5b5a19c7e11a3" category="inline-link-rx"></block>。</block>
+  <block id="f0affd41380a1f75f1e8cb0eb63a3746" category="paragraph">新的"业务关键型数据权限分析"面板可显示对您的业务至关重要的数据的权限状态。这样，您就可以快速评估业务关键型数据的保护情况。<block ref="20409d23480e4ebcd1abe3eb7cf44ef8" category="inline-link-rx"></block>。</block>
 </blocks>
