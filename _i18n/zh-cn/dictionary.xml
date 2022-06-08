@@ -341,11 +341,6 @@
   <block id="d87a373c29bad4362e9f6515cb3a6927" category="paragraph">现在，首发特惠价已过期，您将需要为使用 WORM 存储付费。根据 WORM 卷的总配置容量，每小时进行一次充电。此适用场景 新的和现有的 Cloud Volumes ONTAP 系统。</block>
   <block id="10142c9d88b9419ee393574e858e86c8" category="inline-link">了解 WORM 存储的定价</block>
   <block id="074dbf8cc93ccd34e86e3e2e8f2a1e3a" category="paragraph"><block ref="38aefad2ca205e663da97b7fdd932dcf" category="inline-link-rx"></block>。</block>
-  <block id="eb1bf021e05707d1f69722b4d550c310" category="paragraph">连接器3.9.16版引入了以下更改。</block>
-  <block id="06a685f653628719e2e70fedf9b250a9" category="section-title">重新设计的卷向导</block>
-  <block id="dd787088b52e69b3d8bf590e16c8413c" category="paragraph">现在，在通过 * 高级分配 * 选项在特定聚合上创建卷时，可以使用我们最近推出的创建新卷向导。</block>
-  <block id="c4abca012bce01614c5a65c5b0e6ecd6" category="inline-link">了解如何在特定聚合上创建卷</block>
-  <block id="1c6f86b67d4150db2b816bc084d4c069" category="paragraph"><block ref="525dd47105081fbda31ba7a2793ca879" category="inline-link-rx"></block>。</block>
   <block id="c7fd320d60c5b92b36ff4a806aef9121" category="paragraph">除了查看和筛选所有文件和数据库中的数据之外、现在您还可以在"数据调查"页面中根据文件夹和共享中的所有数据查看和筛选数据。将为扫描的CIFS和NFS共享以及OneDrive、SharePoint和Google Drive文件夹的目录编制索引。现在、您可以在目录级别查看权限并管理数据。<block ref="9e53e59afd29cea3c43eb27dc0a3476a" category="inline-link-rx"></block>。</block>
   <block id="e76164b285bb635d604e86db0ddefffb" category="paragraph">连接器3.9.18版引入了以下变更。</block>
   <block id="44521137c9499dbef6a006058d0d9127" category="section-title">Cloud Volumes ONTAP 9.11.0</block>
@@ -428,4 +423,37 @@
   <block id="99721ad2e6d601b2966a9d9e1c7de770" category="paragraph">对于运行9.10.0或更高版本的内部ONTAP 集群、此高级视图为预览视图。我们计划改进此体验、并在即将发布的版本中添加增强功能。请通过产品内聊天向我们发送反馈。</block>
   <block id="f303a87fe6efba259b752f5a9e11064b" category="inline-link-macro">了解有关高级视图的更多信息</block>
   <block id="0c6e9220b6dd38f763ce6082c0125be9" category="paragraph"><block ref="cf41d716430563f350a841f38af568db" category="inline-link-macro-rx"></block>。</block>
+  <block id="677e0bc1aa65f4ce3324deca0bcf87f0" category="section-title">2022年6月8日</block>
+  <block id="afd87a86d8a5973d91f3fcc4e85c719f" category="section-title">适用于虚拟机的Cloud Backup 1.1.0现已正式上市</block>
+  <block id="f1567e25bd3a491ec53134f59ea7cea7" category="paragraph">您可以通过将适用于VMware vSphere的SnapCenter 插件与Cloud Manager集成来保护虚拟机上的数据。您可以将数据存储库备份到云、并将虚拟机轻松还原回适用于VMware vSphere的内部部署SnapCenter 插件。</block>
+  <block id="b418e05c847b656e4a8ac26f2f0cc045" category="inline-link">了解有关保护虚拟机到云的更多信息</block>
+  <block id="3a5ea6bb0616fe3f66bd74e5e18fd1b3" category="paragraph"><block ref="95fa49d8f0b9a0affedd5e0d4a52c2d2" category="inline-link-rx"></block>。</block>
+  <block id="650bbb3fd1c3ec1cf13fbf6dc440ce1c" category="paragraph">连接器3.9.19版引入了以下更改。</block>
+  <block id="daa1014700acb24b76e93296bfc813fb" category="section-title">Cloud Volumes ONTAP 9.11.1</block>
+  <block id="5422eb6b3ee88eee2b931a6c1ae61c0d" category="paragraph">Cloud Manager现在可以部署和管理Cloud Volumes ONTAP 9.11.1、其中包括对新功能的支持以及其他云提供商区域的支持。</block>
+  <block id="0d69949c9de36f8752d49be7f0ec9aed" category="paragraph"><block ref="0d69949c9de36f8752d49be7f0ec9aed" category="inline-link-rx"></block></block>
+  <block id="129cb997dac90f5eb582bd49d3cae82c" category="paragraph">如果您需要对Cloud Volumes ONTAP 执行高级管理、可以使用ONTAP 系统管理器来执行此操作、该管理器是随ONTAP 系统提供的一个管理界面。我们直接在Cloud Manager中提供了System Manager界面、因此您无需离开Cloud Manager进行高级管理。</block>
+  <block id="07bba549da0c5d9af2f0531199cb73e0" category="paragraph">此高级视图可作为Cloud Volumes ONTAP 9.10.0及更高版本的预览版提供。我们计划改进此体验、并在即将发布的版本中添加增强功能。请通过产品内聊天向我们发送反馈。</block>
+  <block id="18f1ba3764c7c45f17295cada3f1b2ff" category="section-title">支持Amazon EBS弹性卷</block>
+  <block id="2e2c03493705dc64283827f16a01fab5" category="paragraph">Cloud Volumes ONTAP 聚合支持Amazon EBS弹性卷功能、可提高性能并增加容量、同时支持Cloud Manager根据需要自动增加底层磁盘容量。</block>
+  <block id="1fb2d1e9760db598bc140d6df5875a5f" category="paragraph">从_new_ Cloud Volumes ONTAP 9.11.0系统以及GP3和IO1 EBS磁盘类型开始、可支持弹性卷。</block>
+  <block id="70fb554e00e352dd7da6941d99b53751" category="inline-link-macro">了解有关支持弹性卷的更多信息</block>
+  <block id="65c3a54d401a824934a0b2987cd79906" category="paragraph"><block ref="e64e49a1cded5f4109adae46b4faa045" category="inline-link-macro-rx"></block>。</block>
+  <block id="1fa9d78d7f603e0879c6fe006c9879ac" category="paragraph">请注意、要支持弹性卷、需要为Connector提供新的AWS权限：</block>
+  <block id="209d7fb058921dcca459d965ee59c7fc" category="section-title">支持在共享AWS子网中部署HA对</block>
+  <block id="009d92f6e41918233a5d5983863734d0" category="paragraph">Cloud Volumes ONTAP 9.11.1支持AWS VPC共享。通过此版本的Connector、您可以在使用API时在AWS共享子网中部署HA对。</block>
+  <block id="d4b5e68525cac241fcf3cdcaa1a6e3dd" category="inline-link-macro">了解如何在共享子网中部署HA对</block>
+  <block id="4c45890715a33614c9b68937f7331041" category="paragraph"><block ref="a2afa807549bbfc6a98031b51b81dd74" category="inline-link-macro-rx"></block>。</block>
+  <block id="b58bf50dd57317d50ce59551de45158f" category="section-title">使用服务端点时网络访问受限</block>
+  <block id="982c0b0bc19727a7a5017f464489da09" category="paragraph">现在、当使用vNet服务端点在Cloud Volumes ONTAP 和存储帐户之间建立连接时、Cloud Manager会限制网络访问。如果禁用Azure Private Link连接、Cloud Manager将使用服务端点。</block>
+  <block id="e020ad0693308c5d73b7fe4c7bafd660" category="inline-link-macro">了解有关使用Cloud Volumes ONTAP 连接Azure专用链路的更多信息</block>
+  <block id="572f029bc460b235b79bf593e07bce0a" category="paragraph"><block ref="11d2e9af90a503c65edc8ce2e258f040" category="inline-link-macro-rx"></block>。</block>
+  <block id="aace3e8a265fffb87e8d7fbd81d6adb9" category="section-title">支持在Google Cloud中创建Storage VM</block>
+  <block id="c248c01b69af03d24d1cd7a6b9ee8e7b" category="paragraph">从9.11.1版开始、Google Cloud中的Cloud Volumes ONTAP 现在支持多个Storage VM。从此版本的Connector开始、您可以通过Cloud Manager使用API在Google Cloud中的Cloud Volumes ONTAP HA对上创建Storage VM。</block>
+  <block id="33fdc8eb46b228d804c2bf216d7ab788" category="paragraph">要支持创建Storage VM、需要为Connector提供新的Google Cloud权限：</block>
+  <block id="1639fb8b97b722c837cf68d599ffe1c4" category="paragraph">请注意、您必须使用ONTAP 命令行界面或系统管理器在单节点系统上创建Storage VM。</block>
+  <block id="ab9d588372f30d162e50dbbed45980eb" category="inline-link">详细了解Google Cloud中的Storage VM限制</block>
+  <block id="7859fc06f13ff8714740aa72213f86e7" category="list-text"><block ref="7859fc06f13ff8714740aa72213f86e7" category="inline-link-rx"></block></block>
+  <block id="3a7eebf972f838daafe4ea7948002b3d" category="inline-link-macro">了解如何在Google Cloud中为Cloud Volumes ONTAP 创建提供数据的Storage VM</block>
+  <block id="4d4f80e19da50b86ec7f247f81baedf7" category="list-text"><block ref="4d4f80e19da50b86ec7f247f81baedf7" category="inline-link-macro-rx"></block></block>
 </blocks>
