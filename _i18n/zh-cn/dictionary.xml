@@ -252,22 +252,11 @@
   <block id="013bf9b0d5295922582e97a69409b714" category="list-text">免费试用从Marketplace订阅开始的那一天开始。例如、如果在对Cloud Volumes ONTAP 系统使用Marketplace订阅30天之后激活免费试用、则Cloud Backup试用将不可用。</block>
   <block id="caf9c5028f987d64131bfc8e9f4bd0ed" category="inline-link">详细了解可用的许可模式</block>
   <block id="ecd035ede918d91432ba5203669d96bd" category="paragraph"><block ref="7226e404226609d8e6a7fa892651e74a" category="inline-link-rx"></block>。</block>
-  <block id="def752908b0fa662bfb5de654a533140" category="section-title">连接器3.9.18</block>
-  <block id="0a6b76c04095167ad3b2e08901195ca3" category="list-text">现在、以下Google Cloud地区支持Connector：</block>
   <block id="b11df59ba05c25c3a8734d54b7501ae7" category="list-text">新德里(亚洲-南2)</block>
   <block id="68fb6cfeb81e52feef062b88d7037b7e" category="list-text">墨尔本(澳大利亚南部2)</block>
-  <block id="4b14bbd178377e932c7e97664c276be7" category="list-text">米兰(欧洲-西部8)</block>
-  <block id="dcbe8ad0293bd53296a9d2ec0f030d10" category="list-text">圣地亚哥(南美洲-西维1)</block>
   <block id="3b61cbbfa7452cc07df9dbea0756d650" category="inline-link">查看支持的区域的完整列表</block>
   <block id="0ec2b2e4840acfd3f21b50b176ec45f1" category="paragraph"><block ref="0ec2b2e4840acfd3f21b50b176ec45f1" category="inline-link-rx"></block></block>
-  <block id="5750adecdd8602aee9e0d7052b8cd392" category="list-text">当您选择要与Connector结合使用的Google Cloud服务帐户时、Cloud Manager现在会显示与每个服务帐户关联的电子邮件地址。通过查看电子邮件地址、可以更轻松地区分同名服务帐户。</block>
   <block id="898d465c80c6b6783418f6fa71db0946" category="inline-image-macro">服务帐户字段的屏幕截图</block>
-  <block id="506e06ca3e996f21913a49d1f4920902" category="paragraph"><block ref="506e06ca3e996f21913a49d1f4920902" category="inline-image-macro-rx" type="image"></block></block>
-  <block id="984ca77a9a51746d3dd5a855a71d3493" category="inline-link">屏蔽VM功能</block>
-  <block id="2e0bddfca809f95cf3d5d7adfccca0e2" category="list-text">我们已在具有支持的操作系统的VM实例上对Google Cloud中的Connector进行了认证<block ref="bd10301ee2e8f0cb38112a71d2b6920c" category="inline-link-rx"></block></block>
-  <block id="561748ecfe4fd0bd9f15c851d5de4d29" category="inline-link">了解这些增强功能</block>
-  <block id="d2b88fcff484dc7cae448a7e8c287a1f" category="list-text">此版本的连接器还包括Cloud Volumes ONTAP 增强功能。<block ref="60a968f5f71ebaff72f2727ce31f8e5b" category="inline-link-rx"></block></block>
-  <block id="5e9d36e4528c82da2b7294c252e52427" category="list-text">要使Connector能够部署Cloud Volumes ONTAP 、需要新的AWS权限。</block>
   <block id="bfd761a70b5f9cd277ef7c878344df38" category="paragraph">现在、在单个可用性区域(AZ)中部署HA对时、创建AWS分布放置组需要以下权限：</block>
   <block id="0080f4096e51a12d4256890c125c5c46" category="paragraph">现在、要优化Cloud Manager创建布局组的方式、需要这些权限。</block>
   <block id="eaf263597aafb24c99ce4e16af420ae8" category="inline-link">Cloud Manager 策略页面</block>
@@ -484,4 +473,8 @@
   <block id="22c3479f6dd133b2d2d79cc8b481240f" category="section-title">2022年6月23日(版本1.3.1)</block>
   <block id="a720f7f5208abaac19d4db46d3bc0a7b" category="inline-link">已修复的问题</block>
   <block id="2ffbf992fae9becab7e787491b2cdf41" category="paragraph">可从获取适用于1.3.1版的Global File Cache Edge软件<block ref="2c81bb98c990e9738e500d000082628f" category="inline-link-rx"></block>。此版本可修复中所述的问题<block ref="11a0d6c8cafa0c0950060c707371e2a0" category="inline-link-rx"></block>。</block>
+  <block id="38ce4e90f119b89b2fdf1f274431e262" category="section-title">2022年6月28日</block>
+  <block id="47d69a1f17128c359904338c3502fe31" category="section-title">使用NetApp凭据登录</block>
+  <block id="f646305c890b8deec88379aeecbe56a5" category="paragraph">当新用户注册到Cloud Central时、他们现在可以选择*使用NetApp*登录选项以使用其NetApp支持站点凭据登录。这是输入电子邮件地址和密码的替代方法。</block>
+  <block id="f27b2370dfece83354cbb560bf251abc" category="admonition">使用电子邮件地址和密码的现有登录需要继续使用该登录方法。注册的新用户可以使用"Log in with NetApp"选项。</block>
 </blocks>
