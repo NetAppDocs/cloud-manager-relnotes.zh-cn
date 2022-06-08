@@ -117,15 +117,10 @@
   <block id="00b4c4979fe8d65dc663ea7c82a1b1c2" category="paragraph"><block ref="ddc85a18edb3f9e32810e603b7ef9eb7" category="inline-link-rx"></block>。</block>
   <block id="ad806d4b803a5aa7358400786d14dec0" category="section-title">2022 年 4 月 4 日</block>
   <block id="223fdeee6256cb135700ded14acc7574" category="section-title">适用于应用程序的 Cloud Backup 1.1.0 （由 SnapCenter 提供支持）现已正式上市</block>
-  <block id="1d62f7c162a37407056f64380ddd240c" category="paragraph">通过适用于应用程序的 Cloud Backup 新功能，您可以将适用于 Oracle 和 Microsoft SQL 的现有应用程序一致性快照（备份）从内部主存储卸载到 AWS S3 或 Azure Blob 中的云对象存储。</block>
   <block id="1959411b4282df2234896496da39c42f" category="paragraph">如果需要，您可以将此数据从云还原到内部环境。</block>
-  <block id="9793a7606042d0fe65c3a7569fe10e8a" category="inline-link">了解有关保护内部应用程序数据到云的更多信息</block>
-  <block id="eda2e5118f80ed23863efd871fe97b1e" category="paragraph"><block ref="4c415cce11b2e607b8fde97291a59b9c" category="inline-link-rx"></block>。</block>
   <block id="0749ae9ea79ee87dd8c530f67a9065fe" category="section-title">新的搜索和还原功能可在所有 ONTAP 备份文件中搜索卷或文件</block>
   <block id="abad9ff4f9967065f50634a2a3606dd0" category="inline-link">了解如何使用搜索和放大；还原</block>
   <block id="9a4fc48ebf3077bde35f83be2ee84cc8" category="paragraph">现在，您可以按部分或完整卷名称，部分或完整文件名称，大小范围以及其他搜索筛选器在 * 所有 ONTAP 备份文件 * 中搜索卷或文件。如果您不确定哪个集群或卷是数据源，这是一种很好的新方法来查找要还原的数据。<block ref="f28ab8501300af6839923f7181e075ab" category="inline-link-rx"></block>。</block>
-  <block id="afffc0d082245313c31dfcac23d2d8e0" category="section-title">能够将永久性卷从 GKEKubernetes 集群备份到 Google Cloud 存储</block>
-  <block id="387cd7ab52bc5fa4b28d5ab54360a48f" category="paragraph">如果您的 GKE 集群安装了 NetApp Astra Trident ，并且使用适用于 GCP 的 Cloud Volumes ONTAP 作为集群的后端存储，则可以将永久性卷备份到 Google Cloud 存储或从 Google Cloud 存储还原。<block ref="39d25c9214775db10710eba772faa6a0" category="inline-link-rx"></block>。</block>
   <block id="536f48524e36a16593703c5d8d108b79" category="section-title">此版本已停止使用 Cloud Data sense 扫描 Cloud Backup 文件的测试版功能</block>
   <block id="c76a3316ed2cb0284c0ef1b126e8b3ff" category="section-title">2022 年 4 月 5 日</block>
   <block id="e661d5c04d5948d390d622ba88bdcc6b" category="section-title">Data sense 可以识别四种新类型的澳大利亚个人数据</block>
@@ -456,4 +451,24 @@
   <block id="7859fc06f13ff8714740aa72213f86e7" category="list-text"><block ref="7859fc06f13ff8714740aa72213f86e7" category="inline-link-rx"></block></block>
   <block id="3a7eebf972f838daafe4ea7948002b3d" category="inline-link-macro">了解如何在Google Cloud中为Cloud Volumes ONTAP 创建提供数据的Storage VM</block>
   <block id="4d4f80e19da50b86ec7f247f81baedf7" category="list-text"><block ref="4d4f80e19da50b86ec7f247f81baedf7" category="inline-link-macro-rx"></block></block>
+  <block id="338b73eb5ee02b02ceb307b68866c9f2" category="section-title">ONTAP 浏览和还原功能不需要云还原实例</block>
+  <block id="c2f301bf47b0e51a835909a868e786b5" category="paragraph">以前从S3和Blob存储执行文件级浏览和还原操作需要一个单独的Cloud Restore实例/虚拟机。此实例在不使用时关闭、但在还原文件时仍会增加一些时间和成本。此功能已被一个免费容器所取代、此容器可在需要时部署在Connector上。它具有以下优势：</block>
+  <block id="b7a41babdf28bb4d456f0725ccfbc402" category="list-text">文件级还原操作不会增加成本</block>
+  <block id="898be2b1c15b9168ca69a0986639cb4e" category="list-text">文件级还原操作速度更快</block>
+  <block id="f8cae2a44d4ac885154da71ae7da347a" category="list-text">支持在内部安装Connector时从云中对文件执行浏览和还原操作</block>
+  <block id="b7fe1f1109cab9c0a50f4ac3ee36df48" category="paragraph">请注意、如果您先前使用了Cloud Restore实例/VM、则该实例/VM将自动删除。</block>
+  <block id="06a21d28fcdc17ce4f2e4747a1fe635b" category="section-title">浏览并还原对Google Cloud和StorageGRID 存储中文件的支持</block>
+  <block id="60222043eb5ad60b7dd1964a983d4f85" category="inline-link">请参见如何使用浏览和放大功能；还原ONTAP 备份中的卷和文件</block>
+  <block id="68792eeb104c6fe1ef3c561265ed75dd" category="paragraph">现在、通过添加用于浏览和还原操作的容器(如上所述)、可以从存储在Google Cloud和StorageGRID 系统中的备份文件执行文件还原操作。现在、浏览和还原可用于在所有公有 云提供商之间以及从StorageGRID 还原文件。<block ref="a4ebf9bfc678bc28afd45dff032c4465" category="inline-link-rx"></block>。</block>
+  <block id="fe3455104008d8da35fbd267dbef0701" category="section-title">拖放以启用Cloud Backup到S3存储</block>
+  <block id="5e1eb4d1c116b2c77bbd1fbc73321106" category="paragraph">如果用于备份的Amazon S3目标作为工作环境存在于Canvas上、则可以将本地ONTAP 集群或Cloud Volumes ONTAP 系统(安装在AWS中)拖动到Amazon S3工作环境中以启动设置向导。</block>
+  <block id="da1d5a542623977c61bd148b8576513c" category="section-title">自动将备份策略应用于Kubernetes集群中新创建的卷</block>
+  <block id="31d9f5df125d9014e9c296eed143904c" category="inline-link">从_Backup Settings_页面</block>
+  <block id="0781288780239fb5b3a1479574714ff9" category="paragraph">如果您在激活Cloud Backup后向Kubernetes集群添加了新的永久性卷、则在过去、您需要记住为这些卷配置备份。现在、您可以选择将自动应用于新创建的卷的策略<block ref="11a3efd6b42c9f2e763586db69ebed23" category="inline-link-rx"></block> 适用于已激活Cloud Backup的集群。</block>
+  <block id="52e2c3fc6fb58a0ca1eb816ca6e270ed" category="section-title">Cloud Backup API现在可用于管理备份和还原操作</block>
+  <block id="d41d8cd98f00b204e9800998ecf8427e" category="inline-link"></block>
+  <block id="b83e2caeb95bea361704be4e9e795cd1" category="paragraph">这些API可从获取<block ref="323898002645c2363c910f7c119fd4d6" category="inline-link-rx"></block>。请参见 <block ref="cf7847f4c926eb96d69d319dfdc23654" category="inline-link-macro-rx"></block> 有关API的概述。</block>
+  <block id="45ee97ced966affff074d2bc1efe2686" category="paragraph">通过全新的Cloud Backup for Applications功能、您可以将适用于Oracle和Microsoft SQL的现有应用程序一致性快照(备份)从内部主存储卸载到Amazon S3或Azure Blob中的云对象存储。</block>
+  <block id="8a0841a62164343a6bb78ffd4349420f" category="inline-link">了解有关保护内部应用程序数据到云的更多信息</block>
+  <block id="98d0ff36da367aa918057b6c42219851" category="paragraph"><block ref="6ddb7afc666833c3265591e4f4bdc4a7" category="inline-link-rx"></block>。</block>
 </blocks>

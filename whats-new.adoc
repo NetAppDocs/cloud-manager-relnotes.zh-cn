@@ -272,6 +272,43 @@ https://docs.netapp.com/us-en/cloud-manager-backup-restore/concept-protect-vm-da
 
 
 
+==== ONTAP 浏览和还原功能不需要云还原实例
+
+以前从S3和Blob存储执行文件级浏览和还原操作需要一个单独的Cloud Restore实例/虚拟机。此实例在不使用时关闭、但在还原文件时仍会增加一些时间和成本。此功能已被一个免费容器所取代、此容器可在需要时部署在Connector上。它具有以下优势：
+
+* 文件级还原操作不会增加成本
+* 文件级还原操作速度更快
+* 支持在内部安装Connector时从云中对文件执行浏览和还原操作
+
+
+请注意、如果您先前使用了Cloud Restore实例/VM、则该实例/VM将自动删除。
+
+
+
+==== 浏览并还原对Google Cloud和StorageGRID 存储中文件的支持
+
+现在、通过添加用于浏览和还原操作的容器(如上所述)、可以从存储在Google Cloud和StorageGRID 系统中的备份文件执行文件还原操作。现在、浏览和还原可用于在所有公有 云提供商之间以及从StorageGRID 还原文件。 https://docs.netapp.com/us-en/cloud-manager-backup-restore/task-restore-backups-ontap.html#restoring-ontap-data-using-browse-restore["请参见如何使用浏览和放大功能；还原ONTAP 备份中的卷和文件"]。
+
+
+
+==== 拖放以启用Cloud Backup到S3存储
+
+如果用于备份的Amazon S3目标作为工作环境存在于Canvas上、则可以将本地ONTAP 集群或Cloud Volumes ONTAP 系统(安装在AWS中)拖动到Amazon S3工作环境中以启动设置向导。
+
+
+
+==== 自动将备份策略应用于Kubernetes集群中新创建的卷
+
+如果您在激活Cloud Backup后向Kubernetes集群添加了新的永久性卷、则在过去、您需要记住为这些卷配置备份。现在、您可以选择将自动应用于新创建的卷的策略 https://docs.netapp.com/us-en/cloud-manager-backup-restore/task-manage-backups-kubernetes.html#setting-a-backup-policy-to-be-assigned-to-new-volumes["从_Backup Settings_页面"] 适用于已激活Cloud Backup的集群。
+
+
+
+==== Cloud Backup API现在可用于管理备份和还原操作
+
+这些API可从获取 https://docs.netapp.com/us-en/cloud-manager-automation/cbs/overview.html[]。请参见 link:api-backup-restore.html["此页面"] 有关API的概述。
+
+
+
 === 2022年5月2日
 
 
@@ -307,7 +344,7 @@ https://docs.netapp.com/us-en/cloud-manager-backup-restore/task-licensing-cloud-
 
 ==== 适用于应用程序的 Cloud Backup 1.1.0 （由 SnapCenter 提供支持）现已正式上市
 
-通过适用于应用程序的 Cloud Backup 新功能，您可以将适用于 Oracle 和 Microsoft SQL 的现有应用程序一致性快照（备份）从内部主存储卸载到 AWS S3 或 Azure Blob 中的云对象存储。
+通过全新的Cloud Backup for Applications功能、您可以将适用于Oracle和Microsoft SQL的现有应用程序一致性快照(备份)从内部主存储卸载到Amazon S3或Azure Blob中的云对象存储。
 
 如果需要，您可以将此数据从云还原到内部环境。
 
@@ -318,20 +355,6 @@ https://docs.netapp.com/us-en/cloud-manager-backup-restore/concept-protect-app-d
 ==== 新的搜索和还原功能可在所有 ONTAP 备份文件中搜索卷或文件
 
 现在，您可以按部分或完整卷名称，部分或完整文件名称，大小范围以及其他搜索筛选器在 * 所有 ONTAP 备份文件 * 中搜索卷或文件。如果您不确定哪个集群或卷是数据源，这是一种很好的新方法来查找要还原的数据。 https://docs.netapp.com/us-en/cloud-manager-backup-restore/task-restore-backups-ontap.html#restoring-ontap-data-using-search-restore["了解如何使用搜索和放大；还原"]。
-
-
-
-=== 2022 年 3 月 3 日
-
-
-
-==== 能够将永久性卷从 GKEKubernetes 集群备份到 Google Cloud 存储
-
-如果您的 GKE 集群安装了 NetApp Astra Trident ，并且使用适用于 GCP 的 Cloud Volumes ONTAP 作为集群的后端存储，则可以将永久性卷备份到 Google Cloud 存储或从 Google Cloud 存储还原。 https://docs.netapp.com/us-en/cloud-manager-backup-restore/task-backup-kubernetes-to-gcp.html["有关详细信息，请访问此处"]。
-
-
-
-==== 此版本已停止使用 Cloud Data sense 扫描 Cloud Backup 文件的测试版功能
 
 
 
