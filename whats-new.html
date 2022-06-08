@@ -481,7 +481,7 @@
 <p class="page-details">
   
     
-    <time datetime="2022-06-07 21:56:07 +0000">06/07/2022</time>
+    <time datetime="2022-06-08 19:30:37 +0000">06/08/2022</time>
     
   
 
@@ -522,6 +522,7 @@
 </li>
 <li><a href="#云备份">云备份</a>
 <ul class="sectlevel2">
+<li><a href="#2022年6月8日">2022年6月8日</a></li>
 <li><a href="#2022年5月2日-2">2022年5月2日</a></li>
 <li><a href="#2022-年-4-月-4-日">2022 年 4 月 4 日</a></li>
 <li><a href="#2022-年-3-月-3-日-2">2022 年 3 月 3 日</a></li>
@@ -550,9 +551,9 @@
 </li>
 <li><a href="#cloud-volumes-ontap">Cloud Volumes ONTAP</a>
 <ul class="sectlevel2">
+<li><a href="#2022年6月7日-2">2022年6月7日</a></li>
 <li><a href="#2022年5月2日-3">2022年5月2日</a></li>
 <li><a href="#2022-年-4-月-3-日-3">2022 年 4 月 3 日</a></li>
-<li><a href="#2022-年-2-月-27-日-2">2022 年 2 月 27 日</a></li>
 </ul>
 </li>
 <li><a href="#适用于-gcp-的-cloud-volumes-service">适用于 GCP 的 Cloud Volumes Service</a>
@@ -589,8 +590,8 @@
 </li>
 <li><a href="#内部-ontap-集群">内部 ONTAP 集群</a>
 <ul class="sectlevel2">
-<li><a href="#2022年6月7日-2">2022年6月7日</a></li>
-<li><a href="#2022-年-2-月-27-日-3">2022 年 2 月 27 日</a></li>
+<li><a href="#2022年6月7日-3">2022年6月7日</a></li>
+<li><a href="#2022-年-2-月-27-日-2">2022 年 2 月 27 日</a></li>
 <li><a href="#2022-年-1-月-11-日">2022 年 1 月 11 日</a></li>
 </ul>
 </li>
@@ -906,6 +907,18 @@
 <div class="sect1">
 <h2 id="云备份">云备份</h2>
 <div class="sectionbody">
+<div class="sect2">
+<h3 id="2022年6月8日">2022年6月8日</h3>
+<div class="sect3">
+<h4 id="适用于虚拟机的cloud-backup-1-1-0现已正式上市">适用于虚拟机的Cloud Backup 1.1.0现已正式上市</h4>
+<div class="paragraph">
+<p>您可以通过将适用于VMware vSphere的SnapCenter 插件与Cloud Manager集成来保护虚拟机上的数据。您可以将数据存储库备份到云、并将虚拟机轻松还原回适用于VMware vSphere的内部部署SnapCenter 插件。</p>
+</div>
+<div class="paragraph">
+<p><a href="https://docs.netapp.com/us-en/cloud-manager-backup-restore/concept-protect-vm-data.html">"了解有关保护虚拟机到云的更多信息"</a>。</p>
+</div>
+</div>
+</div>
 <div class="sect2">
 <h3 id="2022年5月2日-2">2022年5月2日</h3>
 <div class="sect3">
@@ -1246,6 +1259,103 @@
 <h2 id="cloud-volumes-ontap">Cloud Volumes ONTAP</h2>
 <div class="sectionbody">
 <div class="sect2">
+<h3 id="2022年6月7日-2">2022年6月7日</h3>
+<div class="paragraph">
+<p>连接器3.9.19版引入了以下更改。</p>
+</div>
+<div class="sect3">
+<h4 id="cloud-volumes-ontap-9-11-1">Cloud Volumes ONTAP 9.11.1</h4>
+<div class="paragraph">
+<p>Cloud Manager现在可以部署和管理Cloud Volumes ONTAP 9.11.1、其中包括对新功能的支持以及其他云提供商区域的支持。</p>
+</div>
+<div class="paragraph">
+<p><a href="https://docs.netapp.com/us-en/cloud-volumes-ontap-relnotes" target="_blank" rel="noopener">"了解此版本 Cloud Volumes ONTAP 中的新增功能"</a></p>
+</div>
+</div>
+<div class="sect3">
+<h4 id="新建高级视图">新建高级视图</h4>
+<div class="paragraph">
+<p>如果您需要对Cloud Volumes ONTAP 执行高级管理、可以使用ONTAP 系统管理器来执行此操作、该管理器是随ONTAP 系统提供的一个管理界面。我们直接在Cloud Manager中提供了System Manager界面、因此您无需离开Cloud Manager进行高级管理。</p>
+</div>
+<div class="paragraph">
+<p>此高级视图可作为Cloud Volumes ONTAP 9.10.0及更高版本的预览版提供。我们计划改进此体验、并在即将发布的版本中添加增强功能。请通过产品内聊天向我们发送反馈。</p>
+</div>
+<div class="paragraph">
+<p><a href="task-administer-advanced-view.html">"了解有关高级视图的更多信息"</a>。</p>
+</div>
+</div>
+<div class="sect3">
+<h4 id="支持amazon-ebs弹性卷">支持Amazon EBS弹性卷</h4>
+<div class="paragraph">
+<p>Cloud Volumes ONTAP 聚合支持Amazon EBS弹性卷功能、可提高性能并增加容量、同时支持Cloud Manager根据需要自动增加底层磁盘容量。</p>
+</div>
+<div class="paragraph">
+<p>从_new_ Cloud Volumes ONTAP 9.11.0系统以及GP3和IO1 EBS磁盘类型开始、可支持弹性卷。</p>
+</div>
+<div class="paragraph">
+<p><a href="concept-aws-elastic-volumes.html">"了解有关支持弹性卷的更多信息"</a>。</p>
+</div>
+<div class="paragraph">
+<p>请注意、要支持弹性卷、需要为Connector提供新的AWS权限：</p>
+</div>
+<div class="listingblock">
+<div class="content">
+<pre class="highlight"><code class="language-json" data-lang="json">"ec2:DescribeVolumesModifications",
+"ec2:ModifyVolume",</code></pre>
+</div>
+</div>
+<div class="paragraph">
+<p>请务必为您添加到Cloud Manager的每组AWS凭据提供这些权限。您可以在上找到最新的权限列表 <a href="https://mysupport.netapp.com/site/info/cloud-manager-policies" target="_blank" rel="noopener">"Cloud Manager 策略页面"</a>。</p>
+</div>
+</div>
+<div class="sect3">
+<h4 id="支持在共享aws子网中部署ha对">支持在共享AWS子网中部署HA对</h4>
+<div class="paragraph">
+<p>Cloud Volumes ONTAP 9.11.1支持AWS VPC共享。通过此版本的Connector、您可以在使用API时在AWS共享子网中部署HA对。</p>
+</div>
+<div class="paragraph">
+<p><a href="task-deploy-aws-shared-vpc.html">"了解如何在共享子网中部署HA对"</a>。</p>
+</div>
+</div>
+<div class="sect3">
+<h4 id="使用服务端点时网络访问受限">使用服务端点时网络访问受限</h4>
+<div class="paragraph">
+<p>现在、当使用vNet服务端点在Cloud Volumes ONTAP 和存储帐户之间建立连接时、Cloud Manager会限制网络访问。如果禁用Azure Private Link连接、Cloud Manager将使用服务端点。</p>
+</div>
+<div class="paragraph">
+<p><a href="task-enabling-private-link.html">"了解有关使用Cloud Volumes ONTAP 连接Azure专用链路的更多信息"</a>。</p>
+</div>
+</div>
+<div class="sect3">
+<h4 id="支持在google-cloud中创建storage-vm">支持在Google Cloud中创建Storage VM</h4>
+<div class="paragraph">
+<p>从9.11.1版开始、Google Cloud中的Cloud Volumes ONTAP 现在支持多个Storage VM。从此版本的Connector开始、您可以通过Cloud Manager使用API在Google Cloud中的Cloud Volumes ONTAP HA对上创建Storage VM。</p>
+</div>
+<div class="paragraph">
+<p>要支持创建Storage VM、需要为Connector提供新的Google Cloud权限：</p>
+</div>
+<div class="listingblock">
+<div class="content">
+<pre class="highlight"><code class="language-yaml" data-lang="yaml">- compute.instanceGroups.get
+- compute.addresses.get</code></pre>
+</div>
+</div>
+<div class="paragraph">
+<p>请注意、您必须使用ONTAP 命令行界面或系统管理器在单节点系统上创建Storage VM。</p>
+</div>
+<div class="ulist">
+<ul>
+<li>
+<p><a href="https://docs.netapp.com/us-en/cloud-volumes-ontap-relnotes/reference-limits-gcp.html#storage-vm-limits" target="_blank" rel="noopener">"详细了解Google Cloud中的Storage VM限制"</a></p>
+</li>
+<li>
+<p><a href="task-managing-svms-gcp.html">"了解如何在Google Cloud中为Cloud Volumes ONTAP 创建提供数据的Storage VM"</a></p>
+</li>
+</ul>
+</div>
+</div>
+</div>
+<div class="sect2">
 <h3 id="2022年5月2日-3">2022年5月2日</h3>
 <div class="paragraph">
 <p>连接器3.9.18版引入了以下变更。</p>
@@ -1391,21 +1501,6 @@
 </div>
 <div class="paragraph">
 <p><a href="https://cloud.netapp.com/pricing" target="_blank" rel="noopener">"了解 WORM 存储的定价"</a>。</p>
-</div>
-</div>
-</div>
-<div class="sect2">
-<h3 id="2022-年-2-月-27-日-2">2022 年 2 月 27 日</h3>
-<div class="paragraph">
-<p>连接器3.9.16版引入了以下更改。</p>
-</div>
-<div class="sect3">
-<h4 id="重新设计的卷向导">重新设计的卷向导</h4>
-<div class="paragraph">
-<p>现在，在通过 * 高级分配 * 选项在特定聚合上创建卷时，可以使用我们最近推出的创建新卷向导。</p>
-</div>
-<div class="paragraph">
-<p><a href="https://docs.netapp.com/us-en/cloud-manager-cloud-volumes-ontap/task-create-volumes.html">"了解如何在特定聚合上创建卷"</a>。</p>
 </div>
 </div>
 </div>
@@ -1635,12 +1730,12 @@
 <h2 id="内部-ontap-集群">内部 ONTAP 集群</h2>
 <div class="sectionbody">
 <div class="sect2">
-<h3 id="2022年6月7日-2">2022年6月7日</h3>
+<h3 id="2022年6月7日-3">2022年6月7日</h3>
 <div class="paragraph">
 <p>连接器3.9.19版引入了以下更改。</p>
 </div>
 <div class="sect3">
-<h4 id="新建高级视图">新建高级视图</h4>
+<h4 id="新建高级视图-2">新建高级视图</h4>
 <div class="paragraph">
 <p>如果您需要对ONTAP 内部集群执行高级管理、可以使用ONTAP 系统管理器执行此操作、该管理接口随ONTAP 系统提供。我们直接在Cloud Manager中提供了System Manager界面、因此您无需离开Cloud Manager进行高级管理。</p>
 </div>
@@ -1653,7 +1748,7 @@
 </div>
 </div>
 <div class="sect2">
-<h3 id="2022-年-2-月-27-日-3">2022 年 2 月 27 日</h3>
+<h3 id="2022-年-2-月-27-日-2">2022 年 2 月 27 日</h3>
 <div class="sect3">
 <h4 id="数字电子邮件中提供了一个-内部部署-ontap-选项卡">数字电子邮件中提供了一个 " 内部部署 ONTAP " 选项卡。</h4>
 <div class="paragraph">
