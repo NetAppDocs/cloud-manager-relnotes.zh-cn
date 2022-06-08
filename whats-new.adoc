@@ -27,6 +27,50 @@ summary: 了解 Cloud Manager 平台中的云服务的最新变更。有关详�
 
 
 
+=== 2022年7月3日
+
+
+
+==== 连接器3.9.20
+
+* 我们引入了一种新方法来导航到Cloud Manager界面中不断增长的功能列表。现在、将鼠标悬停在左侧面板上即可轻松找到所有熟悉的Cloud Manager功能。
++
+image:screenshot-navigation.png["显示Cloud Manager中新的左侧导航菜单的屏幕截图。"]
+
+* 现在、您可以将Cloud Manager配置为通过电子邮件发送通知、这样、即使您未登录到系统、您也可以了解重要的系统活动。
++
+link:task-monitor-cm-operations.html["了解有关监控帐户中操作的更多信息"]。
+
+* Cloud Manager现在支持Azure Blob存储和Google Cloud Storage作为工作环境、类似于Amazon S3支持。
++
+在Azure或Google Cloud中安装Connector后、Cloud Manager现在会自动发现您的Azure订阅中的Azure Blob存储或安装了Connector的项目中的Google Cloud Storage的相关信息。Cloud Manager将对象存储显示为一个工作环境、您可以打开该环境以查看更多详细信息。
+
++
+下面是Azure Blob工作环境的示例：
+
++
+image:screenshot-azure-blob.png["显示Azure Blob工作环境的屏幕截图、您可以在其中查看有关存储帐户的详细信息的简要概述。"]
+
+* 我们重新设计了Amazon S3工作环境的资源页面、提供了有关S3存储分段的更多详细信息、例如容量、加密详细信息等。
+* 现在、以下Google Cloud地区支持Connector：
++
+** 马德里(欧洲-西南1)
+** 巴黎(欧洲-西部9)
+** 华沙(欧洲中部2)
+
+
+* 现在、Azure West US 3区域支持Connector。
++
+https://cloud.netapp.com/cloud-volumes-global-regions["查看支持的区域的完整列表"^]
+
+* 此版本的连接器还包括Cloud Volumes ONTAP 增强功能。
++
+https://docs.netapp.com/us-en/cloud-manager-cloud-volumes-ontap/whats-new.html#2-july-2022["了解Cloud Volumes ONTAP 增强功能"^]
+
+
+
+
+
 === 2022年6月28日
 
 
@@ -58,16 +102,6 @@ https://cloud.netapp.com/cloud-volumes-global-regions["查看支持的区域的�
 
 
 
-
-
-
-=== 2022年5月12日
-
-
-
-==== 连接器3.9.18修补程序
-
-我们更新了Connector以引入错误修复。最值得注意的修复方法是、当问题描述 位于共享VPC中时、它会影响Google Cloud中的Cloud Volumes ONTAP 部署。
 
 
 
@@ -418,6 +452,64 @@ Data sense 可以识别包含澳大利亚 TFN （税务文件编号），澳大�
 
 
 == Cloud Sync
+
+
+
+=== 2022年7月3日
+
+
+
+==== 支持Azure Data Lake存储第2代
+
+现在、您可以将NFS服务器或SMB服务器中的数据同步到Azure Data Lake Storage Gen2。
+
+在创建包含Azure数据湖的同步关系时、您需要为Cloud Sync 提供存储帐户连接字符串。它必须是常规连接字符串、而不是共享访问签名(SAS)。
+
+link:reference-supported-relationships.html["查看支持的同步关系列表"]。
+
+
+
+==== 从Google Cloud Storage持续同步
+
+现在支持从源Google Cloud Storage存储分段到云存储目标的持续同步设置。
+
+初始数据同步后、Cloud Sync 将侦听源Google Cloud存储分段上的更改、并在发生更改时持续同步目标。从Google Cloud存储分段同步到S3、Google Cloud Storage、Azure Blob存储、StorageGRID 或IBM存储时、可以使用此设置。
+
+要使用此设置、与数据代理关联的服务帐户需要以下权限：
+
+[source, json]
+----
+- pubsub.subscriptions.consume
+- pubsub.subscriptions.create
+- pubsub.subscriptions.delete
+- pubsub.subscriptions.list
+- pubsub.topics.attachSubscription
+- pubsub.topics.create
+- pubsub.topics.delete
+- pubsub.topics.list
+- pubsub.topics.setIamPolicy
+- storage.buckets.update
+----
+link:task-creating-relationships.html#settings["了解有关持续同步设置的更多信息"]。
+
+
+
+==== 全新Google Cloud区域支持
+
+Cloud Sync 数据代理现在在以下Google Cloud地区受支持：
+
+* 哥伦布(美国-东5)
+* 达拉斯(美国-南1)
+* 马德里(欧洲-西南1)
+* 米兰(欧洲-西部8)
+* 巴黎(欧洲-西部9)
+
+
+
+
+==== 新的Google Cloud计算机类型
+
+Google Cloud中数据代理的默认计算机类型现在为n2-standard-4。
 
 
 
