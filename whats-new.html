@@ -481,7 +481,7 @@
 <p class="page-details">
   
     
-    <time datetime="2022-06-09 16:07:03 +0000">06/09/2022</time>
+    <time datetime="2022-06-13 14:20:22 +0000">06/13/2022</time>
     
   
 
@@ -529,9 +529,9 @@
 </li>
 <li><a href="#云数据感知">云数据感知</a>
 <ul class="sectlevel2">
+<li><a href="#2022年6月12日">2022年6月12日</a></li>
 <li><a href="#2022年5月11日">2022年5月11日</a></li>
 <li><a href="#2022-年-4-月-5-日">2022 年 4 月 5 日</a></li>
-<li><a href="#2022-年-3-月-15-日">2022 年 3 月 15 日</a></li>
 </ul>
 </li>
 <li><a href="#cloud-sync">Cloud Sync</a>
@@ -596,9 +596,9 @@
 </li>
 <li><a href="#勒索软件保护">勒索软件保护</a>
 <ul class="sectlevel2">
+<li><a href="#2022年6月12日-2">2022年6月12日</a></li>
 <li><a href="#2022年5月11日-2">2022年5月11日</a></li>
-<li><a href="#2022-年-3-月-15-日-2">2022 年 3 月 15 日</a></li>
-<li><a href="#2022-年-2-月-9-日-2">2022 年 2 月 9 日</a></li>
+<li><a href="#2022-年-3-月-15-日">2022 年 3 月 15 日</a></li>
 </ul>
 </li>
 <li><a href="#replication">Replication</a>
@@ -1028,6 +1028,45 @@
 <h2 id="云数据感知">云数据感知</h2>
 <div class="sectionbody">
 <div class="sect2">
+<h3 id="2022年6月12日">2022年6月12日</h3>
+<div class="sect3">
+<h4 id="现在您可以从数据调查页面下载结果并将其作为-json报告">现在、您可以从数据调查页面下载结果、并将其作为.json报告</h4>
+<div class="paragraph">
+<p>在"数据调查"页面中筛选数据后、除了将数据保存到本地系统上的.CSV文件之外、您还可以将数据另存为可导出到NFS共享的.JSON文件中的报告。确保Data sense具有正确的导出访问权限。 <a href="https://docs.netapp.com/us-en/cloud-manager-data-sense/task-generating-compliance-reports.html#data-investigation-report">"请参见如何从"数据调查"页面创建报告"</a>。</p>
+</div>
+</div>
+<div class="sect3">
+<h4 id="可以从data-sense-ui卸载data-sense">可以从Data sense UI卸载Data sense</h4>
+<div class="paragraph">
+<p>您可以卸载Data sense以从主机中永久删除软件、如果部署了云、则删除部署了Data sense的虚拟机/实例。删除此实例将永久删除Data sense已扫描的所有索引信息。 <a href="https://docs.netapp.com/us-en/cloud-manager-data-sense/task-uninstall-data-sense.html">"了解如何操作"</a>。</p>
+</div>
+</div>
+<div class="sect3">
+<h4 id="现在可以使用审核日志记录来跟踪data-sense已执行操作的历史记录">现在、可以使用审核日志记录来跟踪Data sense已执行操作的历史记录</h4>
+<div class="paragraph">
+<p>审核日志可跟踪Data sense对所有工作环境中的文件以及Data sense正在扫描的数据源执行的管理活动。活动可以是由用户生成的(删除文件、创建策略等)、也可以是由策略生成的(自动向文件添加标签、自动删除文件等)。</p>
+</div>
+<div class="paragraph">
+<p><a href="https://docs.netapp.com/us-en/cloud-manager-data-sense/task-audit-data-sense-actions.html">"查看有关审核日志的更多详细信息"</a>。</p>
+</div>
+</div>
+<div class="sect3">
+<h4 id="新的筛选器用于在数据调查页面中输入敏感标识符的数量">新的筛选器用于在"数据调查"页面中输入敏感标识符的数量</h4>
+<div class="paragraph">
+<p>通过"标识符数量"筛选器、您可以列出具有一定数量的敏感标识符的文件、包括个人数据和敏感个人数据。您可以选择1-10或501到1000等范围、以便仅查看包含该数量的敏感标识符的文件。</p>
+</div>
+<div class="paragraph">
+<p><a href="https://docs.netapp.com/us-en/cloud-manager-data-sense/task-controlling-private-data.html#filtering-data-in-the-data-investigation-page">"查看可用于调查数据的所有筛选器的列表"</a>。</p>
+</div>
+</div>
+<div class="sect3">
+<h4 id="现在您可以编辑已创建的现有策略">现在、您可以编辑已创建的现有策略</h4>
+<div class="paragraph">
+<p>如果您需要更改过去创建的自定义策略、现在可以编辑该策略、而不是创建新策略。 <a href="https://docs.netapp.com/us-en/cloud-manager-data-sense/task-org-private-data.html#editing-policies">"请参见如何编辑策略"</a>。</p>
+</div>
+</div>
+</div>
+<div class="sect2">
 <h3 id="2022年5月11日">2022年5月11日</h3>
 <div class="sect3">
 <h4 id="增加了对扫描google-drive帐户中数据的支持">增加了对扫描Google Drive帐户中数据的支持</h4>
@@ -1080,44 +1119,6 @@
 <div class="paragraph">
 <p>与 Data sense 集成的全局 Active Directory 服务器现在可以是 LDAP 服务器，而不是以前支持的 DNS 服务器。 <a href="https://docs.netapp.com/us-en/cloud-manager-data-sense/task-add-active-directory-datasense.html">"有关详细信息，请访问此处"</a>。</p>
 </div>
-</div>
-</div>
-<div class="sect2">
-<h3 id="2022-年-3-月-15-日">2022 年 3 月 15 日</h3>
-<div class="sect3">
-<h4 id="新筛选器可显示特定用户或组具有读取或写入权限的文件">新筛选器可显示特定用户或组具有读取或写入权限的文件</h4>
-<div class="paragraph">
-<p>添加了一个名为 " 用户 / 组权限 " 的新筛选器，您可以列出特定用户或组具有读取和 / 或写入权限的文件。您可以选择一个或多个用户和/或组名称-或输入部分名称。此功能适用于 Cloud Volumes ONTAP ，内部 ONTAP ， Azure NetApp Files ，适用于 ONTAP 的 Amazon FSx 和文件共享上的卷。</p>
-</div>
-</div>
-<div class="sect3">
-<h4 id="data-sense-可以确定-sharepoint-和-onedrive-帐户中文件的权限">Data sense 可以确定 SharePoint 和 OneDrive 帐户中文件的权限</h4>
-<div class="paragraph">
-<p>Data sense 现在可以读取 OneDrive 帐户和 SharePoint 帐户中正在扫描的文件的权限。此信息显示在 " 调查 " 窗格中的文件详细信息以及 " 监管信息板 " 中的 " 打开权限 " 区域中。</p>
-</div>
-</div>
-<div class="sect3">
-<h4 id="data-sense-还可以识别另外两种类型的个人数据">Data sense 还可以识别另外两种类型的个人数据</h4>
-<div class="ulist">
-<ul>
-<li>
-<p>法语 INSEE — INSEE 代码是法国国家统计和经济研究所（ INSEE ）用来标识各种实体的数字代码。</p>
-</li>
-<li>
-<p>密码—此信息通过查找字母数字字符串旁边的 "password" 一词的组合来使用接近验证来标识。找到的项目数将在合规性信息板的 " 个人结果 " 下列出。您可以使用筛选器 * 个人数据 &gt; 密码 * 在调查窗格中搜索包含密码的文件。</p>
-</li>
-</ul>
-</div>
-</div>
-<div class="sect3">
-<h4 id="支持在非公开站点中部署时扫描-onedrive-和-sharepoint-数据">支持在非公开站点中部署时扫描 OneDrive 和 SharePoint 数据</h4>
-<div class="paragraph">
-<p>如果您已在无法访问 Internet 的内部站点中的主机上部署 Cloud Data sense ，则现在可以从 OneDrive 帐户或 SharePoint 帐户扫描本地数据。 <a href="https://docs.netapp.com/us-en/cloud-manager-data-sense/task-deploy-compliance-dark-site.html#sharepoint_and_onedrive_special_requirements">"您需要允许访问以下端点。"</a></p>
-</div>
-</div>
-<div class="sect3">
-<h4 id="此版本已停止使用-cloud-data-sense-扫描-cloud-backup-文件的测试版功能">此版本已停止使用 Cloud Data sense 扫描 Cloud Backup 文件的测试版功能</h4>
-
 </div>
 </div>
 </div>
@@ -1806,11 +1807,32 @@
 <h2 id="勒索软件保护">勒索软件保护</h2>
 <div class="sectionbody">
 <div class="sect2">
+<h3 id="2022年6月12日-2">2022年6月12日</h3>
+<div class="sect3">
+<h4 id="现在系统将跟踪ontap-storage-vm的nas文件系统审核状态">现在、系统将跟踪ONTAP Storage VM的NAS文件系统审核状态</h4>
+<div class="paragraph">
+<p>如果工作环境中启用了文件系统审核的Storage VM少于40%、则会向_Cyber Resilience Map_添加警报。您可以在_harden your ONTAP environment_面板中查看未跟踪SMB和NFS事件并将其记录到审核日志中的确切SVM数。然后、您可以决定是否对这些SVM启用审核。</p>
+</div>
+</div>
+<div class="sect3">
+<h4 id="现在如果您的卷未启用机载反勒索软件则会显示警报">现在、如果您的卷未启用机载反勒索软件、则会显示警报</h4>
+<div class="paragraph">
+<p>先前在_harden your ONTAP Environments_panel中为内部ONTAP 系统报告了此信息、 但现在、当在40%以下的卷中启用了机载反勒索软件功能时、_Cyber Resilience Map_中会报告一条警报、因此您可以在信息板中查看此信息。</p>
+</div>
+</div>
+<div class="sect3">
+<h4 id="现在可跟踪适用于ontap-系统的fsx以启用卷快照">现在、可跟踪适用于ONTAP 系统的FSX以启用卷快照</h4>
+<div class="paragraph">
+<p>现在、增强ONTAP 环境_面板可提供适用于ONTAP 系统的FSx上卷的Snapshot副本状态。如果不到40%的卷受快照保护、您还会在_Cyber Resilience Map_中收到警报。</p>
+</div>
+</div>
+</div>
+<div class="sect2">
 <h3 id="2022年5月11日-2">2022年5月11日</h3>
 <div class="sect3">
 <h4 id="用于跟踪-ontap-环境安全性强化情况的新面板">用于跟踪 ONTAP 环境安全性强化情况的新面板。</h4>
 <div class="paragraph">
-<p>一个新面板 " 强化 ONTAP 环境 " 可提供 ONTAP 系统中某些设置的状态，用于根据跟踪部署的安全性 <a href="https://www.netapp.com/pdf.html?item=/media/10674-tr4569.pdf" target="_blank" rel="noopener">"《适用于 ONTAP 系统的 NetApp 安全加固指南》"</a> 和 <a href="https://docs.netapp.com/us-en/ontap/anti-ransomware/index.html" target="_blank" rel="noopener">"ONTAP 防勒索软件功能"</a> 主动检测异常活动并发出警告。</p>
+<p>一个新面板_harden your ONTAP Environments_可 提供ONTAP 系统中某些设置的状态、用于根据跟踪部署的安全性 <a href="https://www.netapp.com/pdf.html?item=/media/10674-tr4569.pdf" target="_blank" rel="noopener">"《适用于 ONTAP 系统的 NetApp 安全加固指南》"</a> 和 <a href="https://docs.netapp.com/us-en/ontap/anti-ransomware/index.html" target="_blank" rel="noopener">"ONTAP 防勒索软件功能"</a> 主动检测异常活动并发出警告。</p>
 </div>
 <div class="paragraph">
 <p>您可以查看这些建议，然后确定希望如何解决潜在问题。您可以按照以下步骤更改集群上的设置，将更改推迟到其他时间或忽略此建议。 <a href="https://docs.netapp.com/us-en/cloud-manager-ransomware/task-analyze-ransomware-data.html#status-of-ontap-systems-hardening">"有关详细信息，请访问此处"</a>。</p>
@@ -1819,34 +1841,22 @@
 <div class="sect3">
 <h4 id="新面板可显示如何使用-cloud-backup-保护不同类别的数据">新面板可显示如何使用 Cloud Backup 保护不同类别的数据。</h4>
 <div class="paragraph">
-<p>这一全新的 " 备份状态 " 面板显示了在因勒索软件攻击而需要恢复时，您最重要的数据类别的备份程度如何全面。此数据直观地展示了 Cloud Backup 在环境中备份的特定类别项目数量。 <a href="https://docs.netapp.com/us-en/cloud-manager-ransomware/task-analyze-ransomware-data.html#backup-status-of-your-critical-business-data">"有关详细信息，请访问此处"</a>。</p>
+<p>此全新的_Backup Status_面板显示了在因勒索软件攻击而需要恢复时、您最重要的数据类别的备份程度如何全面。此数据直观地展示了 Cloud Backup 在环境中备份的特定类别项目数量。 <a href="https://docs.netapp.com/us-en/cloud-manager-ransomware/task-analyze-ransomware-data.html#backup-status-of-your-critical-business-data">"有关详细信息，请访问此处"</a>。</p>
 </div>
 </div>
 </div>
 <div class="sect2">
-<h3 id="2022-年-3-月-15-日-2">2022 年 3 月 15 日</h3>
+<h3 id="2022-年-3-月-15-日">2022 年 3 月 15 日</h3>
 <div class="sect3">
 <h4 id="用于跟踪业务关键型数据的权限状态的新面板">用于跟踪业务关键型数据的权限状态的新面板</h4>
 <div class="paragraph">
-<p>新的 " 业务关键型数据权限分析 " 面板显示了对您的业务至关重要的数据的权限状态。这样，您就可以快速评估业务关键型数据的保护情况。 <a href="https://docs.netapp.com/us-en/cloud-manager-ransomware/task-analyze-ransomware-data.html#status-of-permissions-on-your-critical-business-data">"有关详细信息，请访问此处"</a>。</p>
+<p>新的"业务关键型数据权限分析"面板可显示对您的业务至关重要的数据的权限状态。这样，您就可以快速评估业务关键型数据的保护情况。 <a href="https://docs.netapp.com/us-en/cloud-manager-ransomware/task-analyze-ransomware-data.html#status-of-permissions-on-your-critical-business-data">"有关详细信息，请访问此处"</a>。</p>
 </div>
 </div>
 <div class="sect3">
 <h4 id="现在-打开权限-区域包括-onedrive-和-sharepoint-帐户">现在， " 打开权限 " 区域包括 OneDrive 和 SharePoint 帐户</h4>
 <div class="paragraph">
 <p>现在，勒索软件保护信息板中的 " 打开权限 " 区域包含对 OneDrive 帐户和 SharePoint 帐户中正在扫描的文件的现有权限。</p>
-</div>
-</div>
-</div>
-<div class="sect2">
-<h3 id="2022-年-2-月-9-日-2">2022 年 2 月 9 日</h3>
-<div class="sect3">
-<h4 id="全新的勒索软件保护服务">全新的勒索软件保护服务</h4>
-<div class="paragraph">
-<p>通过全新的勒索软件保护服务，您可以查看有关网络安全的相关信息，并评估数据对网络攻击的弹性。此外，它还会为您提供一系列警报和修复措施，帮助您提高数据的安全性。</p>
-</div>
-<div class="paragraph">
-<p><a href="https://docs.netapp.com/us-en/cloud-manager-ransomware/concept-ransomware-protection.html">"了解有关此新服务的更多信息"</a>。</p>
 </div>
 </div>
 </div>
