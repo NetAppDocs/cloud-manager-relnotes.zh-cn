@@ -361,6 +361,40 @@ https://docs.netapp.com/us-en/cloud-manager-backup-restore/concept-protect-app-d
 
 
 
+=== 2022年7月6日(1.14版)
+
+
+
+==== 现在、您可以查看有权访问目录的用户和组
+
+过去、您可以查看为单个文件授予的打开权限类型。现在、您可以查看有权访问目录(文件夹和文件共享)的所有用户或组的列表及其权限类型。 https://docs.netapp.com/us-en/cloud-manager-data-sense/task-controlling-private-data.html#viewing-permissions-for-files-and-directories["了解如何查看有权访问文件夹和文件共享的用户和组"]。
+
+
+
+==== 您可以"暂停"扫描存储库、以暂时停止扫描某些内容
+
+暂停扫描意味着Data sense不会对卷或存储分段的任何添加或更改执行未来扫描、但系统中仍会显示所有当前结果。 https://docs.netapp.com/us-en/cloud-manager-data-sense/task-managing-repo-scanning.html#pausing-and-resuming-scanning-for-a-repository["请参见如何暂停和恢复扫描"]。
+
+
+
+==== Data sense可识别来自另外三种状态的美国驾驶证数据
+
+Data sense可以识别和分类包含来自印第安纳、纽约和德克萨斯州的驾驶执照数据的文件。 link:reference-private-data-categories.html#types-of-personal-data["查看 Data sense 可以在您的数据中识别的所有类型的个人数据"]。
+
+
+
+==== 现在、策略将返回与搜索条件匹配的目录
+
+过去、在创建自定义策略时、结果会显示与搜索条件匹配的文件。现在、结果还会显示与查询匹配的目录(文件夹和文件共享)。 https://docs.netapp.com/us-en/cloud-manager-data-sense/task-org-private-data.html#creating-custom-policies["了解有关创建策略的更多信息"]。
+
+
+
+==== 目前、数据感知一次最多可移动100、000个文件
+
+如果您计划使用Data sense将文件从扫描的数据源移动到NFS共享、则最大文件数已增加到100、000个。 https://docs.netapp.com/us-en/cloud-manager-data-sense/task-managing-highlights.html#moving-source-files-to-an-nfs-share["请参见如何使用Data sense移动文件"]。
+
+
+
 === 2022年6月12日(1.13.1版)
 
 
@@ -430,22 +464,6 @@ https://docs.netapp.com/us-en/cloud-manager-data-sense/task-controlling-private-
 
 
 https://docs.netapp.com/us-en/cloud-manager-data-sense/task-controlling-private-data.html#filtering-data-in-the-data-investigation-page["查看可用于调查数据的所有筛选器的列表"]。
-
-
-
-=== 2022年4月5日(1.11.1版)
-
-
-
-==== Data sense 可以识别四种新类型的澳大利亚个人数据
-
-Data sense 可以识别包含澳大利亚 TFN （税务文件编号），澳大利亚驾驶执照编号，澳大利亚医疗保健服务编号和澳大利亚护照编号的文件并对其进行分类。 https://docs.netapp.com/us-en/cloud-manager-data-sense/reference-private-data-categories.html#types-of-personal-data["查看 Data sense 可以在您的数据中识别的所有类型的个人数据"]。
-
-
-
-==== 现在，全局 Active Directory 服务器可以是 LDAP 服务器
-
-与 Data sense 集成的全局 Active Directory 服务器现在可以是 LDAP 服务器，而不是以前支持的 DNS 服务器。 https://docs.netapp.com/us-en/cloud-manager-data-sense/task-add-active-directory-datasense.html["有关详细信息，请访问此处"]。
 
 
 

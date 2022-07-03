@@ -114,11 +114,7 @@
   <block id="0749ae9ea79ee87dd8c530f67a9065fe" category="section-title">新的搜索和还原功能可在所有 ONTAP 备份文件中搜索卷或文件</block>
   <block id="abad9ff4f9967065f50634a2a3606dd0" category="inline-link">了解如何使用搜索和放大；还原</block>
   <block id="9a4fc48ebf3077bde35f83be2ee84cc8" category="paragraph">现在，您可以按部分或完整卷名称，部分或完整文件名称，大小范围以及其他搜索筛选器在 * 所有 ONTAP 备份文件 * 中搜索卷或文件。如果您不确定哪个集群或卷是数据源，这是一种很好的新方法来查找要还原的数据。<block ref="f28ab8501300af6839923f7181e075ab" category="inline-link-rx"></block>。</block>
-  <block id="e661d5c04d5948d390d622ba88bdcc6b" category="section-title">Data sense 可以识别四种新类型的澳大利亚个人数据</block>
   <block id="8900e436e6a12ce71aa703bf1c8be02c" category="inline-link">查看 Data sense 可以在您的数据中识别的所有类型的个人数据</block>
-  <block id="2cce25ab977b0dbc152674f93a9dcd6e" category="paragraph">Data sense 可以识别包含澳大利亚 TFN （税务文件编号），澳大利亚驾驶执照编号，澳大利亚医疗保健服务编号和澳大利亚护照编号的文件并对其进行分类。<block ref="b4ce36808fde13e40836bb7d14af31c6" category="inline-link-rx"></block>。</block>
-  <block id="0387123627dfe002c7435c0101983f19" category="section-title">现在，全局 Active Directory 服务器可以是 LDAP 服务器</block>
-  <block id="b31480db3c4a98f4500e2a55a1aebc8b" category="paragraph">与 Data sense 集成的全局 Active Directory 服务器现在可以是 LDAP 服务器，而不是以前支持的 DNS 服务器。<block ref="f17adadb9807d1263647d20e03bc2613" category="inline-link-rx"></block>。</block>
   <block id="f670023c78e0e3dbeb691779659d5049" category="section-title">2022 年 3 月 15 日</block>
   <block id="5e16db4c47abe8cb1c5bd746df2fd94a" category="section-title">2022 年 4 月 3 日</block>
   <block id="33c34b75ae4154295ed3cdeeccb3fd6a" category="section-title">数据代理组增强功能</block>
@@ -437,7 +433,6 @@
   <block id="0a0c24e7fef8cd9bcb19d6db19987b93" category="paragraph">请注意、如果您先前使用了Cloud Restore实例/VM、则该实例/VM将自动删除。Cloud Backup进程将每天运行一次、以删除所有旧的Cloud Restore实例。此更改是完全透明的—不会对数据产生任何影响、您也不会注意到备份或还原作业发生了任何更改。</block>
   <block id="360d69dcc915fa54a4ac5faccbaf2127" category="section-title">2022年6月12日(1.13.1版)</block>
   <block id="2dd4f685f001cb4e6c0149956ba4a997" category="section-title">2022年5月11日(1.12.1版)</block>
-  <block id="07de9e897e96f5f63e0778d691b62d59" category="section-title">2022年4月5日(1.11.1版)</block>
   <block id="22c3479f6dd133b2d2d79cc8b481240f" category="section-title">2022年6月23日(版本1.3.1)</block>
   <block id="a720f7f5208abaac19d4db46d3bc0a7b" category="inline-link">已修复的问题</block>
   <block id="2ffbf992fae9becab7e787491b2cdf41" category="paragraph">可从获取适用于1.3.1版的Global File Cache Edge软件<block ref="2c81bb98c990e9738e500d000082628f" category="inline-link-rx"></block>。此版本可修复中所述的问题<block ref="11a0d6c8cafa0c0950060c707371e2a0" category="inline-link-rx"></block>。</block>
@@ -509,4 +504,19 @@
   <block id="26317664fb1c4e8b3a500a7b1e46a4e7" category="inline-link-macro">安装和管理Astra Trident</block>
   <block id="74f5fa93248faf352ebad3f966bf3b55" category="paragraph"><block ref="74f5fa93248faf352ebad3f966bf3b55" category="inline-link-macro-rx"></block></block>
   <block id="412d8f1a8f03a7ee8f0983e7ecafe5e4" category="list-text">现在、您可以将Kubernetes集群拖放到AWS FSX for ONTAP 工作环境中、以便直接从Canvas添加存储类。</block>
+  <block id="d5b8d2f44acff1b98dd9992401eadf24" category="section-title">2022年7月6日(1.14版)</block>
+  <block id="45b5235b8c737e18e646514c30664517" category="section-title">现在、您可以查看有权访问目录的用户和组</block>
+  <block id="949b2765e1f54f21e0cad7eec542e087" category="inline-link">了解如何查看有权访问文件夹和文件共享的用户和组</block>
+  <block id="a90ca4eb6ddb2e74f2c65cdc04cc3fbb" category="paragraph">过去、您可以查看为单个文件授予的打开权限类型。现在、您可以查看有权访问目录(文件夹和文件共享)的所有用户或组的列表及其权限类型。<block ref="b60fb470aa4bdcc4f286155f14ead62c" category="inline-link-rx"></block>。</block>
+  <block id="6a3dc819e6a301f028d6d27063bb3b04" category="section-title">您可以"暂停"扫描存储库、以暂时停止扫描某些内容</block>
+  <block id="1c32547b30cc36869742df049964326d" category="inline-link">请参见如何暂停和恢复扫描</block>
+  <block id="686ab925b6e810c9c0fd8f818fda9d3f" category="paragraph">暂停扫描意味着Data sense不会对卷或存储分段的任何添加或更改执行未来扫描、但系统中仍会显示所有当前结果。<block ref="a7d93e406d54440657820ff66e02fe00" category="inline-link-rx"></block>。</block>
+  <block id="74055d71ba1631fb4f3285d57f607264" category="section-title">Data sense可识别来自另外三种状态的美国驾驶证数据</block>
+  <block id="c249f6d964b8afde45218a63824a58eb" category="paragraph">Data sense可以识别和分类包含来自印第安纳、纽约和德克萨斯州的驾驶执照数据的文件。 <block ref="44b442fb31109b9e2fdef6fe3589adf6" category="inline-link-macro-rx"></block>。</block>
+  <block id="a3096c7d9e0dca154e6250efb3ce3736" category="section-title">现在、策略将返回与搜索条件匹配的目录</block>
+  <block id="9fadb6e2508d92e954b40d39c36e9687" category="inline-link">了解有关创建策略的更多信息</block>
+  <block id="108104172f74542ec4477bdc3526c5a6" category="paragraph">过去、在创建自定义策略时、结果会显示与搜索条件匹配的文件。现在、结果还会显示与查询匹配的目录(文件夹和文件共享)。<block ref="15372ef6946b4e16102f5b52608f8748" category="inline-link-rx"></block>。</block>
+  <block id="7d96313dbf4a19b7144c3ff41f415250" category="section-title">目前、数据感知一次最多可移动100、000个文件</block>
+  <block id="3e0c53bc3881ac60b7e7165fda5915c1" category="inline-link">请参见如何使用Data sense移动文件</block>
+  <block id="83a532ebc867c79287dd4586ca124d5c" category="paragraph">如果您计划使用Data sense将文件从扫描的数据源移动到NFS共享、则最大文件数已增加到100、000个。<block ref="09dde0c065d21cccd7a9b4c85001931c" category="inline-link-rx"></block>。</block>
 </blocks>
