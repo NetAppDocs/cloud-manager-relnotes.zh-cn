@@ -473,7 +473,7 @@
 <p class="page-details">
   
     
-    <time datetime="2022-07-03 16:49:51 +0000">07/03/2022</time>
+    <time datetime="2022-07-03 17:13:45 +0000">07/03/2022</time>
     
   
 
@@ -543,9 +543,9 @@
 </li>
 <li><a href="#cloud-volumes-ontap">Cloud Volumes ONTAP</a>
 <ul class="sectlevel2">
+<li><a href="#2022年7月3日-3">2022年7月3日</a></li>
 <li><a href="#2022年6月7日-2">2022年6月7日</a></li>
 <li><a href="#2022年5月2日-2">2022年5月2日</a></li>
-<li><a href="#2022-年-4-月-3-日-2">2022 年 4 月 3 日</a></li>
 </ul>
 </li>
 <li><a href="#适用于-gcp-的-cloud-volumes-service">适用于 GCP 的 Cloud Volumes Service</a>
@@ -1369,6 +1369,79 @@
 <h2 id="cloud-volumes-ontap">Cloud Volumes ONTAP</h2>
 <div class="sectionbody">
 <div class="sect2">
+<h3 id="2022年7月3日-3">2022年7月3日</h3>
+<div class="paragraph">
+<p>连接器3.9.20版引入了以下更改。</p>
+</div>
+<div class="sect3">
+<h4 id="数字电子钱包">数字电子钱包</h4>
+<div class="paragraph">
+<p>现在、Digital Wallet将按许可包显示您帐户中的总已用容量和已用容量。这有助于您了解如何为您付费以及是否需要购买额外容量。</p>
+</div>
+<div class="paragraph">
+<p><span class="image"><img src="./media/screenshot-digital-wallet-summary.png" alt="屏幕截图显示了基于容量的许可证的&quot;数字电子钱包&quot;页面。此页面概述了您帐户中的已用容量、然后按许可包细分已用容量。"></span></p>
+</div>
+</div>
+<div class="sect3">
+<h4 id="弹性卷增强功能">弹性卷增强功能</h4>
+<div class="paragraph">
+<p>现在、Cloud Manager可在通过用户界面创建Cloud Volumes ONTAP 工作环境时支持Amazon EBS弹性卷功能。使用GP3或IO1磁盘时、弹性卷功能默认处于启用状态。您可以根据存储需求选择初始容量、并在部署Cloud Volumes ONTAP 后进行修改。</p>
+</div>
+<div class="paragraph">
+<p><a href="concept-aws-elastic-volumes.html">"了解有关在AWS中支持弹性卷的更多信息"</a>。</p>
+</div>
+</div>
+<div class="sect3">
+<h4 id="aws中的ontap-s3许可证">AWS中的ONTAP S3许可证</h4>
+<div class="paragraph">
+<p>现在、Cloud Manager会在AWS中运行9.11.0或更高版本的新Cloud Volumes ONTAP 系统和现有系统上自动安装ONTAP S3许可证。</p>
+</div>
+<div class="paragraph">
+<p><a href="https://docs.netapp.com/us-en/ontap/object-storage-management/index.html" target="_blank" rel="noopener">"了解如何在 ONTAP 中配置和管理 S3 对象存储服务"</a>。</p>
+</div>
+</div>
+<div class="sect3">
+<h4 id="新增azure-cloud区域支持">新增Azure Cloud区域支持</h4>
+<div class="paragraph">
+<p>从9.10.1版开始、Azure West US 3区域现在支持Cloud Volumes ONTAP。</p>
+</div>
+<div class="paragraph">
+<p><a href="https://cloud.netapp.com/cloud-volumes-global-regions" target="_blank" rel="noopener">"查看Cloud Volumes ONTAP 支持的区域的完整列表"</a></p>
+</div>
+</div>
+<div class="sect3">
+<h4 id="azure中的ontap-s3许可证">Azure中的ONTAP S3许可证</h4>
+<div class="paragraph">
+<p>现在、Cloud Manager会在Azure中运行9.9.1或更高版本的新Cloud Volumes ONTAP 系统和现有系统上自动安装ONTAP S3许可证。</p>
+</div>
+<div class="paragraph">
+<p><a href="https://docs.netapp.com/us-en/ontap/object-storage-management/index.html" target="_blank" rel="noopener">"了解如何在 ONTAP 中配置和管理 S3 对象存储服务"</a>。</p>
+</div>
+</div>
+<div class="sect3">
+<h4 id="全新google-cloud区域支持-2">全新Google Cloud区域支持</h4>
+<div class="paragraph">
+<p>从9.10.1版开始、以下Google Cloud地区现在支持Cloud Volumes ONTAP ：</p>
+</div>
+<div class="ulist">
+<ul>
+<li>
+<p>马德里(欧洲-西南1)</p>
+</li>
+<li>
+<p>巴黎(欧洲-西部9)</p>
+</li>
+<li>
+<p>华沙(欧洲中部2)</p>
+</li>
+</ul>
+</div>
+<div class="paragraph">
+<p><a href="https://cloud.netapp.com/cloud-volumes-global-regions" target="_blank" rel="noopener">"查看Cloud Volumes ONTAP 支持的区域的完整列表"</a></p>
+</div>
+</div>
+</div>
+<div class="sect2">
 <h3 id="2022年6月7日-2">2022年6月7日</h3>
 <div class="paragraph">
 <p>连接器3.9.19版引入了以下更改。</p>
@@ -1534,7 +1607,7 @@
 </div>
 </div>
 <div class="sect3">
-<h4 id="全新google-cloud区域支持-2">全新Google Cloud区域支持</h4>
+<h4 id="全新google-cloud区域支持-3">全新Google Cloud区域支持</h4>
 <div class="paragraph">
 <p>从9.10.1版开始、以下Google Cloud地区现在支持Cloud Volumes ONTAP ：</p>
 </div>
@@ -1590,27 +1663,6 @@
 </div>
 <div class="paragraph">
 <p><span class="image"><img src="https://raw.githubusercontent.com/NetAppDocs/cloud-manager-cloud-volumes-ontap/main/media/screenshot-google-cloud-service-account.png" alt="服务帐户字段的屏幕截图"></span></p>
-</div>
-</div>
-</div>
-<div class="sect2">
-<h3 id="2022-年-4-月-3-日-2">2022 年 4 月 3 日</h3>
-<div class="sect3">
-<h4 id="已删除-system-manager-链接">已删除 System Manager 链接</h4>
-<div class="paragraph">
-<p>我们已删除先前在 Cloud Volumes ONTAP 工作环境中提供的 System Manager 链接。</p>
-</div>
-<div class="paragraph">
-<p>您仍然可以通过在连接到 Cloud Volumes ONTAP 系统的 Web 浏览器中输入集群管理 IP 地址来连接到 System Manager 。 <a href="https://docs.netapp.com/us-en/cloud-manager-cloud-volumes-ontap/task-connecting-to-otc.html">"了解有关连接到 System Manager 的更多信息"</a>。</p>
-</div>
-</div>
-<div class="sect3">
-<h4 id="为-worm-存储充电">为 WORM 存储充电</h4>
-<div class="paragraph">
-<p>现在，首发特惠价已过期，您将需要为使用 WORM 存储付费。根据 WORM 卷的总配置容量，每小时进行一次充电。此适用场景 新的和现有的 Cloud Volumes ONTAP 系统。</p>
-</div>
-<div class="paragraph">
-<p><a href="https://cloud.netapp.com/pricing" target="_blank" rel="noopener">"了解 WORM 存储的定价"</a>。</p>
 </div>
 </div>
 </div>
