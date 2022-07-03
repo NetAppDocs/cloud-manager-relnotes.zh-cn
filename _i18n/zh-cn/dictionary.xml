@@ -293,14 +293,6 @@
   <block id="3380ed6ae32f99410860532de07b57a7" category="inline-link">ONTAP 防勒索软件功能</block>
   <block id="914a5a27ea412edf84bb416054ec6d75" category="paragraph">您可以查看这些建议，然后确定希望如何解决潜在问题。您可以按照以下步骤更改集群上的设置，将更改推迟到其他时间或忽略此建议。<block ref="87553c653b94d5529a2080374ec70030" category="inline-link-rx"></block>。</block>
   <block id="76553642514a4b204c12afe14df42e92" category="section-title">新面板可显示如何使用 Cloud Backup 保护不同类别的数据。</block>
-  <block id="97106e7449f4966fc1e4b3b78d425110" category="section-title">已删除 System Manager 链接</block>
-  <block id="249f6fd27ec465f7b6af7dc12178a1ea" category="paragraph">我们已删除先前在 Cloud Volumes ONTAP 工作环境中提供的 System Manager 链接。</block>
-  <block id="1979125e36e7d7c49ca297e15301d908" category="inline-link">了解有关连接到 System Manager 的更多信息</block>
-  <block id="bbf60c789b26c6dcc40b75262425eac7" category="paragraph">您仍然可以通过在连接到 Cloud Volumes ONTAP 系统的 Web 浏览器中输入集群管理 IP 地址来连接到 System Manager 。<block ref="c343c10570bfa751089c9639f87b6a1f" category="inline-link-rx"></block>。</block>
-  <block id="0f132f66e81cbab588044405a33dc058" category="section-title">为 WORM 存储充电</block>
-  <block id="d87a373c29bad4362e9f6515cb3a6927" category="paragraph">现在，首发特惠价已过期，您将需要为使用 WORM 存储付费。根据 WORM 卷的总配置容量，每小时进行一次充电。此适用场景 新的和现有的 Cloud Volumes ONTAP 系统。</block>
-  <block id="10142c9d88b9419ee393574e858e86c8" category="inline-link">了解 WORM 存储的定价</block>
-  <block id="074dbf8cc93ccd34e86e3e2e8f2a1e3a" category="paragraph"><block ref="38aefad2ca205e663da97b7fdd932dcf" category="inline-link-rx"></block>。</block>
   <block id="c7fd320d60c5b92b36ff4a806aef9121" category="paragraph">除了查看和筛选所有文件和数据库中的数据之外、现在您还可以在"数据调查"页面中根据文件夹和共享中的所有数据查看和筛选数据。将为扫描的CIFS和NFS共享以及OneDrive、SharePoint和Google Drive文件夹的目录编制索引。现在、您可以在目录级别查看权限并管理数据。<block ref="9e53e59afd29cea3c43eb27dc0a3476a" category="inline-link-rx"></block>。</block>
   <block id="e76164b285bb635d604e86db0ddefffb" category="paragraph">连接器3.9.18版引入了以下变更。</block>
   <block id="44521137c9499dbef6a006058d0d9127" category="section-title">Cloud Volumes ONTAP 9.11.0</block>
@@ -510,4 +502,21 @@
   <block id="32ddf7d830e3a5092074c4f9bb211736" category="paragraph">Google Cloud中数据代理的默认计算机类型现在为n2-standard-4。</block>
   <block id="1da5b30af8a0c5d1ce771dde6d9be98e" category="paragraph"><block ref="1da5b30af8a0c5d1ce771dde6d9be98e" category="inline-image-macro-rx" type="image"></block></block>
   <block id="0ce7c9606b5f3d67c288c6ffe90a846e" category="paragraph"><block ref="0ce7c9606b5f3d67c288c6ffe90a846e" category="inline-image-macro-rx" type="image"></block></block>
+  <block id="11df15715c1f580c53cb06d73a344574" category="paragraph">连接器3.9.20版引入了以下更改。</block>
+  <block id="986e1f3279b4d74444bd32d4f833afbd" category="section-title">数字电子钱包</block>
+  <block id="d5503d6062daaaa4326462970164cbac" category="paragraph">现在、Digital Wallet将按许可包显示您帐户中的总已用容量和已用容量。这有助于您了解如何为您付费以及是否需要购买额外容量。</block>
+  <block id="232ac716fdabb7e9b9ba7c3a108574a7" category="inline-image-macro">屏幕截图显示了基于容量的许可证的"数字电子钱包"页面。此页面概述了您帐户中的已用容量、然后按许可包细分已用容量。</block>
+  <block id="25151b376af0a0b205be15ab92b4cd97" category="paragraph"><block ref="25151b376af0a0b205be15ab92b4cd97" category="inline-image-macro-rx" type="image"></block></block>
+  <block id="d9c05beb7c27c53dc1cb952afddea3ac" category="section-title">弹性卷增强功能</block>
+  <block id="119ffefd11e6681de49e316bc16a471d" category="paragraph">现在、Cloud Manager可在通过用户界面创建Cloud Volumes ONTAP 工作环境时支持Amazon EBS弹性卷功能。使用GP3或IO1磁盘时、弹性卷功能默认处于启用状态。您可以根据存储需求选择初始容量、并在部署Cloud Volumes ONTAP 后进行修改。</block>
+  <block id="0c5741d0ec0127a10c28f7c82579da32" category="inline-link-macro">了解有关在AWS中支持弹性卷的更多信息</block>
+  <block id="3cc8cd9bef921086f444d55cf1ea25c6" category="paragraph"><block ref="a2865c7bad4b206df6582ad55cba915e" category="inline-link-macro-rx"></block>。</block>
+  <block id="7fb4d101a5e000398c4d5b4c48b802a6" category="section-title">AWS中的ONTAP S3许可证</block>
+  <block id="e1d7a3ee89947f3549d385865ef27dda" category="paragraph">现在、Cloud Manager会在AWS中运行9.11.0或更高版本的新Cloud Volumes ONTAP 系统和现有系统上自动安装ONTAP S3许可证。</block>
+  <block id="6958464059ef304c59d06fcb948ccafd" category="inline-link">了解如何在 ONTAP 中配置和管理 S3 对象存储服务</block>
+  <block id="75081fb4982f7b843e702079b35f0ed4" category="paragraph"><block ref="3fe75f10a35597997861eca633c30fa7" category="inline-link-rx"></block>。</block>
+  <block id="c86d179c90248acd6ebdba05bd94320c" category="section-title">新增Azure Cloud区域支持</block>
+  <block id="c55cc410beff8f86afc3ba8027b681f7" category="paragraph">从9.10.1版开始、Azure West US 3区域现在支持Cloud Volumes ONTAP。</block>
+  <block id="1a3362a1b5304a4e1e1112496974b9ae" category="section-title">Azure中的ONTAP S3许可证</block>
+  <block id="e29ddfe6afa32fb2c96c8682f4ca73e8" category="paragraph">现在、Cloud Manager会在Azure中运行9.9.1或更高版本的新Cloud Volumes ONTAP 系统和现有系统上自动安装ONTAP S3许可证。</block>
 </blocks>
