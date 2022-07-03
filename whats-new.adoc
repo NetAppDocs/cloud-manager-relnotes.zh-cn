@@ -695,7 +695,7 @@ link:concept-aws-elastic-volumes.html["了解有关在AWS中支持弹性卷的�
 
 ==== AWS中的ONTAP S3许可证
 
-现在、Cloud Manager会在AWS中运行9.11.0或更高版本的新Cloud Volumes ONTAP 系统和现有系统上自动安装ONTAP S3许可证。
+现在、在AWS中运行版本9.11.0或更高版本的新Cloud Volumes ONTAP 系统和现有系统中提供了ONTAP S3许可证。
 
 https://docs.netapp.com/us-en/ontap/object-storage-management/index.html["了解如何在 ONTAP 中配置和管理 S3 对象存储服务"^]
 
@@ -711,7 +711,7 @@ https://cloud.netapp.com/cloud-volumes-global-regions["查看Cloud Volumes ONTAP
 
 ==== Azure中的ONTAP S3许可证
 
-现在、Cloud Manager会在Azure中运行9.9.1或更高版本的新Cloud Volumes ONTAP 系统和现有系统上自动安装ONTAP S3许可证。
+现在、在Azure中运行版本9.9.1或更高版本的新Cloud Volumes ONTAP 系统和现有系统中提供了ONTAP S3许可证。
 
 https://docs.netapp.com/us-en/ontap/object-storage-management/index.html["了解如何在 ONTAP 中配置和管理 S3 对象存储服务"^]
 

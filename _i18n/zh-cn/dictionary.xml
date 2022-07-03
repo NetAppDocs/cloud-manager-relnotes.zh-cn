@@ -484,12 +484,10 @@
   <block id="0c5741d0ec0127a10c28f7c82579da32" category="inline-link-macro">了解有关在AWS中支持弹性卷的更多信息</block>
   <block id="3cc8cd9bef921086f444d55cf1ea25c6" category="paragraph"><block ref="a2865c7bad4b206df6582ad55cba915e" category="inline-link-macro-rx"></block>。</block>
   <block id="7fb4d101a5e000398c4d5b4c48b802a6" category="section-title">AWS中的ONTAP S3许可证</block>
-  <block id="e1d7a3ee89947f3549d385865ef27dda" category="paragraph">现在、Cloud Manager会在AWS中运行9.11.0或更高版本的新Cloud Volumes ONTAP 系统和现有系统上自动安装ONTAP S3许可证。</block>
   <block id="6958464059ef304c59d06fcb948ccafd" category="inline-link">了解如何在 ONTAP 中配置和管理 S3 对象存储服务</block>
   <block id="c86d179c90248acd6ebdba05bd94320c" category="section-title">新增Azure Cloud区域支持</block>
   <block id="c55cc410beff8f86afc3ba8027b681f7" category="paragraph">从9.10.1版开始、Azure West US 3区域现在支持Cloud Volumes ONTAP。</block>
   <block id="1a3362a1b5304a4e1e1112496974b9ae" category="section-title">Azure中的ONTAP S3许可证</block>
-  <block id="e29ddfe6afa32fb2c96c8682f4ca73e8" category="paragraph">现在、Cloud Manager会在Azure中运行9.9.1或更高版本的新Cloud Volumes ONTAP 系统和现有系统上自动安装ONTAP S3许可证。</block>
   <block id="998e6cc07bc5c3b4a2329ad21093316c" category="paragraph"><block ref="998e6cc07bc5c3b4a2329ad21093316c" category="inline-image-macro-rx" type="image"></block></block>
   <block id="3fe75f10a35597997861eca633c30fa7" category="paragraph"><block ref="3fe75f10a35597997861eca633c30fa7" category="inline-link-rx"></block></block>
   <block id="16d18a6af4e3eb041715aa5c571b4c92" category="paragraph">在&lt;stdin&gt;中未解析的指令-包括：https://raw.githubusercontent.com/NetAppDocs/cloud-manager-cloud-volumes-ontap/main/_include/whats-new-july-gcp.adoc[leveloffset=+1]</block>
@@ -519,4 +517,6 @@
   <block id="7d96313dbf4a19b7144c3ff41f415250" category="section-title">目前、数据感知一次最多可移动100、000个文件</block>
   <block id="3e0c53bc3881ac60b7e7165fda5915c1" category="inline-link">请参见如何使用Data sense移动文件</block>
   <block id="83a532ebc867c79287dd4586ca124d5c" category="paragraph">如果您计划使用Data sense将文件从扫描的数据源移动到NFS共享、则最大文件数已增加到100、000个。<block ref="09dde0c065d21cccd7a9b4c85001931c" category="inline-link-rx"></block>。</block>
+  <block id="8152540df51584ebf79193211a381d46" category="paragraph">现在、在AWS中运行版本9.11.0或更高版本的新Cloud Volumes ONTAP 系统和现有系统中提供了ONTAP S3许可证。</block>
+  <block id="f225a4f57ea32da8b983d7bffd20b6eb" category="paragraph">现在、在Azure中运行版本9.9.1或更高版本的新Cloud Volumes ONTAP 系统和现有系统中提供了ONTAP S3许可证。</block>
 </blocks>
