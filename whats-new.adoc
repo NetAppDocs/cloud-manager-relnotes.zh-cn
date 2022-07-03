@@ -665,7 +665,7 @@ https://docs.netapp.com/us-en/cloud-manager-tiering/task-licensing-cloud-tiering
 
 现在、Digital Wallet将按许可包显示您帐户中的总已用容量和已用容量。这有助于您了解如何为您付费以及是否需要购买额外容量。
 
-image:screenshot-digital-wallet-summary.png["屏幕截图显示了基于容量的许可证的\"数字电子钱包\"页面。此页面概述了您帐户中的已用容量、然后按许可包细分已用容量。"]
+image:https://raw.githubusercontent.com/NetAppDocs/cloud-manager-cloud-volumes-ontap/main/media/screenshot-digital-wallet-summary.png["屏幕截图显示了基于容量的许可证的\"数字电子钱包\"页面。此页面概述了您帐户中的已用容量、然后按许可包细分已用容量。"]
 
 
 
@@ -681,7 +681,7 @@ link:concept-aws-elastic-volumes.html["了解有关在AWS中支持弹性卷的�
 
 现在、Cloud Manager会在AWS中运行9.11.0或更高版本的新Cloud Volumes ONTAP 系统和现有系统上自动安装ONTAP S3许可证。
 
-https://docs.netapp.com/us-en/ontap/object-storage-management/index.html["了解如何在 ONTAP 中配置和管理 S3 对象存储服务"^]。
+https://docs.netapp.com/us-en/ontap/object-storage-management/index.html["了解如何在 ONTAP 中配置和管理 S3 对象存储服务"^]
 
 
 
@@ -697,20 +697,9 @@ https://cloud.netapp.com/cloud-volumes-global-regions["查看Cloud Volumes ONTAP
 
 现在、Cloud Manager会在Azure中运行9.9.1或更高版本的新Cloud Volumes ONTAP 系统和现有系统上自动安装ONTAP S3许可证。
 
-https://docs.netapp.com/us-en/ontap/object-storage-management/index.html["了解如何在 ONTAP 中配置和管理 S3 对象存储服务"^]。
+https://docs.netapp.com/us-en/ontap/object-storage-management/index.html["了解如何在 ONTAP 中配置和管理 S3 对象存储服务"^]
 
-
-
-==== 全新Google Cloud区域支持
-
-从9.10.1版开始、以下Google Cloud地区现在支持Cloud Volumes ONTAP ：
-
-* 马德里(欧洲-西南1)
-* 巴黎(欧洲-西部9)
-* 华沙(欧洲中部2)
-
-
-https://cloud.netapp.com/cloud-volumes-global-regions["查看Cloud Volumes ONTAP 支持的区域的完整列表"^]
+在<stdin>中未解析的指令-包括：https://raw.githubusercontent.com/NetAppDocs/cloud-manager-cloud-volumes-ontap/main/_include/whats-new-july-gcp.adoc[leveloffset=+1]
 
 
 

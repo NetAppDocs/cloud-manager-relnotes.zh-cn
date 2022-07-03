@@ -506,7 +506,6 @@
   <block id="986e1f3279b4d74444bd32d4f833afbd" category="section-title">数字电子钱包</block>
   <block id="d5503d6062daaaa4326462970164cbac" category="paragraph">现在、Digital Wallet将按许可包显示您帐户中的总已用容量和已用容量。这有助于您了解如何为您付费以及是否需要购买额外容量。</block>
   <block id="232ac716fdabb7e9b9ba7c3a108574a7" category="inline-image-macro">屏幕截图显示了基于容量的许可证的"数字电子钱包"页面。此页面概述了您帐户中的已用容量、然后按许可包细分已用容量。</block>
-  <block id="25151b376af0a0b205be15ab92b4cd97" category="paragraph"><block ref="25151b376af0a0b205be15ab92b4cd97" category="inline-image-macro-rx" type="image"></block></block>
   <block id="d9c05beb7c27c53dc1cb952afddea3ac" category="section-title">弹性卷增强功能</block>
   <block id="119ffefd11e6681de49e316bc16a471d" category="paragraph">现在、Cloud Manager可在通过用户界面创建Cloud Volumes ONTAP 工作环境时支持Amazon EBS弹性卷功能。使用GP3或IO1磁盘时、弹性卷功能默认处于启用状态。您可以根据存储需求选择初始容量、并在部署Cloud Volumes ONTAP 后进行修改。</block>
   <block id="0c5741d0ec0127a10c28f7c82579da32" category="inline-link-macro">了解有关在AWS中支持弹性卷的更多信息</block>
@@ -514,9 +513,11 @@
   <block id="7fb4d101a5e000398c4d5b4c48b802a6" category="section-title">AWS中的ONTAP S3许可证</block>
   <block id="e1d7a3ee89947f3549d385865ef27dda" category="paragraph">现在、Cloud Manager会在AWS中运行9.11.0或更高版本的新Cloud Volumes ONTAP 系统和现有系统上自动安装ONTAP S3许可证。</block>
   <block id="6958464059ef304c59d06fcb948ccafd" category="inline-link">了解如何在 ONTAP 中配置和管理 S3 对象存储服务</block>
-  <block id="75081fb4982f7b843e702079b35f0ed4" category="paragraph"><block ref="3fe75f10a35597997861eca633c30fa7" category="inline-link-rx"></block>。</block>
   <block id="c86d179c90248acd6ebdba05bd94320c" category="section-title">新增Azure Cloud区域支持</block>
   <block id="c55cc410beff8f86afc3ba8027b681f7" category="paragraph">从9.10.1版开始、Azure West US 3区域现在支持Cloud Volumes ONTAP。</block>
   <block id="1a3362a1b5304a4e1e1112496974b9ae" category="section-title">Azure中的ONTAP S3许可证</block>
   <block id="e29ddfe6afa32fb2c96c8682f4ca73e8" category="paragraph">现在、Cloud Manager会在Azure中运行9.9.1或更高版本的新Cloud Volumes ONTAP 系统和现有系统上自动安装ONTAP S3许可证。</block>
+  <block id="998e6cc07bc5c3b4a2329ad21093316c" category="paragraph"><block ref="998e6cc07bc5c3b4a2329ad21093316c" category="inline-image-macro-rx" type="image"></block></block>
+  <block id="3fe75f10a35597997861eca633c30fa7" category="paragraph"><block ref="3fe75f10a35597997861eca633c30fa7" category="inline-link-rx"></block></block>
+  <block id="16d18a6af4e3eb041715aa5c571b4c92" category="paragraph">在&lt;stdin&gt;中未解析的指令-包括：https://raw.githubusercontent.com/NetAppDocs/cloud-manager-cloud-volumes-ontap/main/_include/whats-new-july-gcp.adoc[leveloffset=+1]</block>
 </blocks>
