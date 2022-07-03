@@ -94,13 +94,6 @@
   <block id="1b06c7a9314e682b34302ac90d6d6650" category="section-title">创建卷时选择卷单元</block>
   <block id="155385bf6757f064143eb321fbfd3bff" category="inline-link-macro">创建卷时，请选择卷单位（ GiB 或 TiB ）</block>
   <block id="bdc6d93b4370ea76238df491d9d141c4" category="paragraph">您可以 <block ref="88fc27d29fd6019ad989d255373b75d1" category="inline-link-macro-rx"></block> 在适用于 ONTAP 的 FSX 中。</block>
-  <block id="d1c47d8bf748c203ff983262e6c108cb" category="section-title">2021 年 10 月 4 日</block>
-  <block id="2ac9dc8f932fa4bebfc31724e388e13a" category="section-title">使用 Cloud Manager 创建 CIFS 卷</block>
-  <block id="901f92bd8486511c3943b59dd9b9f6a4" category="inline-link-macro">使用 Cloud Manager 在适用于 ONTAP 的 FSX 中创建 CIFS 卷</block>
-  <block id="8cb898147f5ef32e49709138a0ee48c6" category="paragraph">现在可以了 <block ref="98c695f1949c26a2dd10f3c98347e43b" category="inline-link-macro-rx"></block>。</block>
-  <block id="1664cbd7cbe0abbcd6d133e652cd42c1" category="section-title">使用 Cloud Manager 编辑卷</block>
-  <block id="7a6930a21ad40feae487321aef61a969" category="inline-link-macro">使用 Cloud Manager 编辑 ONTAP 卷的 FSX</block>
-  <block id="b233fccd6a0e80b0628c8b760f808f80" category="paragraph">现在可以了 <block ref="4f9c429b7c1519954500e41db7985c1c" category="inline-link-macro-rx"></block>。</block>
   <block id="983a4e7f5913304ec713a249baf7be47" category="section-title">2022 年 3 月 3 日</block>
   <block id="400480e0d45c783abec0a0fffbb005a6" category="section-title">现在，您可以构建一个模板来查找特定的工作环境</block>
   <block id="6aa300e24ddf3ee5a99bbb1cf5bb4a72" category="inline-link">有关详细信息，请访问此处</block>
@@ -180,20 +173,6 @@
   <block id="8703dd42c4c647846ef556f4d8459d59" category="section-title">OpenSSL 模块已升级到 1.1.1k 版。</block>
   <block id="513502857f15915e7acef1b7916eda1b" category="section-title">已更新许可证注册页面。</block>
   <block id="9993afe041a131f763bfa71520f8d27d" category="paragraph">现在， GFC 许可证注册页面将显示通过 NetApp 订阅激活的许可证数量。</block>
-  <block id="ecee73066145d2e6f1b75b79d2af7514" category="section-title">使用 Cloud Manager 资源页面管理 Kubernetes 集群</block>
-  <block id="06ad314b340900d226b1196e1fe289e9" category="inline-link-macro">快速入门</block>
-  <block id="a84f0102d02caeeb1c0e554f032c6e35" category="paragraph">现在， Kubernetes 集群管理已增强了直接与集群工作环境的集成。新的 <block ref="a7ce12c998c9439767584776d325ea5b" category="inline-link-macro-rx"></block> 让您快速启动和运行。</block>
-  <block id="4e9fabf2f81510967e324cfc9c54b640" category="paragraph">现在，您可以从集群资源页面执行以下操作。</block>
-  <block id="f1fe71442cd08e74d342114df7ee1551" category="inline-link-macro">安装 Astra Trident</block>
-  <block id="b4940c8b54941154dff3675bb279c96f" category="list-text"><block ref="b4940c8b54941154dff3675bb279c96f" category="inline-link-macro-rx"></block></block>
-  <block id="fd0987c679e587c89c7d5551c641f09e" category="inline-link-macro">添加存储类</block>
-  <block id="be2f7669a1d3d4dec877a85297de18ec" category="list-text"><block ref="be2f7669a1d3d4dec877a85297de18ec" category="inline-link-macro-rx"></block></block>
-  <block id="260adbf21b473e18ea0788235c9512b8" category="inline-link-macro">查看永久性卷</block>
-  <block id="6a38c17b4adfb6fade3691d6bab9976a" category="list-text"><block ref="6a38c17b4adfb6fade3691d6bab9976a" category="inline-link-macro-rx"></block></block>
-  <block id="f253fdd547a6f5e0e05bbdb671ae8b24" category="inline-link-macro">删除集群</block>
-  <block id="aa7542e939f8e623254af69a1fcd8e2b" category="list-text"><block ref="aa7542e939f8e623254af69a1fcd8e2b" category="inline-link-macro-rx"></block></block>
-  <block id="41e3782291be693bb1f948094d98229d" category="inline-link-macro">启用数据服务</block>
-  <block id="6d6f9b61b474cb16598eda49f24d6452" category="list-text"><block ref="6d6f9b61b474cb16598eda49f24d6452" category="inline-link-macro-rx"></block></block>
   <block id="ef1bf4095b622ba80ac24b48b8e45eac" category="section-title">2022 年 1 月 11 日</block>
   <block id="9e27c4a53794e4f6cfc9949de58e5091" category="section-title">2021 年 8 月 1 日</block>
   <block id="f9564bccd9f6164dfb5486c5fe5ff233" category="section-title">更改为采集单元名称</block>
@@ -472,7 +451,6 @@
   <block id="fb8e25a66c3a27139d3ea3e1474c7db3" category="inline-image-macro">显示Cloud Manager中新的左侧导航菜单的屏幕截图。</block>
   <block id="e37234425776295f1624526d17572b8e" category="list-text">现在、您可以将Cloud Manager配置为通过电子邮件发送通知、这样、即使您未登录到系统、您也可以了解重要的系统活动。</block>
   <block id="2f439d7fd2d68628b2c40e59bc7ec352" category="inline-link-macro">了解有关监控帐户中操作的更多信息</block>
-  <block id="8fe400bbcf74fee5f6ca96b5d06fd8a8" category="paragraph"><block ref="6207ce0a1413f0c60f2c0a13a1fde26f" category="inline-link-macro-rx"></block>。</block>
   <block id="0f9a1f2b52f5c8456ca5d25ab69eea52" category="list-text">Cloud Manager现在支持Azure Blob存储和Google Cloud Storage作为工作环境、类似于Amazon S3支持。</block>
   <block id="5134e5a3a5a026f57f4938b2eaa07031" category="paragraph">在Azure或Google Cloud中安装Connector后、Cloud Manager现在会自动发现您的Azure订阅中的Azure Blob存储或安装了Connector的项目中的Google Cloud Storage的相关信息。Cloud Manager将对象存储显示为一个工作环境、您可以打开该环境以查看更多详细信息。</block>
   <block id="a2f44a550843ebb8ee7fe06e85e5d378" category="paragraph">下面是Azure Blob工作环境的示例：</block>
@@ -520,4 +498,15 @@
   <block id="998e6cc07bc5c3b4a2329ad21093316c" category="paragraph"><block ref="998e6cc07bc5c3b4a2329ad21093316c" category="inline-image-macro-rx" type="image"></block></block>
   <block id="3fe75f10a35597997861eca633c30fa7" category="paragraph"><block ref="3fe75f10a35597997861eca633c30fa7" category="inline-link-rx"></block></block>
   <block id="16d18a6af4e3eb041715aa5c571b4c92" category="paragraph">在&lt;stdin&gt;中未解析的指令-包括：https://raw.githubusercontent.com/NetAppDocs/cloud-manager-cloud-volumes-ontap/main/_include/whats-new-july-gcp.adoc[leveloffset=+1]</block>
+  <block id="991b7c6e5c5e3b71cf64a28ea679cff0" category="paragraph"><block ref="8b6b603d70c42ac6b5c1db56412efc72" category="inline-link-rx"></block>。</block>
+  <block id="f0e3a414b681f7ab90a3f742f40c9365" category="list-text">现在、您可以选择一个或多个可用性区域HA部署模式。</block>
+  <block id="324197c492971b6abe6108b6ed0e2722" category="inline-link-macro">创建适用于 ONTAP 的 FSX 工作环境</block>
+  <block id="28d4a8073a683a018eec6bfdec63098f" category="paragraph"><block ref="28d4a8073a683a018eec6bfdec63098f" category="inline-link-macro-rx"></block></block>
+  <block id="1d83e69fc7f9ed326713517b984b155b" category="list-text">Cloud Manager现在支持AWS GovCloud帐户身份验证。</block>
+  <block id="d8a56d983b91f097e5ba55dd03a18509" category="inline-link-macro">设置 IAM 角色</block>
+  <block id="9c2f60af941e19d70429b4a59debeeb9" category="paragraph"><block ref="9c2f60af941e19d70429b4a59debeeb9" category="inline-link-macro-rx"></block></block>
+  <block id="3b5790878c6505820d5eed0428e827bb" category="list-text">如果使用Trident操作员部署了Astra Trident、则现在可以使用Cloud Manager升级到最新版本的Astra Trident。</block>
+  <block id="26317664fb1c4e8b3a500a7b1e46a4e7" category="inline-link-macro">安装和管理Astra Trident</block>
+  <block id="74f5fa93248faf352ebad3f966bf3b55" category="paragraph"><block ref="74f5fa93248faf352ebad3f966bf3b55" category="inline-link-macro-rx"></block></block>
+  <block id="412d8f1a8f03a7ee8f0983e7ecafe5e4" category="list-text">现在、您可以将Kubernetes集群拖放到AWS FSX for ONTAP 工作环境中、以便直接从Canvas添加存储类。</block>
 </blocks>
