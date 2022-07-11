@@ -457,7 +457,6 @@
   <block id="66c941bf286fd505b009d484ca94a594" category="section-title">新的Google Cloud计算机类型</block>
   <block id="32ddf7d830e3a5092074c4f9bb211736" category="paragraph">Google Cloud中数据代理的默认计算机类型现在为n2-standard-4。</block>
   <block id="1da5b30af8a0c5d1ce771dde6d9be98e" category="paragraph"><block ref="1da5b30af8a0c5d1ce771dde6d9be98e" category="inline-image-macro-rx" type="image"></block></block>
-  <block id="0ce7c9606b5f3d67c288c6ffe90a846e" category="paragraph"><block ref="0ce7c9606b5f3d67c288c6ffe90a846e" category="inline-image-macro-rx" type="image"></block></block>
   <block id="11df15715c1f580c53cb06d73a344574" category="paragraph">连接器3.9.20版引入了以下更改。</block>
   <block id="986e1f3279b4d74444bd32d4f833afbd" category="section-title">数字电子钱包</block>
   <block id="d5503d6062daaaa4326462970164cbac" category="paragraph">现在、Digital Wallet将按许可包显示您帐户中的总已用容量和已用容量。这有助于您了解如何为您付费以及是否需要购买额外容量。</block>
@@ -518,4 +517,5 @@
   <block id="289c267aad7151f388f9cb33c2dd25ca" category="paragraph">我们还创建了一个页面、用于提供指向每个策略的链接。 <block ref="95fc2556330780df6dd239853ed18808" category="inline-link-macro-rx"></block>。</block>
   <block id="63e4eec15ba75260d01771611989182b" category="inline-link">查看AWS的最新Connector策略</block>
   <block id="3f5180c6dfc0906c58f04ff000c41a28" category="paragraph">请务必为您添加到Cloud Manager的每组AWS凭据提供这些权限。<block ref="68d3de9f2b18269a91b4a95ab6a0f18b" category="inline-link-rx"></block>。</block>
+  <block id="75c4b088a92b16dc79074e212617e6c6" category="paragraph"><block ref="75c4b088a92b16dc79074e212617e6c6" category="inline-image-macro-rx" type="image"></block></block>
 </blocks>
