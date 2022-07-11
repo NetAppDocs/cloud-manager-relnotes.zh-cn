@@ -247,6 +247,30 @@ https://docs.netapp.com/us-en/cloud-manager-app-template/concept-tagging.html["�
 
 
 
+=== 2022年7月13日
+
+
+
+==== 添加了对备份SnapLock 企业卷的支持
+
+现在、您可以使用云备份将SnapLock 企业卷备份到公有 和私有云。此功能要求您的ONTAP 系统运行的是ONTAP 9.11.1或更高版本。但是、目前不支持SnapLock 合规性卷。
+
+
+
+==== 现在、您可以在使用内部部署连接器时在公有 云中创建备份文件
+
+过去、您需要将Connector部署在与创建备份文件相同的云提供商中。现在、您可以使用内部部署的Connector创建备份文件、将本地ONTAP 系统备份到Amazon S3、Azure Blob和Google云存储。(在StorageGRID 系统上创建备份文件时、始终需要使用内部连接器。)
+
+
+
+==== 在为ONTAP 系统创建备份策略时、还可以使用其他功能
+
+* 现在可以按年计划进行备份。对于年度备份、默认保留值为1、但如果要访问前几年的许多备份文件、您可以更改此值。
+* 您可以为备份策略命名、以便使用更具描述性的文本来标识策略。
+
+
+
+
 === 2022年6月14日
 
 
@@ -334,26 +358,6 @@ https://docs.netapp.com/us-en/cloud-manager-backup-restore/concept-protect-vm-da
 
 
 https://docs.netapp.com/us-en/cloud-manager-backup-restore/task-licensing-cloud-backup.html["详细了解可用的许可模式"]。
-
-
-
-=== 2022 年 4 月 4 日
-
-
-
-==== 适用于应用程序的 Cloud Backup 1.1.0 （由 SnapCenter 提供支持）现已正式上市
-
-通过全新的Cloud Backup for Applications功能、您可以将适用于Oracle和Microsoft SQL的现有应用程序一致性快照(备份)从内部主存储卸载到Amazon S3或Azure Blob中的云对象存储。
-
-如果需要，您可以将此数据从云还原到内部环境。
-
-https://docs.netapp.com/us-en/cloud-manager-backup-restore/concept-protect-app-data-to-cloud.html["了解有关保护内部应用程序数据到云的更多信息"]。
-
-
-
-==== 新的搜索和还原功能可在所有 ONTAP 备份文件中搜索卷或文件
-
-现在，您可以按部分或完整卷名称，部分或完整文件名称，大小范围以及其他搜索筛选器在 * 所有 ONTAP 备份文件 * 中搜索卷或文件。如果您不确定哪个集群或卷是数据源，这是一种很好的新方法来查找要还原的数据。 https://docs.netapp.com/us-en/cloud-manager-backup-restore/task-restore-backups-ontap.html#restoring-ontap-data-using-search-restore["了解如何使用搜索和放大；还原"]。
 
 
 
