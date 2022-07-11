@@ -35,9 +35,9 @@ summary: 了解 Cloud Manager 平台中的云服务的最新变更。有关详�
 
 我们通过直接在文档中添加Cloud Manager策略来更新文档。这意味着您现在可以查看Connector和Cloud Volumes ONTAP 所需的权限以及说明如何设置这些权限的步骤。以前可以从NetApp支持站点上的页面访问这些策略。
 
-link:task-creating-connectors-aws.html#create-an-iam-policy["以下示例显示了用于创建Connector的AWS IAM角色权限"]。
+https://docs.netapp.com/us-en/cloud-manager-setup-admin/task-creating-connectors-aws.html#create-an-iam-policy["以下示例显示了用于创建Connector的AWS IAM角色权限"]。
 
-我们还创建了一个页面、用于提供指向每个策略的链接。 link:reference-permissions.html["查看Cloud Manager的权限摘要"]。
+我们还创建了一个页面、用于提供指向每个策略的链接。 https://docs.netapp.com/us-en/cloud-manager-setup-admin/reference-permissions.html["查看Cloud Manager的权限摘要"]。
 
 
 
