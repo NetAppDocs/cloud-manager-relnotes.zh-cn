@@ -229,8 +229,6 @@
   <block id="898d465c80c6b6783418f6fa71db0946" category="inline-image-macro">服务帐户字段的屏幕截图</block>
   <block id="bfd761a70b5f9cd277ef7c878344df38" category="paragraph">现在、在单个可用性区域(AZ)中部署HA对时、创建AWS分布放置组需要以下权限：</block>
   <block id="0080f4096e51a12d4256890c125c5c46" category="paragraph">现在、要优化Cloud Manager创建布局组的方式、需要这些权限。</block>
-  <block id="eaf263597aafb24c99ce4e16af420ae8" category="inline-link">Cloud Manager 策略页面</block>
-  <block id="26dd25d183752a9f37249174f3d3ff89" category="paragraph">请务必为您添加到Cloud Manager的每组AWS凭据提供这些权限。您可以在上找到最新的权限列表<block ref="0e92ab1ca454f31f07a6e5fba6519a3a" category="inline-link-rx"></block>。</block>
   <block id="d3e8cd2e370974f27de1b310b4aa8cb3" category="section-title">2022年5月3日</block>
   <block id="a74300b6b08791dda4f54d473a58e17a" category="section-title">为其他集群配置提供Cloud Tiering许可证支持</block>
   <block id="afacb33ad65bcd63eb15aeba04b4aed0" category="inline-link">请参见如何许可和配置这些类型的集群。</block>
@@ -310,14 +308,7 @@
   <block id="2273c570a2dcacbb1c4bb77abccca54b" category="section-title">License Manager Service增强功能</block>
   <block id="03036f549995f5d3240d1c89c4f2f496" category="paragraph">全局文件缓存许可证管理服务器(LMS)服务已进行增强、可自动检测代理设置。这样可以实现无缝配置。</block>
   <block id="f8b475a3fefebada77a30229238d0a1a" category="section-title">2022年6月7日</block>
-  <block id="40beea3ec23a7affa39b1a1cbd52f21d" category="section-title">连接器3.9.19</block>
-  <block id="fb9fefdc512037af8c4c1f84c436bd8e" category="list-text">现在、AWS雅加达地区(亚太地区东南部3)支持Connector。</block>
-  <block id="49ed7ab586a5135eae3ee7b3aea2ae20" category="list-text">现在、Azure巴西东南部地区支持Connector。</block>
-  <block id="1765dff10197df4bf080f41e5537f2a5" category="list-text">此版本的Connector还包括Cloud Volumes ONTAP 增强功能和内部ONTAP 集群增强功能。</block>
   <block id="03e6ae21f561049c3e8010740c63aab3" category="inline-link">了解Cloud Volumes ONTAP 增强功能</block>
-  <block id="2027473f3ca71543274163d3bb9dd8e1" category="list-text"><block ref="2027473f3ca71543274163d3bb9dd8e1" category="inline-link-rx"></block></block>
-  <block id="6ff2a7981cc8a7efd758e8ffec4cc69e" category="inline-link">了解ONTAP 内部集群增强功能</block>
-  <block id="f0aff813a70ef2591adfbb6a1a06b553" category="list-text"><block ref="f0aff813a70ef2591adfbb6a1a06b553" category="inline-link-rx"></block></block>
   <block id="35902f649443d8dd6c5f04595fff3035" category="paragraph">如果您在激活Cloud Backup后向Kubernetes集群添加了新的永久性卷、则在过去、您需要记住为这些卷配置备份。现在、您可以选择将自动应用于新创建的卷的策略。在为新Kubernetes集群激活Cloud Backup时、此选项可在设置向导中使用。</block>
   <block id="62ee9336109ed1c4538423613b856682" category="section-title">2022年6月6日</block>
   <block id="c20246791a0594003975011a29aae438" category="section-title">持续同步</block>
@@ -518,4 +509,13 @@
   <block id="f42fcdabb7c9a7075b26292ed8cb7a23" category="section-title">在为ONTAP 系统创建备份策略时、还可以使用其他功能</block>
   <block id="cd359ec6a578adbdedd6582f88b84401" category="list-text">现在可以按年计划进行备份。对于年度备份、默认保留值为1、但如果要访问前几年的许多备份文件、您可以更改此值。</block>
   <block id="42a0fcc08cab0bf2248dfca3aecd8ec9" category="list-text">您可以为备份策略命名、以便使用更具描述性的文本来标识策略。</block>
+  <block id="a334cff76a53c8f9b93a01e24c56c9e5" category="section-title">2022年7月15日</block>
+  <block id="fd07056b3157389b873051e9d2dd6d40" category="section-title">策略更改</block>
+  <block id="4c2e66937d2d8ba8680502b29c20f843" category="paragraph">我们通过直接在文档中添加Cloud Manager策略来更新文档。这意味着您现在可以查看Connector和Cloud Volumes ONTAP 所需的权限以及说明如何设置这些权限的步骤。以前可以从NetApp支持站点上的页面访问这些策略。</block>
+  <block id="28f37fc0eb4fe20ff92020d4d8d46b8d" category="inline-link-macro">以下示例显示了用于创建Connector的AWS IAM角色权限</block>
+  <block id="449d304f6ee19f4cd91497b67641d687" category="paragraph"><block ref="2381483aa809d20dc8ed09c651a1b090" category="inline-link-macro-rx"></block>。</block>
+  <block id="49056d93dd3cd3fc9129ebadcf6877e0" category="inline-link-macro">查看Cloud Manager的权限摘要</block>
+  <block id="289c267aad7151f388f9cb33c2dd25ca" category="paragraph">我们还创建了一个页面、用于提供指向每个策略的链接。 <block ref="95fc2556330780df6dd239853ed18808" category="inline-link-macro-rx"></block>。</block>
+  <block id="63e4eec15ba75260d01771611989182b" category="inline-link">查看AWS的最新Connector策略</block>
+  <block id="3f5180c6dfc0906c58f04ff000c41a28" category="paragraph">请务必为您添加到Cloud Manager的每组AWS凭据提供这些权限。<block ref="68d3de9f2b18269a91b4a95ab6a0f18b" category="inline-link-rx"></block>。</block>
 </blocks>
