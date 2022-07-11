@@ -715,8 +715,6 @@ https://cloud.netapp.com/cloud-volumes-global-regions["查看Cloud Volumes ONTAP
 
 https://docs.netapp.com/us-en/ontap/object-storage-management/index.html["了解如何在 ONTAP 中配置和管理 S3 对象存储服务"^]
 
-在<stdin>中未解析的指令-包括：https://raw.githubusercontent.com/NetAppDocs/cloud-manager-cloud-volumes-ontap/main/_include/whats-new-july-gcp.adoc[leveloffset=+1]
-
 
 
 === 2022年6月7日
