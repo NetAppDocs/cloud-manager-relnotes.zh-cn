@@ -258,11 +258,13 @@
           <div id="react-search" 
           data-search-html="/zh-cn/cloud-manager-relnotes/search.html"
           data-type="widget" 
-          data-placeholder="搜索文档" 
-          data-no-results-found="未找到与 {query} 匹配的结果。" 
-          data-did-you-mean="搜索 {suggestion}。" 
-          data-no-results-found-did-you-mean="未找到与 {query} 匹配的结果。您是否要搜索 {suggestion}?" 
-          data-results-found="找到 {hitCount} 个结果"  
+          data-placeholder="搜索文档"
+          data-no-results-found="未找到与 {query} 匹配的结果。"
+          data-did-you-mean="搜索 {suggestion}。"
+          data-no-results-found-did-you-mean="未找到与 {query} 匹配的结果。您是否要搜索 {suggestion}?"
+          data-results-found="找到 {hitCount} 个结果"
+          data-error-message="We're sorry, an issue occurred when fetching your results. Please try again."
+          data-error-reset="Reset Search"
           data-sk-es-pf-indexes=""
           data-flavor=""></div>
           <button class="n-property-bar__search-toggle-button" type="button">
@@ -473,7 +475,7 @@
 <p class="page-details">
   
     
-    <time datetime="2022-07-11 22:17:58 +0000">07/11/2022</time>
+    <time datetime="2022-07-13 13:16:29 +0000">07/13/2022</time>
     
   
 
@@ -513,10 +515,10 @@
 </li>
 <li><a href="#云备份">云备份</a>
 <ul class="sectlevel2">
+<li><a href="#2022年7月13日">2022年7月13日</a></li>
 <li><a href="#2022年6月14日">2022年6月14日</a></li>
 <li><a href="#2022年6月8日">2022年6月8日</a></li>
 <li><a href="#2022年5月2日">2022年5月2日</a></li>
-<li><a href="#2022-年-4-月-4-日">2022 年 4 月 4 日</a></li>
 </ul>
 </li>
 <li><a href="#云数据感知">云数据感知</a>
@@ -537,7 +539,7 @@
 <li><a href="#云分层">云分层</a>
 <ul class="sectlevel2">
 <li><a href="#2022年5月3日">2022年5月3日</a></li>
-<li><a href="#2022-年-4-月-4-日-2">2022 年 4 月 4 日</a></li>
+<li><a href="#2022-年-4-月-4-日">2022 年 4 月 4 日</a></li>
 <li><a href="#2021-年-9-月-2-日">2021 年 9 月 2 日</a></li>
 </ul>
 </li>
@@ -901,6 +903,34 @@
 <h2 id="云备份">云备份</h2>
 <div class="sectionbody">
 <div class="sect2">
+<h3 id="2022年7月13日">2022年7月13日</h3>
+<div class="sect3">
+<h4 id="添加了对备份snaplock-企业卷的支持">添加了对备份SnapLock 企业卷的支持</h4>
+<div class="paragraph">
+<p>现在、您可以使用云备份将SnapLock 企业卷备份到公有 和私有云。此功能要求您的ONTAP 系统运行的是ONTAP 9.11.1或更高版本。但是、目前不支持SnapLock 合规性卷。</p>
+</div>
+</div>
+<div class="sect3">
+<h4 id="现在您可以在使用内部部署连接器时在公有-云中创建备份文件">现在、您可以在使用内部部署连接器时在公有 云中创建备份文件</h4>
+<div class="paragraph">
+<p>过去、您需要将Connector部署在与创建备份文件相同的云提供商中。现在、您可以使用内部部署的Connector创建备份文件、将本地ONTAP 系统备份到Amazon S3、Azure Blob和Google云存储。(在StorageGRID 系统上创建备份文件时、始终需要使用内部连接器。)</p>
+</div>
+</div>
+<div class="sect3">
+<h4 id="在为ontap-系统创建备份策略时还可以使用其他功能">在为ONTAP 系统创建备份策略时、还可以使用其他功能</h4>
+<div class="ulist">
+<ul>
+<li>
+<p>现在可以按年计划进行备份。对于年度备份、默认保留值为1、但如果要访问前几年的许多备份文件、您可以更改此值。</p>
+</li>
+<li>
+<p>您可以为备份策略命名、以便使用更具描述性的文本来标识策略。</p>
+</li>
+</ul>
+</div>
+</div>
+</div>
+<div class="sect2">
 <h3 id="2022年6月14日">2022年6月14日</h3>
 <div class="sect3">
 <h4 id="增加了对在无法访问internet的站点中备份内部ontap-集群数据的支持">增加了对在无法访问Internet的站点中备份内部ONTAP 集群数据的支持</h4>
@@ -1004,27 +1034,6 @@
 </div>
 <div class="paragraph">
 <p><a href="https://docs.netapp.com/us-en/cloud-manager-backup-restore/task-licensing-cloud-backup.html">"详细了解可用的许可模式"</a>。</p>
-</div>
-</div>
-</div>
-<div class="sect2">
-<h3 id="2022-年-4-月-4-日">2022 年 4 月 4 日</h3>
-<div class="sect3">
-<h4 id="适用于应用程序的-cloud-backup-1-1-0-由-snapcenter-提供支持现已正式上市">适用于应用程序的 Cloud Backup 1.1.0 （由 SnapCenter 提供支持）现已正式上市</h4>
-<div class="paragraph">
-<p>通过全新的Cloud Backup for Applications功能、您可以将适用于Oracle和Microsoft SQL的现有应用程序一致性快照(备份)从内部主存储卸载到Amazon S3或Azure Blob中的云对象存储。</p>
-</div>
-<div class="paragraph">
-<p>如果需要，您可以将此数据从云还原到内部环境。</p>
-</div>
-<div class="paragraph">
-<p><a href="https://docs.netapp.com/us-en/cloud-manager-backup-restore/concept-protect-app-data-to-cloud.html">"了解有关保护内部应用程序数据到云的更多信息"</a>。</p>
-</div>
-</div>
-<div class="sect3">
-<h4 id="新的搜索和还原功能可在所有-ontap-备份文件中搜索卷或文件">新的搜索和还原功能可在所有 ONTAP 备份文件中搜索卷或文件</h4>
-<div class="paragraph">
-<p>现在，您可以按部分或完整卷名称，部分或完整文件名称，大小范围以及其他搜索筛选器在 * 所有 ONTAP 备份文件 * 中搜索卷或文件。如果您不确定哪个集群或卷是数据源，这是一种很好的新方法来查找要还原的数据。 <a href="https://docs.netapp.com/us-en/cloud-manager-backup-restore/task-restore-backups-ontap.html#restoring-ontap-data-using-search-restore">"了解如何使用搜索和放大；还原"</a>。</p>
 </div>
 </div>
 </div>
@@ -1353,7 +1362,7 @@
 </div>
 </div>
 <div class="sect2">
-<h3 id="2022-年-4-月-4-日-2">2022 年 4 月 4 日</h3>
+<h3 id="2022-年-4-月-4-日">2022 年 4 月 4 日</h3>
 <div class="sect3">
 <h4 id="amazon-s3-glacier-即时检索存储类现已推出">Amazon S3 Glacier 即时检索存储类现已推出</h4>
 <div class="paragraph">
